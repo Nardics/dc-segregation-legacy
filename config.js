@@ -6,13 +6,13 @@ var config = {
     //projection: 'equirectangular',
     //Read more about available projections here
     //https://docs.mapbox.com/mapbox-gl-js/example/projections/
-    inset: true,
+    inset: false,
     theme: 'dark',
     use3dTerrain: false, //set true for enabling 3D maps.
     auto: false,
     title: 'A Tale of Two Cities',
     subtitle: 'A descriptive and interesting subtitle to draw in the reader',
-    byline: 'By a Digital Storyteller',
+    byline: 'By Bernard Morris',
     footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
     chapters: [
         {
@@ -21,12 +21,12 @@ var config = {
             hidden: false,
             title: 'One City, Two Sides',
             image: '../src/images/DSC_3278.jpg',
-            description: 'This is a test image that seems not to be loading though I copied the relative path. However, the text updates',
+            description: 'Test image',
             location: {
                 center: [-77.0869, 38.9202],
-                zoom: 11.5,
-                pitch: 0,
-                bearing: 0,
+                zoom: 11.62,
+                pitch: 55.50,
+                bearing: -10.20
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -54,9 +54,9 @@ var config = {
             description: 'Copy these sections to add to your story.',
             location: {
                 center: [-77.0869, 38.9202],
-                zoom: 11.5,
-                pitch: 0,
-                bearing: 0,
+                zoom: 13.15,
+                pitch: 60.00,
+                bearing: -16.80
                 // flyTo additional controls-
                 // These options control the flight curve, making it move
                 // slowly and zoom out almost completely before starting
@@ -90,9 +90,9 @@ var config = {
             description: 'Copy these sections to add to your story.',
             location: {
                 center: [-77.0869, 38.9202],
-                zoom: 11.5,
-                pitch: 0,
-                bearing: 0,
+                zoom: 13.15,
+                pitch: 60.00,
+                bearing: -16.80
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -113,7 +113,7 @@ var config = {
         },
         {
             id: 'fourth-chapter',
-            alignment: 'fully',
+            alignment: 'left',
             hidden: false,
             title: 'Fourth Title',
             image: '../src/images/DSC_8241.jpg',
@@ -143,7 +143,7 @@ var config = {
         },
         {
             id: 'fifth-chapter',
-            alignment: 'fully',
+            alignment: 'right',
             hidden: false,
             title: 'Fifth Title',
             image: './path/to/image/source.png',
@@ -174,16 +174,16 @@ var config = {
 
         {
             id: 'sixth-chapter',
-            alignment: 'fully',
+            alignment: 'left',
             hidden: false,
             title: 'Sixth Title',
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {
                 center: [-77.0869, 38.9202],
-                zoom: 11.5,
-                pitch: 0,
-                bearing: 0,
+                zoom: 14.99,
+                pitch: 44.00,
+                bearing: -40.00
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -206,19 +206,19 @@ var config = {
         },
         {
             id: 'seventh-chapter',
-            alignment: 'fully',
+            alignment: 'right',
             hidden: false,
             title: 'Seventh Title',
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {
                 center: [-77.0869, 38.9202],
-                zoom: 11.5,
-                pitch: 0,
-                bearing: 0,
+                zoom: 10.5,
+                pitch: 55,
+                bearing: -45.5,
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: false,
+            rotateAnimation: true,
             callback: '',
             onChapterEnter: [
                 {
@@ -238,16 +238,16 @@ var config = {
         },
         {
             id: 'eigth-chapter',
-            alignment: 'fully',
+            alignment: 'left',
             hidden: false,
             title: 'Eighth Title',
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {
                 center: [-77.0869, 38.9202],
-                zoom: 11.5,
-                pitch: 0,
-                bearing: 0,
+                zoom: 11.15,
+                pitch: 60.00,
+                bearing: -16.80
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -271,7 +271,7 @@ var config = {
 
         {
             id: 'ninth-chapter',
-            alignment: 'fully',
+            alignment: 'left',
             hidden: false,
             title: 'Ninth Title',
             image: './path/to/image/source.png',
@@ -303,7 +303,7 @@ var config = {
         },
         {
             id: 'tenth-chapter',
-            alignment: 'fully',
+            alignment: 'left',
             hidden: false,
             title: 'Tenth Title',
             image: './path/to/image/source.png',

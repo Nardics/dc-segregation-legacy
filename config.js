@@ -20,7 +20,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'One City, Two Sides',
-            image: '../src/images/DSC_3278.jpg',
+            image: '../map_dc/images/IMG_0890.jpg',
             description: 'Test image',
             location: {
                 center: [-77.0869, 38.9202],
@@ -47,15 +47,15 @@ var config = {
         },
         {
             id: 'second-identifier',
-            alignment: 'right',
+            alignment: 'left',
             hidden: false,
             title: 'Second Title',
-            image: '../src/images/DSC_3284.jpg',
+            image: '../map_dc/images/DSC_3278.jpg',
             description: 'Copy these sections to add to your story.',
             location: {
                 center: [-77.0869, 38.9202],
-                zoom: 13.15,
-                pitch: 60.00,
+                zoom: 12.15,
+                pitch: 45.00,
                 bearing: -16.80
                 // flyTo additional controls-
                 // These options control the flight curve, making it move
@@ -85,8 +85,8 @@ var config = {
             id: 'third-identifier',
             alignment: 'left',
             hidden: false,
-            title: 'Third Title',
-            image: '../src/images/DSC_5646.jpg',
+            title: 'Heat Sensitivity Index',
+            image: '../map_dc/images/DSC_8241.jpg',
             description: 'Copy these sections to add to your story.',
             location: {
                 center: [-77.0869, 38.9202],
@@ -116,7 +116,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Fourth Title',
-            image: '../src/images/DSC_8241.jpg',
+            image: '../map_dc/images/DSC_5646.jpg',
             description: 'Copy these sections to add to your story.',
             location: {
                 center: [-77.0869, 38.9202],
@@ -146,7 +146,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: 'Fifth Title',
-            image: './path/to/image/source.png',
+            image: '../map_dc/images/DSC_3284.jpg',
             description: 'Copy these sections to add to your story.',
             location: {
                 center: [-77.0869, 38.9202],
@@ -177,11 +177,11 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Sixth Title',
-            image: './path/to/image/source.png',
+            image: '../map_dc/images/DSC_3278.jpg',
             description: 'Copy these sections to add to your story.',
             location: {
                 center: [-77.0869, 38.9202],
-                zoom: 14.99,
+                zoom: 10,
                 pitch: 44.00,
                 bearing: -40.00
             },
@@ -209,7 +209,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: 'Seventh Title',
-            image: './path/to/image/source.png',
+            image: '../map_dc/images/DSC_8241.jpg',
             description: 'Copy these sections to add to your story.',
             location: {
                 center: [-77.0869, 38.9202],
@@ -241,7 +241,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Eighth Title',
-            image: './path/to/image/source.png',
+            image: '../map_dc/images/DSC_5646.jpg',
             description: 'Copy these sections to add to your story.',
             location: {
                 center: [-77.0869, 38.9202],
@@ -274,7 +274,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Ninth Title',
-            image: './path/to/image/source.png',
+            image: '../map_dc/images/DSC_3284.jpg',
             description: 'Copy these sections to add to your story.',
             location: {
                 center: [-77.0869, 38.9202],
@@ -306,7 +306,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Tenth Title',
-            image: './path/to/image/source.png',
+            image: '../map_dc/images/DSC_3278.jpg',
             description: 'Copy these sections to add to your story.',
             location: {
                 center: [-77.0869, 38.9202],

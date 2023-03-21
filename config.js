@@ -49,8 +49,8 @@ var config = {
             id: 'second-identifier',
             alignment: 'left',
             hidden: false,
-            title: 'Second Title',
-            image: '../map_dc/images/DSC_3278.jpg',
+            title: 'Air Temperatures',
+            image: '../map_dc/images/IMG_0741.jpg',
             description: 'Copy these sections to add to your story.',
             location: {
                 center: [-77.0869, 38.9202],
@@ -115,7 +115,7 @@ var config = {
             id: 'fourth-chapter',
             alignment: 'left',
             hidden: false,
-            title: 'Fourth Title',
+            title: 'Economics',
             image: '../map_dc/images/DSC_5646.jpg',
             description: 'Copy these sections to add to your story.',
             location: {
@@ -145,8 +145,8 @@ var config = {
             id: 'fifth-chapter',
             alignment: 'right',
             hidden: false,
-            title: 'Fifth Title',
-            image: '../map_dc/images/DSC_3284.jpg',
+            title: 'Tree Cover',
+            image: '../map_dc/images/IMG_0863.jpg',
             description: 'Copy these sections to add to your story.',
             location: {
                 center: [-77.0869, 38.9202],
@@ -176,7 +176,7 @@ var config = {
             id: 'sixth-chapter',
             alignment: 'left',
             hidden: false,
-            title: 'Sixth Title',
+            title: 'Cooling Centers',
             image: '../map_dc/images/DSC_3278.jpg',
             description: 'Copy these sections to add to your story.',
             location: {
@@ -208,8 +208,8 @@ var config = {
             id: 'seventh-chapter',
             alignment: 'right',
             hidden: false,
-            title: 'Seventh Title',
-            image: '../map_dc/images/DSC_8241.jpg',
+            title: 'Watersheds',
+            image: '../map_dc/images/IMG_0966.jpg',
             description: 'Copy these sections to add to your story.',
             location: {
                 center: [-77.0869, 38.9202],
@@ -240,7 +240,7 @@ var config = {
             id: 'eigth-chapter',
             alignment: 'left',
             hidden: false,
-            title: 'Eighth Title',
+            title: 'Storage Tanks',
             image: '../map_dc/images/DSC_5646.jpg',
             description: 'Copy these sections to add to your story.',
             location: {
@@ -273,7 +273,7 @@ var config = {
             id: 'ninth-chapter',
             alignment: 'left',
             hidden: false,
-            title: 'Ninth Title',
+            title: 'Population Distribution',
             image: '../map_dc/images/DSC_3284.jpg',
             description: 'Copy these sections to add to your story.',
             location: {
@@ -305,7 +305,7 @@ var config = {
             id: 'tenth-chapter',
             alignment: 'left',
             hidden: false,
-            title: 'Tenth Title',
+            title: 'Poverty Levels',
             image: '../map_dc/images/DSC_3278.jpg',
             description: 'Copy these sections to add to your story.',
             location: {

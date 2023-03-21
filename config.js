@@ -1,342 +1,340 @@
 var config = {
-    style: 'mapbox://styles/mapnard/cleqilt6a000i01pd1zh06aog', // replace this with my own style in mapbox studio. This includes the basemap
-    accessToken: 'pk.eyJ1IjoibWFwbmFyZCIsImEiOiJjbGVwNTQ4eHIwNWZvM3hsa2owNjNoOWhzIn0.u3loJf5k_Vtmqr5wH5xY4g',
-    showMarkers: true,
-    markerColor: '#3FB1CE',
-    //projection: 'equirectangular',
-    //Read more about available projections here
-    //https://docs.mapbox.com/mapbox-gl-js/example/projections/
-    inset: false,
-    theme: 'dark',
-    use3dTerrain: false, //set true for enabling 3D maps.
-    auto: false,
-    title: 'A Tale of Two Cities',
-    subtitle: 'A descriptive and interesting subtitle to draw in the reader',
-    byline: 'By Bernard Morris',
-    footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
-    chapters: [
+  style: 'mapbox://styles/mapnard/cleqilt6a000i01pd1zh06aog', // replace this with my own style in mapbox studio. This includes the basemap
+  accessToken:
+    'pk.eyJ1IjoibWFwbmFyZCIsImEiOiJjbGVwNTQ4eHIwNWZvM3hsa2owNjNoOWhzIn0.u3loJf5k_Vtmqr5wH5xY4g',
+  showMarkers: true,
+  markerColor: '#3FB1CE',
+  //projection: 'equirectangular',
+  //Read more about available projections here
+  //https://docs.mapbox.com/mapbox-gl-js/example/projections/
+  inset: false,
+  theme: 'dark',
+  use3dTerrain: false, //set true for enabling 3D maps.
+  auto: false,
+  title: 'A Tale of Two Cities',
+  subtitle: 'A descriptive and interesting subtitle to draw in the reader',
+  byline: 'By Bernard Morris',
+  footer:
+    'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
+  chapters: [
+    {
+      id: 'slug-style-id',
+      alignment: 'left',
+      hidden: false,
+      title: 'One City, Two Sides',
+      image: 'images/IMG_0890.jpg',
+      description: 'Test image',
+      location: {
+        center: [-77.0869, 38.9202],
+        zoom: 11.62,
+        pitch: 0,
+        bearing: 0,
+      },
+      mapAnimation: 'flyTo',
+      rotateAnimation: false,
+      callback: '',
+      onChapterEnter: [
         {
-            id: 'slug-style-id',
-            alignment: 'left',
-            hidden: false,
-            title: 'One City, Two Sides',
-            image: '../map_dc/images/IMG_0890.jpg',
-            description: 'Test image',
-            location: {
-                center: [-77.0869, 38.9202],
-                zoom: 11.62,
-                pitch: 55.50,
-                bearing: -10.20
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [
-                {
-                    layer: 'neighborhood_clusters',
-                    opacity: 1,
-                    duration: 5000
-                }
-            ],
-            onChapterExit: [
-                {
-                    layer: 'neighborhood_clusters',
-                    opacity: 0
-                }
-            ]
+          layer: 'neighborhood_clusters',
+          opacity: 1,
+          duration: 500,
         },
         {
-            id: 'second-identifier',
-            alignment: 'left',
-            hidden: false,
-            title: 'Air Temperatures',
-            image: '../map_dc/images/IMG_0741.jpg',
-            description: 'Copy these sections to add to your story.',
-            location: {
-                center: [-77.0869, 38.9202],
-                zoom: 12.15,
-                pitch: 45.00,
-                bearing: -16.80
-                // flyTo additional controls-
-                // These options control the flight curve, making it move
-                // slowly and zoom out almost completely before starting
-                // to pan.
-                //speed: 2, // make the flying slow
-                //curve: 1, // change the speed at which it zooms out
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: true,
-            callback: '',
-            onChapterEnter: [
-                {
-                    layer: 'airtemp_mean',
-                    opacity: 1,
-                    duration: 5000
-                }
-            ],
-            onChapterExit: [
-                {
-                    layer: 'airtemp_mean',
-                    opacity: 0
-                }
-            ]
+          layer: 'neighborhood_labels',
+          opacity: 1,
+          duration: 500,
+        },
+      ],
+      onChapterExit: [
+        {
+          layer: 'neighborhood_clusters',
+          opacity: 0,
         },
         {
-            id: 'third-identifier',
-            alignment: 'left',
-            hidden: false,
-            title: 'Heat Sensitivity Index',
-            image: '../map_dc/images/DSC_8241.jpg',
-            description: 'Copy these sections to add to your story.',
-            location: {
-                center: [-77.0869, 38.9202],
-                zoom: 13.15,
-                pitch: 60.00,
-                bearing: -16.80
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [
-                {
-                    layer: 'hsindex',
-                    opacity: 1,
-                    duration: 5000
-                }
-            ],
-            onChapterExit: [
-                {
-                    layer: 'hsindex',
-                    opacity: 0
-                }
-            ]
+          layer: 'neighborhood_labels',
+          opacity: 0,
+          duration: 500,
         },
+      ],
+    },
+    {
+      id: 'second-identifier',
+      alignment: 'left',
+      hidden: false,
+      title: 'Income',
+      image: 'images/IMG_0741.jpg',
+      description:
+        'This section explores the relationship between income and heat sensitivity.',
+      location: {
+        center: [-77.0869, 38.9202],
+        zoom: 12.15,
+        pitch: 0,
+        bearing: 0,
+        // flyTo additional controls-
+        // These options control the flight curve, making it move
+        // slowly and zoom out almost completely before starting
+        // to pan.
+        //speed: 2, // make the flying slow
+        //curve: 1, // change the speed at which it zooms out
+      },
+      mapAnimation: 'flyTo',
+      rotateAnimation: true,
+      callback: '',
+      onChapterEnter: [
         {
-            id: 'fourth-chapter',
-            alignment: 'left',
-            hidden: false,
-            title: 'Economics',
-            image: '../map_dc/images/DSC_5646.jpg',
-            description: 'Copy these sections to add to your story.',
-            location: {
-                center: [-77.0869, 38.9202],
-                zoom: 11.5,
-                pitch: 0,
-                bearing: 0,
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [
-                {
-                    layer: 'economicdata',
-                    opacity: 1,
-                    duration: 5000
-                }
-            ],
-            onChapterExit: [
-                {
-                    layer: 'economicdata',
-                    opacity: 0
-                }
-            ]
+          layer: 'airtemp_mean',
+          opacity: 1,
+          duration: 500,
         },
+      ],
+      onChapterExit: [
         {
-            id: 'fifth-chapter',
-            alignment: 'right',
-            hidden: false,
-            title: 'Tree Cover',
-            image: '../map_dc/images/IMG_0863.jpg',
-            description: 'Copy these sections to add to your story.',
-            location: {
-                center: [-77.0869, 38.9202],
-                zoom: 11.5,
-                pitch: 0,
-                bearing: 0,
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [
-                {
-                    layer: 'treecover',
-                    opacity: 1,
-                    duration: 5000
-                }
-            ],
-            onChapterExit: [
-                {
-                    layer: 'treecover',
-                    opacity: 0
-                }
-            ]
+          layer: 'airtemp_mean',
+          opacity: 0,
         },
-
+      ],
+    },
+    {
+      id: 'third-identifier',
+      alignment: 'left',
+      hidden: false,
+      title: 'first sub-chapter of income',
+      image: 'images/DSC_8241.jpg',
+      description: 'Copy these sections to add to your story.',
+      location: {
+        center: [-77.0869, 38.9202],
+        zoom: 13.15,
+        pitch: 0,
+        bearing: 0,
+      },
+      mapAnimation: 'flyTo',
+      rotateAnimation: false,
+      callback: '',
+      onChapterEnter: [
         {
-            id: 'sixth-chapter',
-            alignment: 'left',
-            hidden: false,
-            title: 'Cooling Centers',
-            image: '../map_dc/images/DSC_3278.jpg',
-            description: 'Copy these sections to add to your story.',
-            location: {
-                center: [-77.0869, 38.9202],
-                zoom: 10,
-                pitch: 44.00,
-                bearing: -40.00
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [
-                {
-                    layer: 'coolingcenters',
-                    opacity: 1,
-                    duration: 5000
-                }
-            ],
-            onChapterExit: [
-                {
-                    layer: 'coolingcenters',
-                    opacity: 0
-                }
-            ]
-
-
+          layer: 'hsindex',
+          opacity: 1,
+          duration: 5000,
         },
+      ],
+      onChapterExit: [
         {
-            id: 'seventh-chapter',
-            alignment: 'right',
-            hidden: false,
-            title: 'Watersheds',
-            image: '../map_dc/images/IMG_0966.jpg',
-            description: 'Copy these sections to add to your story.',
-            location: {
-                center: [-77.0869, 38.9202],
-                zoom: 10.5,
-                pitch: 55,
-                bearing: -45.5,
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: true,
-            callback: '',
-            onChapterEnter: [
-                {
-                    layer: 'watersheds',
-                    opacity: 1,
-                    duration: 5000
-                }
-            ],
-            onChapterExit: [
-                {
-                    layer: 'watersheds',
-                    opacity: 0
-                }
-            ]
-
-
+          layer: 'hsindex',
+          opacity: 0,
         },
+      ],
+    },
+    {
+      id: 'fourth-chapter',
+      alignment: 'left',
+      hidden: false,
+      title: 'Economics',
+      image: 'images/DSC_5646.jpg',
+      description: 'Copy these sections to add to your story.',
+      location: {
+        center: [-77.0869, 38.9202],
+        zoom: 11.5,
+        pitch: 0,
+        bearing: 0,
+      },
+      mapAnimation: 'flyTo',
+      rotateAnimation: false,
+      callback: '',
+      onChapterEnter: [
         {
-            id: 'eigth-chapter',
-            alignment: 'left',
-            hidden: false,
-            title: 'Storage Tanks',
-            image: '../map_dc/images/DSC_5646.jpg',
-            description: 'Copy these sections to add to your story.',
-            location: {
-                center: [-77.0869, 38.9202],
-                zoom: 11.15,
-                pitch: 60.00,
-                bearing: -16.80
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [
-                {
-                    layer: 'storagetanks',
-                    opacity: 1,
-                    duration: 5000
-                }
-            ],
-            onChapterExit: [
-                {
-                    layer: 'storagetanks',
-                    opacity: 0
-                }
-            ]
-
-
+          layer: 'economicdata',
+          opacity: 1,
+          duration: 5000,
         },
-
+      ],
+      onChapterExit: [
         {
-            id: 'ninth-chapter',
-            alignment: 'left',
-            hidden: false,
-            title: 'Population Distribution',
-            image: '../map_dc/images/DSC_3284.jpg',
-            description: 'Copy these sections to add to your story.',
-            location: {
-                center: [-77.0869, 38.9202],
-                zoom: 11.5,
-                pitch: 0,
-                bearing: 0,
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [
-                {
-                    layer: 'poc_distribution',
-                    opacity: 1,
-                    duration: 5000
-                }
-            ],
-            onChapterExit: [
-                {
-                    layer: 'poc_distribution',
-                    opacity: 0
-                }
-            ]
-
-
+          layer: 'economicdata',
+          opacity: 0,
         },
+      ],
+    },
+    {
+      id: 'fifth-chapter',
+      alignment: 'right',
+      hidden: false,
+      title: 'Tree Cover',
+      image: '../map_dc/images/IMG_0863.jpg',
+      description: 'Copy these sections to add to your story.',
+      location: {
+        center: [-77.0869, 38.9202],
+        zoom: 11.5,
+        pitch: 0,
+        bearing: 0,
+      },
+      mapAnimation: 'flyTo',
+      rotateAnimation: false,
+      callback: '',
+      onChapterEnter: [
         {
-            id: 'tenth-chapter',
-            alignment: 'left',
-            hidden: false,
-            title: 'Poverty Levels',
-            image: '../map_dc/images/DSC_3278.jpg',
-            description: 'Copy these sections to add to your story.',
-            location: {
-                center: [-77.0869, 38.9202],
-                zoom: 11.5,
-                pitch: 0,
-                bearing: 0,
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [
-                {
-                    layer: 'povertylevels',
-                    opacity: 1,
-                    duration: 5000
-                }
-            ],
-            onChapterExit: [
-                {
-                    layer: 'povertylevels',
-                    opacity: 0
-                }
-            ]
-
-
+          layer: 'treecover',
+          opacity: 1,
+          duration: 5000,
         },
+      ],
+      onChapterExit: [
+        {
+          layer: 'treecover',
+          opacity: 0,
+        },
+      ],
+    },
 
+    {
+      id: 'sixth-chapter',
+      alignment: 'left',
+      hidden: false,
+      title: 'Cooling Centers',
+      image: '../map_dc/images/DSC_3278.jpg',
+      description: 'Copy these sections to add to your story.',
+      location: {
+        center: [-77.0869, 38.9202],
+        zoom: 10,
+        pitch: 0,
+        bearing: 0,
+      },
+      mapAnimation: 'flyTo',
+      rotateAnimation: false,
+      callback: '',
+      onChapterEnter: [
+        {
+          layer: 'coolingcenters',
+          opacity: 1,
+          duration: 5000,
+        },
+      ],
+      onChapterExit: [
+        {
+          layer: 'coolingcenters',
+          opacity: 0,
+        },
+      ],
+    },
+    {
+      id: 'seventh-chapter',
+      alignment: 'right',
+      hidden: false,
+      title: 'Watersheds',
+      image: 'images/IMG_0966.jpg',
+      description: 'Copy these sections to add to your story.',
+      location: {
+        center: [-77.0869, 38.9202],
+        zoom: 10.5,
+        pitch: 0,
+        bearing: 0,
+      },
+      mapAnimation: 'flyTo',
+      rotateAnimation: true,
+      callback: '',
+      onChapterEnter: [
+        {
+          layer: 'watersheds',
+          opacity: 1,
+          duration: 5000,
+        },
+      ],
+      onChapterExit: [
+        {
+          layer: 'watersheds',
+          opacity: 0,
+        },
+      ],
+    },
+    {
+      id: 'eigth-chapter',
+      alignment: 'left',
+      hidden: false,
+      title: 'Storage Tanks',
+      image: '../map_dc/images/DSC_5646.jpg',
+      description: 'Copy these sections to add to your story.',
+      location: {
+        center: [-77.0869, 38.9202],
+        zoom: 11.15,
+        pitch: 0,
+        bearing: 0,
+      },
+      mapAnimation: 'flyTo',
+      rotateAnimation: false,
+      callback: '',
+      onChapterEnter: [
+        {
+          layer: 'storagetanks',
+          opacity: 1,
+          duration: 5000,
+        },
+      ],
+      onChapterExit: [
+        {
+          layer: 'storagetanks',
+          opacity: 0,
+        },
+      ],
+    },
 
-        
-    ]
+    {
+      id: 'ninth-chapter',
+      alignment: 'left',
+      hidden: false,
+      title: 'Population Distribution',
+      image: '../map_dc/images/DSC_3284.jpg',
+      description: 'Copy these sections to add to your story.',
+      location: {
+        center: [-77.0869, 38.9202],
+        zoom: 11.5,
+        pitch: 0,
+        bearing: 0,
+      },
+      mapAnimation: 'flyTo',
+      rotateAnimation: false,
+      callback: '',
+      onChapterEnter: [
+        {
+          layer: 'poc_distribution',
+          opacity: 1,
+          duration: 5000,
+        },
+      ],
+      onChapterExit: [
+        {
+          layer: 'poc_distribution',
+          opacity: 0,
+        },
+      ],
+    },
+    {
+      id: 'tenth-chapter',
+      alignment: 'left',
+      hidden: false,
+      title: 'Poverty Levels',
+      image: '../map_dc/images/DSC_3278.jpg',
+      description: 'Copy these sections to add to your story.',
+      location: {
+        center: [-77.0869, 38.9202],
+        zoom: 11.5,
+        pitch: 0,
+        bearing: 0,
+      },
+      mapAnimation: 'flyTo',
+      rotateAnimation: false,
+      callback: '',
+      onChapterEnter: [
+        {
+          layer: 'povertylevels',
+          opacity: 1,
+          duration: 5000,
+        },
+      ],
+      onChapterExit: [
+        {
+          layer: 'povertylevels',
+          opacity: 0,
+        },
+      ],
+    },
+  ],
 };
-
-

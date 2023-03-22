@@ -20,13 +20,13 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'One City, Two Sides',
-            image: '../map_dc/images/IMG_0890.jpg',
+            image: 'images/IMG_0890.jpg',
             description: 'Test image',
             location: {
                 center: [-77.0869, 38.9202],
-                zoom: 11.62,
-                pitch: 55.50,
-                bearing: -10.20
+                zoom: 11,
+                pitch: 0,
+                bearing: 0
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -35,12 +35,23 @@ var config = {
                 {
                     layer: 'neighborhood_clusters',
                     opacity: 1,
-                    duration: 5000
+                    duration: 3000
+                },
+
+                {
+                    layer: 'neighborhood_labels',
+                    opacity: 1,
+                    duration: 3000
                 }
             ],
             onChapterExit: [
                 {
                     layer: 'neighborhood_clusters',
+                    opacity: 0
+                },
+
+                {
+                    layer: 'neighborhood_labels',
                     opacity: 0
                 }
             ]
@@ -50,13 +61,13 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Air Temperatures',
-            image: '../map_dc/images/IMG_0741.jpg',
+            image: 'images/IMG_0741.jpg',
             description: 'Copy these sections to add to your story.',
             location: {
                 center: [-77.0869, 38.9202],
                 zoom: 12.15,
-                pitch: 45.00,
-                bearing: -16.80
+                // pitch: 45.00,
+                // bearing: -16.80
                 // flyTo additional controls-
                 // These options control the flight curve, making it move
                 // slowly and zoom out almost completely before starting
@@ -65,7 +76,7 @@ var config = {
                 //curve: 1, // change the speed at which it zooms out
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [
                 {
@@ -86,13 +97,13 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Heat Sensitivity Index',
-            image: '../map_dc/images/DSC_8241.jpg',
+            image: 'images/DSC_8241.jpg',
             description: 'Copy these sections to add to your story.',
             location: {
                 center: [-77.0869, 38.9202],
                 zoom: 13.15,
-                pitch: 60.00,
-                bearing: -16.80
+                // pitch: 60.00,
+                // bearing: -16.80
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -116,13 +127,13 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Economics',
-            image: '../map_dc/images/DSC_5646.jpg',
+            image: 'images/DSC_5646.jpg',
             description: 'Copy these sections to add to your story.',
             location: {
                 center: [-77.0869, 38.9202],
                 zoom: 11.5,
-                pitch: 0,
-                bearing: 0,
+                // pitch: 0,
+                // bearing: 0,
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -146,13 +157,13 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: 'Tree Cover',
-            image: '../map_dc/images/IMG_0863.jpg',
+            image: 'images/IMG_0863.jpg',
             description: 'Copy these sections to add to your story.',
             location: {
                 center: [-77.0869, 38.9202],
                 zoom: 11.5,
-                pitch: 0,
-                bearing: 0,
+                // pitch: 0,
+                // bearing: 0,
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -177,13 +188,13 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Cooling Centers',
-            image: '../map_dc/images/DSC_3278.jpg',
+            image: 'images/DSC_3278.jpg',
             description: 'Copy these sections to add to your story.',
             location: {
-                center: [-77.0869, 38.9202],
-                zoom: 10,
-                pitch: 44.00,
-                bearing: -40.00
+                center: [-77.0759, 38.9302],
+                zoom: 12,
+                // pitch: 44.00,
+                // bearing: -40.00
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -209,7 +220,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: 'Watersheds',
-            image: '../map_dc/images/IMG_0966.jpg',
+            image: 'images/IMG_0966.jpg',
             description: 'Copy these sections to add to your story.',
             location: {
                 center: [-77.0869, 38.9202],
@@ -218,7 +229,7 @@ var config = {
                 bearing: -45.5,
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [
                 {
@@ -241,13 +252,13 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Storage Tanks',
-            image: '../map_dc/images/DSC_5646.jpg',
+            image: 'images/DSC_5646.jpg',
             description: 'Copy these sections to add to your story.',
             location: {
                 center: [-77.0869, 38.9202],
                 zoom: 11.15,
-                pitch: 60.00,
-                bearing: -16.80
+                // pitch: 60.00,
+                // bearing: -16.80
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -274,13 +285,13 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Population Distribution',
-            image: '../map_dc/images/DSC_3284.jpg',
+            image: 'images/DSC_3284.jpg',
             description: 'Copy these sections to add to your story.',
             location: {
                 center: [-77.0869, 38.9202],
                 zoom: 11.5,
-                pitch: 0,
-                bearing: 0,
+                // pitch: 0,
+                // bearing: 0,
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -306,13 +317,13 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Poverty Levels',
-            image: '../map_dc/images/DSC_3278.jpg',
+            image: 'images/DSC_3278.jpg',
             description: 'Copy these sections to add to your story.',
             location: {
                 center: [-77.0869, 38.9202],
                 zoom: 11.5,
-                pitch: 0,
-                bearing: 0,
+                // pitch: 0,
+                // bearing: 0,
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,

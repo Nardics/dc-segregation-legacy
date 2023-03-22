@@ -31,7 +31,14 @@ The story will be divided into three main segments for analysis.
 1. Tree cover distribution
 2. Mean air temperature
 3. Watersheds
-4. 
+
+## Segment 3 
+
+## Physical
+
+1. Leaking underground storage tanks
+2. Cooling centers
+
 
 
 

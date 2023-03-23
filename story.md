@@ -7,7 +7,7 @@
 
 This section introduces the project with a brief look at the history of redlining.
 
-Highlight the city's  legacy of racially restrictive covenants.
+Examine the city's legacy of racially restrictive covenants.
 
 Link this legacy to the current plural geographies existant across the landscape.
 
@@ -16,7 +16,7 @@ Link this legacy to the current plural geographies existant across the landscape
 The story will be divided into three main segments for analysis.
 
 ## Segment 1
-## Socio-economic
+## Socio-economic Attributes
 ### Sub-segments
 
 1. Income
@@ -25,7 +25,7 @@ The story will be divided into three main segments for analysis.
 
 
 ## Segment 2
-## Environmental
+## Environmental Factors
 ### Sub-segments
 
 1. Tree cover distribution
@@ -34,10 +34,13 @@ The story will be divided into three main segments for analysis.
 
 ## Segment 3 
 
-## Physical
+## Physical Features/Non-Communicable Diseases
 
 1. Leaking underground storage tanks
 2. Cooling centers
+3. Asthma
+
+## Conclusion/Observations
 
 
 

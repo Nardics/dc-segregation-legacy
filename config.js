@@ -1,7 +1,7 @@
 var config = {
     style: 'mapbox://styles/mapnard/cleqilt6a000i01pd1zh06aog', // replace this with my own style in mapbox studio. This includes the basemap
     accessToken: 'pk.eyJ1IjoibWFwbmFyZCIsImEiOiJjbGVwNTQ4eHIwNWZvM3hsa2owNjNoOWhzIn0.u3loJf5k_Vtmqr5wH5xY4g',
-    showMarkers: true,
+    showMarkers: false,
     markerColor: '#3FB1CE',
     //projection: 'equirectangular',
     //Read more about available projections here
@@ -24,7 +24,7 @@ var config = {
             description: 'Test image',
             location: {
                 center: [-77.0869, 38.9202],
-                zoom: 11,
+                zoom: 12,
                 pitch: 0,
                 bearing: 0
             },
@@ -118,6 +118,37 @@ var config = {
             onChapterExit: [
                 {
                     layer: 'hsindex',
+                    opacity: 0
+                }
+            ]
+        },
+
+        {
+            id: 'nth-identifier',
+            alignment: 'left',
+            hidden: false,
+            title: 'Asthma',
+            image: 'images/DSC_8241.jpg',
+            description: 'Copy these sections to add to your story.',
+            location: {
+                center: [-77.0869, 38.9202],
+                zoom: 11.55,
+                // pitch: 60.00,
+                // bearing: -16.80
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                {
+                    layer: 'asthma',
+                    opacity: 1,
+                    duration: 5000
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'asthma',
                     opacity: 0
                 }
             ]
@@ -225,8 +256,8 @@ var config = {
             location: {
                 center: [-77.0869, 38.9202],
                 zoom: 10.5,
-                pitch: 55,
-                bearing: -45.5,
+                // pitch: 55,
+                // bearing: -45.5,
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,

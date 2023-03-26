@@ -101,7 +101,7 @@ var config = {
             hidden: false,
             title: 'Heat Sensitivity Index',
             image: 'images/DSC_8241.jpg',
-            description: 'Copy these sections to add to your story.',
+            description: 'Heat islands can also exacerbate the impact of naturally occurring heat waves, which are periods of abnormally hot, and often humid, weather. Sensitive populations are particularly at risk during these events.<p>Populations particularly at risk include: older adults, young children, populations with low income, and individuals in poor health.</p><p></p><p></p><p></p><p></p><p></p>',
             location: {
                 center: [-77.0869, 38.9202],
                 zoom: 13.15,
@@ -238,17 +238,31 @@ var config = {
                     layer: 'coolingcenters',
                     opacity: 1,
                     duration: 5000
-                }
+                }, 
+
+                {
+                    layer: 'censustracts',
+                    opacity: 1,
+                    duration: 5000
+                } 
             ],
             onChapterExit: [
                 {
                     layer: 'coolingcenters',
                     opacity: 0
-                }
+                },
+
+                {
+                    layer: 'censustracts',
+                    opacity: 1,
+                    duration: 5000
+                } 
             ]
 
 
         },
+
+        
         {
             id: 'seventh-chapter',
             alignment: 'right',

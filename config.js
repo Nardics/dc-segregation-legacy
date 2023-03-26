@@ -10,9 +10,10 @@ var config = {
     theme: 'dark',
     use3dTerrain: false, //set true for enabling 3D maps.
     auto: false,
-    title: 'A Tale of Two Cities',
-    subtitle: 'A descriptive and interesting subtitle to draw in the reader',
-    byline: 'By Bernard Morris',
+    title: 'Washington D.C. - Lines of Division',
+    subtitle: 'The Intersection of History, Environmental and Socio-economic Factors',
+    image: 'images/IMG_0890.jpg',
+    //byline: 'By Bernard Morris',
     footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
     chapters: [
         {
@@ -20,13 +21,14 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'One City, Two Sides',
-            image: 'images/IMG_0890.jpg',
-            description: 'Test image',
+            //image: 'images/IMG_0890.jpg',
+            description: 'Washington, D.C., formally the District of Columbia, commonly known as Washington or D.C., is the capital city and federal district of the United States. Located on the eastern bank of the Potomac River, the city borders Virginia and Maryland. <p> Divided into four quadrants: Northwest, Southwest, Northeast, Southeast. The U.S. Capitol building marks the center where the quadrants meet.</p>',
             location: {
-                center: [-77.0869, 38.9202],
+                center: [-77.069, 38.9202],
                 zoom: 12,
                 pitch: 0,
                 bearing: 0
+                //[-77.01505, 38.88974]
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -62,7 +64,8 @@ var config = {
             hidden: false,
             title: 'Air Temperatures',
             image: 'images/IMG_0741.jpg',
-            description: 'Copy these sections to add to your story.',
+            description: 'Structures such as buildings, roads, and other infrastructure absorb and re-emit the sun’s heat more than natural landscapes such as forests and water bodies. Urban areas, where these structures are highly concentrated and greenery is limited, become “islands” of higher temperatures relative to outlying areas. These pockets of heat are referred to as “heat islands.” <p>Heat islands can form under a variety of conditions, including during the day or night, in small or large cities, in suburban areas, in northern or southern climates, and in any season.</p> <p>Heat islands can contribute to a range of environmental, energy, economic, and human health impacts. </p',
+            
             location: {
                 center: [-77.0869, 38.9202],
                 zoom: 12.15,
@@ -191,7 +194,7 @@ var config = {
             image: 'images/IMG_0863.jpg',
             description: 'Copy these sections to add to your story.',
             location: {
-                center: [-77.0869, 38.9202],
+                center: [-76.9540, 38.9202],
                 zoom: 11.5,
                 // pitch: 0,
                 // bearing: 0,
@@ -254,7 +257,7 @@ var config = {
             image: 'images/IMG_0966.jpg',
             description: 'Copy these sections to add to your story.',
             location: {
-                center: [-77.0869, 38.9202],
+                center: [-76.9540, 38.9202],
                 zoom: 10.5,
                 // pitch: 55,
                 // bearing: -45.5,
@@ -267,11 +270,21 @@ var config = {
                     layer: 'watersheds',
                     opacity: 1,
                     duration: 5000
+                },
+                {
+                    layer: 'watershed_names',
+                    opacity: 1,
+                    duration: 5000
                 }
             ],
             onChapterExit: [
                 {
                     layer: 'watersheds',
+                    opacity: 0
+                },
+
+                {
+                    layer: 'watershed_names',
                     opacity: 0
                 }
             ]
@@ -345,13 +358,13 @@ var config = {
         },
         {
             id: 'tenth-chapter',
-            alignment: 'left',
+            alignment: 'right',
             hidden: false,
             title: 'Poverty Levels',
             image: 'images/DSC_3278.jpg',
             description: 'Copy these sections to add to your story.',
             location: {
-                center: [-77.0869, 38.9202],
+                center:[-76.9540, 38.9202],
                 zoom: 11.5,
                 // pitch: 0,
                 // bearing: 0,

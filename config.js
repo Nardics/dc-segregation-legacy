@@ -20,9 +20,9 @@ var config = {
             id: 'slug-style-id',
             alignment: 'left',
             hidden: false,
-            title: 'One City, Two Sides',
+            title: 'One City. Many Faces',
             //image: 'images/IMG_0890.jpg',
-            description: 'Washington, D.C., formally the District of Columbia, commonly known as Washington or D.C., is the capital city and federal district of the United States. Located on the eastern bank of the Potomac River, the city borders Virginia and Maryland. <p> Divided into four quadrants: Northwest, Southwest, Northeast, Southeast. The U.S. Capitol building marks the center where the quadrants meet.</p>',
+            description: 'Washington, D.C., formally the District of Columbia, commonly known as Washington or D.C., is the capital city and federal district of the United States. Located on the eastern bank of the Potomac River, the city borders Virginia and Maryland. <p> Divided into four quadrants: Northwest, Southwest, Northeast, Southeast. The U.S. Capitol building marks the center where the quadrants meet.</p><p>From inception, Washington, D.C. has been enmeshed in issues of power, privilege, race, and identity. These battles have left a legacy which is visible in the several geographies across the landscape.</p>',
             location: {
                 center: [-77.069, 38.9202],
                 zoom: 12,
@@ -85,7 +85,7 @@ var config = {
                 {
                     layer: 'airtemp_mean',
                     opacity: 1,
-                    duration: 5000
+                    duration: 3000
                 }
             ],
             onChapterExit: [
@@ -103,8 +103,8 @@ var config = {
             image: 'images/DSC_8241.jpg',
             description: 'Heat islands can also exacerbate the impact of naturally occurring heat waves, which are periods of abnormally hot, and often humid, weather. Sensitive populations are particularly at risk during these events.<p>Populations particularly at risk include: older adults, young children, populations with low income, and individuals in poor health.</p><p></p><p></p><p></p><p></p><p></p>',
             location: {
-                center: [-77.0869, 38.9202],
-                zoom: 13.15,
+                center: [-77.0869, 38.8902],
+                zoom: 11.9,
                 // pitch: 60.00,
                 // bearing: -16.80
             },
@@ -115,7 +115,7 @@ var config = {
                 {
                     layer: 'hsindex',
                     opacity: 1,
-                    duration: 5000
+                    duration: 3000
                 }
             ],
             onChapterExit: [
@@ -146,7 +146,7 @@ var config = {
                 {
                     layer: 'asthma',
                     opacity: 1,
-                    duration: 5000
+                    duration: 3000
                 }
             ],
             onChapterExit: [
@@ -176,7 +176,7 @@ var config = {
                 {
                     layer: 'economicdata',
                     opacity: 1,
-                    duration: 5000
+                    duration: 3000
                 }
             ],
             onChapterExit: [
@@ -206,7 +206,7 @@ var config = {
                 {
                     layer: 'treecover',
                     opacity: 1,
-                    duration: 5000
+                    duration: 3000
                 }
             ],
             onChapterExit: [
@@ -225,8 +225,8 @@ var config = {
             image: 'images/DSC_3278.jpg',
             description: 'Copy these sections to add to your story.',
             location: {
-                center: [-77.0759, 38.9302],
-                zoom: 12,
+                center: [-77.0759, 38.8902],
+                zoom: 11.9,
                 // pitch: 44.00,
                 // bearing: -40.00
             },
@@ -237,13 +237,13 @@ var config = {
                 {
                     layer: 'coolingcenters',
                     opacity: 1,
-                    duration: 5000
+                    duration: 3000
                 }, 
 
                 {
                     layer: 'censustracts',
                     opacity: 1,
-                    duration: 5000
+                    duration: 3000
                 } 
             ],
             onChapterExit: [
@@ -255,7 +255,7 @@ var config = {
                 {
                     layer: 'censustracts',
                     opacity: 1,
-                    duration: 5000
+                    duration: 3000
                 } 
             ]
 
@@ -271,8 +271,8 @@ var config = {
             image: 'images/IMG_0966.jpg',
             description: 'Copy these sections to add to your story.',
             location: {
-                center: [-76.9540, 38.9202],
-                zoom: 10.5,
+                center: [-76.9540, 38.9302],
+                zoom: 10.44,
                 // pitch: 55,
                 // bearing: -45.5,
             },
@@ -283,12 +283,12 @@ var config = {
                 {
                     layer: 'watersheds',
                     opacity: 1,
-                    duration: 5000
+                    duration: 3000
                 },
                 {
                     layer: 'watershed_names',
                     opacity: 1,
-                    duration: 5000
+                    duration: 3000
                 }
             ],
             onChapterExit: [
@@ -325,7 +325,7 @@ var config = {
                 {
                     layer: 'storagetanks',
                     opacity: 1,
-                    duration: 5000
+                    duration: 3000
                 }
             ],
             onChapterExit: [
@@ -358,7 +358,7 @@ var config = {
                 {
                     layer: 'poc_distribution',
                     opacity: 1,
-                    duration: 5000
+                    duration: 3000
                 }
             ],
             onChapterExit: [
@@ -390,7 +390,7 @@ var config = {
                 {
                     layer: 'povertylevels',
                     opacity: 1,
-                    duration: 5000
+                    duration: 3000
                 }
             ],
             onChapterExit: [

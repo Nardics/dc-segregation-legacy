@@ -17,11 +17,11 @@ var config = {
     footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
     chapters: [
         {
-            id: 'slug-style-id',
+            id: 'intro',
             alignment: 'left',
             hidden: false,
             title: 'One City. Many Faces',
-            //image: 'images/IMG_0890.jpg',
+            //src: 'images/IMG_0890.jpg',
             description: 'Washington, D.C., formally the District of Columbia, commonly known as Washington or D.C., is the capital city and federal district of the United States. Located on the eastern bank of the Potomac River, the city borders Virginia and Maryland. <p> Divided into four quadrants: Northwest, Southwest, Northeast, Southeast. The U.S. Capitol building marks the center where the quadrants meet.</p><p>From inception, Washington, D.C. has been enmeshed in issues of power, privilege, race, and identity. These battles have left a legacy which is visible in the several geographies across the landscape.</p>',
             location: {
                 center: [-77.069, 38.9202],
@@ -59,7 +59,7 @@ var config = {
             ]
         },
         {
-            id: 'second-identifier',
+            id: 'air-temps',
             alignment: 'left',
             hidden: false,
             title: 'Air Temperatures',
@@ -96,12 +96,15 @@ var config = {
             ]
         },
         {
-            id: 'third-identifier',
+            id: 'heat-sensitivity',
             alignment: 'left',
             hidden: false,
             title: 'Heat Sensitivity Index',
             image: 'images/DSC_8241.jpg',
-            description: 'Heat islands can also exacerbate the impact of naturally occurring heat waves, which are periods of abnormally hot, and often humid, weather. Sensitive populations are particularly at risk during these events.<p>Populations particularly at risk include: older adults, young children, populations with low income, and individuals in poor health.</p><p></p><p></p><p></p><p></p><p></p>',
+            description: 
+            `Heat islands can also exacerbate the impact of naturally occurring heat waves, which are periods of abnormally hot, and often humid, weather. Sensitive populations are particularly at risk during these events.
+            <p>Populations particularly at risk include: older adults, young children, populations with low income, and individuals in poor health.</p>
+            <p></p><p></p><p></p><p></p><p></p>`,
             location: {
                 center: [-77.0869, 38.8902],
                 zoom: 11.9,
@@ -127,7 +130,7 @@ var config = {
         },
 
         {
-            id: 'nth-identifier',
+            id: 'asthma',
             alignment: 'left',
             hidden: false,
             title: 'Asthma',
@@ -157,7 +160,7 @@ var config = {
             ]
         },
         {
-            id: 'fourth-chapter',
+            id: 'income',
             alignment: 'left',
             hidden: false,
             title: 'Economics',
@@ -171,7 +174,7 @@ var config = {
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
-            callback: '',
+            callback: 'economicData',
             onChapterEnter: [
                 {
                     layer: 'economicdata',
@@ -187,7 +190,7 @@ var config = {
             ]
         },
         {
-            id: 'fifth-chapter',
+            id: 'tree-cover',
             alignment: 'right',
             hidden: false,
             title: 'Tree Cover',
@@ -218,7 +221,7 @@ var config = {
         },
 
         {
-            id: 'sixth-chapter',
+            id: 'cooling-centers',
             alignment: 'left',
             hidden: false,
             title: 'Cooling Centers',
@@ -264,7 +267,7 @@ var config = {
 
         
         {
-            id: 'seventh-chapter',
+            id: 'drainage-basins',
             alignment: 'right',
             hidden: false,
             title: 'Watersheds',
@@ -306,7 +309,7 @@ var config = {
 
         },
         {
-            id: 'eigth-chapter',
+            id: 'storage-tanks',
             alignment: 'left',
             hidden: false,
             title: 'Storage Tanks',
@@ -339,7 +342,7 @@ var config = {
         },
 
         {
-            id: 'ninth-chapter',
+            id: 'population',
             alignment: 'left',
             hidden: false,
             title: 'Population Distribution',
@@ -371,7 +374,7 @@ var config = {
 
         },
         {
-            id: 'tenth-chapter',
+            id: 'poverty',
             alignment: 'right',
             hidden: false,
             title: 'Poverty Levels',
@@ -407,5 +410,8 @@ var config = {
         
     ]
 };
+function economicData (){ 
+    console.log('Test my function')
 
+}
 

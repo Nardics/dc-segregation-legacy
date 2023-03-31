@@ -174,7 +174,7 @@ var config = {
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
-            callback: 'economicData',
+            callback: '',
             onChapterEnter: [
                 {
                     layer: 'economicdata',
@@ -410,8 +410,8 @@ var config = {
         
     ]
 };
-function economicData (){ 
-    console.log('Test my function')
+// function economicData (){ 
+//     console.log('Test my function')
 
-}
+// }
 

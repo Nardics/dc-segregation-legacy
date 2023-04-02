@@ -22,7 +22,13 @@ var config = {
             hidden: false,
             title: 'One City. Many Faces',
             //src: 'images/IMG_0890.jpg',
-            description: 'Washington, D.C., formally the District of Columbia, commonly known as Washington or D.C., is the capital city and federal district of the United States. Located on the eastern bank of the Potomac River, the city borders Virginia and Maryland. <p> Divided into four quadrants: Northwest, Southwest, Northeast, Southeast. The U.S. Capitol building marks the center where the quadrants meet.</p><p>From inception, Washington, D.C. has been enmeshed in issues of power, privilege, race, and identity. These battles have left a legacy which is visible in the several geographies across the landscape.</p>',
+            description: `Washington, D.C., formally the District of Columbia, commonly known as Washington or D.C., 
+            is the capital city and federal district of the United States. 
+            Located on the eastern bank of the Potomac River, the city borders Virginia and Maryland. 
+            <p>Divided into four quadrants: Northwest, Southwest, Northeast, Southeast. 
+            The U.S. Capitol building marks the center where the quadrants meet.</p><p>From inception, 
+            Washington, D.C. has been enmeshed in issues of power, privilege, race, and identity. 
+            These battles have left a legacy which is visible in the several geographies across the landscape.</p>`,
             location: {
                 center: [-77.069, 38.9202],
                 zoom: 12,
@@ -64,11 +70,16 @@ var config = {
             hidden: false,
             title: 'Air Temperatures',
             image: 'images/IMG_0741.jpg',
-            description: 'Structures such as buildings, roads, and other infrastructure absorb and re-emit the sun’s heat more than natural landscapes such as forests and water bodies. Urban areas, where these structures are highly concentrated and greenery is limited, become “islands” of higher temperatures relative to outlying areas. These pockets of heat are referred to as “heat islands.” <p>Heat islands can form under a variety of conditions, including during the day or night, in small or large cities, in suburban areas, in northern or southern climates, and in any season.</p> <p>Heat islands can contribute to a range of environmental, energy, economic, and human health impacts. </p',
+            description: `Structures such as buildings, roads, and other infrastructure absorb and re-emit the sun’s heat more 
+            than natural landscapes such as forests and water bodies. Urban areas, where these structures are highly concentrated 
+            and greenery is limited, become “islands” of higher temperatures relative to outlying areas. These pockets of heat are 
+            referred to as “heat islands.” <p>Heat islands can form under a variety of conditions, including during the day or night, 
+            in small or large cities, in suburban areas, in northern or southern climates, and in any season.
+            </p> <p>Heat islands can contribute to a range of environmental, energy, economic, and human health impacts. </p>`,
             
             location: {
                 center: [-77.0869, 38.9202],
-                zoom: 12.15,
+                zoom: 11.15,
                 // pitch: 45.00,
                 // bearing: -16.80
                 // flyTo additional controls-
@@ -102,8 +113,11 @@ var config = {
             title: 'Heat Sensitivity Index',
             image: 'images/DSC_8241.jpg',
             description: 
-            `Heat islands can also exacerbate the impact of naturally occurring heat waves, which are periods of abnormally hot, and often humid, weather. Sensitive populations are particularly at risk during these events.
-            <p>Populations particularly at risk include: older adults, young children, populations with low income, and individuals in poor health.</p>
+            `Heat islands can also exacerbate the impact of naturally occurring heat waves, 
+            which are periods of abnormally hot, and often humid, weather. Sensitive populations 
+            are particularly at risk during these events.
+            <p>Populations particularly at risk include: older adults, young children, populations 
+            with low income, and individuals in poor health.</p>
             <p></p><p></p><p></p><p></p><p></p>`,
             location: {
                 center: [-77.0869, 38.8902],
@@ -135,7 +149,7 @@ var config = {
             hidden: false,
             title: 'Asthma',
             image: 'images/DSC_8241.jpg',
-            description: 'Copy these sections to add to your story.',
+            description: `Copy these sections to add to your story.`,
             location: {
                 center: [-77.0869, 38.9202],
                 zoom: 11.55,
@@ -165,7 +179,7 @@ var config = {
             hidden: false,
             title: 'Economics',
             image: 'images/DSC_5646.jpg',
-            description: 'Copy these sections to add to your story.',
+            description: `Copy these sections to add to your story.`,
             location: {
                 center: [-77.0869, 38.9202],
                 zoom: 11.5,
@@ -195,7 +209,7 @@ var config = {
             hidden: false,
             title: 'Tree Cover',
             image: 'images/IMG_0863.jpg',
-            description: 'Copy these sections to add to your story.',
+            description: `Copy these sections to add to your story.`,
             location: {
                 center: [-76.9540, 38.9202],
                 zoom: 11.5,
@@ -226,7 +240,7 @@ var config = {
             hidden: false,
             title: 'Cooling Centers',
             image: 'images/DSC_3278.jpg',
-            description: 'Copy these sections to add to your story.',
+            description: `Copy these sections to add to your story.`,
             location: {
                 center: [-77.0759, 38.8902],
                 zoom: 11.9,
@@ -272,7 +286,7 @@ var config = {
             hidden: false,
             title: 'Watersheds',
             image: 'images/IMG_0966.jpg',
-            description: 'Copy these sections to add to your story.',
+            description: `Copy these sections to add to your story.`,
             location: {
                 center: [-76.9540, 38.9302],
                 zoom: 10.44,
@@ -314,7 +328,7 @@ var config = {
             hidden: false,
             title: 'Storage Tanks',
             image: 'images/DSC_5646.jpg',
-            description: 'Copy these sections to add to your story.',
+            description: `Copy these sections to add to your story.`,
             location: {
                 center: [-77.0869, 38.9202],
                 zoom: 11.15,
@@ -347,7 +361,7 @@ var config = {
             hidden: false,
             title: 'Population Distribution',
             image: 'images/DSC_3284.jpg',
-            description: 'Copy these sections to add to your story.',
+            description: `Copy these sections to add to your story.`,
             location: {
                 center: [-77.0869, 38.9202],
                 zoom: 11.5,
@@ -379,7 +393,7 @@ var config = {
             hidden: false,
             title: 'Poverty Levels',
             image: 'images/DSC_3278.jpg',
-            description: 'Copy these sections to add to your story.',
+            description: `Copy these sections to add to your story.`,
             location: {
                 center:[-76.9540, 38.9202],
                 zoom: 11.5,
@@ -410,8 +424,4 @@ var config = {
         
     ]
 };
-// function economicData (){ 
-//     console.log('Test my function')
-
-// }
 

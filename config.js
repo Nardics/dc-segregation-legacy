@@ -144,7 +144,7 @@ var config = {
         },
 
         {
-            id: 'disbility',
+            id: 'disability',
             alignment: 'left',
             hidden: false,
             title: 'Disabilities',

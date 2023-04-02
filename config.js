@@ -144,12 +144,18 @@ var config = {
         },
 
         {
-            id: 'asthma',
+            id: 'disbility',
             alignment: 'left',
             hidden: false,
-            title: 'Asthma',
+            title: 'Disabilities',
             image: 'images/DSC_8241.jpg',
-            description: `Copy these sections to add to your story.`,
+            description: `Excessive heat events, or abrupt and dramatic temperature increases, are particularly dangerous and can 
+            result in above-average rates of mortality. From 2004 to 2018 the Centers for Disease Control and Prevention recorded 10,527 
+            heat-related deaths in the United States, an average of 702 per year. 
+            These numbers include deaths where heat was the underlying cause and deaths where heat was a contributing cause.
+            <p>People in poor health, including people with chronic conditions, disabilities, mobility constraints, and those taking certain 
+            medications, are vulnerable to extreme temperatures. People with diabetes, physical impairments, and cognitive deficits are 
+            especially at risk during heat waves</p>`,
             location: {
                 center: [-77.0869, 38.9202],
                 zoom: 11.55,
@@ -161,14 +167,14 @@ var config = {
             callback: '',
             onChapterEnter: [
                 {
-                    layer: 'asthma',
+                    layer: 'disabilities',
                     opacity: 1,
                     duration: 3000
                 }
             ],
             onChapterExit: [
                 {
-                    layer: 'asthma',
+                    layer: 'disabilities',
                     opacity: 0
                 }
             ]
@@ -286,7 +292,15 @@ var config = {
             hidden: false,
             title: 'Watersheds',
             image: 'images/IMG_0966.jpg',
-            description: `Copy these sections to add to your story.`,
+            description: `High temperatures of pavement and rooftop surfaces can heat up stormwater runoff, 
+            which drains into storm sewers and raises water temperatures as it is released into streams, rivers, 
+            ponds, and lakes. Water temperature affects all aspects of aquatic life, especially the metabolism and 
+            reproduction of many aquatic species. 
+            <p>Rapid temperature changes in aquatic ecosystems resulting from 
+            warm stormwater runoff can be particularly stressful, and even fatal, to aquatic life.</p><p>
+
+            One study found that urban streams are hotter on average than streams in forested areas, and that temperatures 
+            in urban streams rose over 7°F during small storms due to heated runoff from urban materials.</p>`,
             location: {
                 center: [-76.9540, 38.9302],
                 zoom: 10.44,

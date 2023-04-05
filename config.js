@@ -113,7 +113,7 @@ var config = {
       id: "heat-sensitivity",
       alignment: "left",
       hidden: false,
-      title: "Heat Sensitivity Index",
+      title: "Heat Sensitivity Exposure Index",
       image: "images/DSC_8241.jpg",
       description: `Heat islands can also exacerbate the impact of naturally occurring heat waves, 
             which are periods of abnormally hot, and often humid, weather. Sensitive populations 

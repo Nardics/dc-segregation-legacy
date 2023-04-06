@@ -216,8 +216,14 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "Tree Cover",
-      image: "images/IMG_0863.jpg",
-      description: `Copy these sections to add to your story.`,
+      image: "images/DSC_3405.jpg",
+      description: `Trees and other plants help cool the environment, 
+      making vegetation a simple and effective way to reduce urban heat 
+      islands.
+      <p>Trees and vegetation lower surface and air temperatures by 
+      providing shade and through evapotranspiration. Shaded surfaces, 
+      for example, may be 20–45°F (11–25°C) 
+      cooler than the peak temperatures of unshaded materials.</p>`,
       location: {
         center: [-77.0869, 38.901],
         zoom: 10.75,

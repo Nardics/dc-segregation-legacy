@@ -186,7 +186,7 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "Economics",
-      image: "images/DSC_5646.jpg",
+      image: "images/IMG_1243.jpg",
       description: `Copy these sections to add to your story.`,
       location: {
         center: [-77.0869, 38.901],
@@ -223,7 +223,8 @@ var config = {
       <p>Trees and vegetation lower surface and air temperatures by 
       providing shade and through evapotranspiration. Shaded surfaces, 
       for example, may be 20–45°F (11–25°C) 
-      cooler than the peak temperatures of unshaded materials.</p>`,
+      cooler than the peak temperatures of unshaded materials.</p><p>Trees and vegetation that directly shade buildings decrease demand for air conditioning.
+      Vegetation reduces runoff and improves water quality by absorbing and filtering rainwater.</P`,
       location: {
         center: [-77.0869, 38.901],
         zoom: 10.75,
@@ -384,7 +385,10 @@ var config = {
       hidden: false,
       title: "Population Distribution",
       image: "images/DSC_3284.jpg",
-      description: `Copy these sections to add to your story.`,
+      description: `African Americans are the largest racial group in the District.
+      hites are the second largest racial group, followed by Hispanics or Latinos, then 
+      Asian and Pacific Islanders. This map depicts the population distribution
+      of persons of color.`,
       location: {
         center: [-77.0869, 38.901],
         zoom: 10.75,
@@ -413,8 +417,12 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "Poverty Levels",
-      image: "images/DSC_3278.jpg",
-      description: `Copy these sections to add to your story.`,
+      image: "images/IMG_1243.jpg",
+      description: `The District has a higher level of income inequality 
+      than any state in the country, with households in the top 20 percent
+        of income having  29 times more income than the bottom 20 percent. 
+        The bottom fifth of DC households had just two percent of total DC 
+        income in 2016, while the top fifth had a staggering 56 percent.`,
       location: {
         center: [-77.0869, 38.901],
         zoom: 10.75,

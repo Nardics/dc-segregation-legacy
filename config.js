@@ -213,7 +213,7 @@ var config = {
     },
     {
       id: "tree-cover",
-      alignment: "right",
+      alignment: "left",
       hidden: false,
       title: "Tree Cover",
       image: "images/IMG_0863.jpg",
@@ -295,7 +295,7 @@ var config = {
 
     {
       id: "drainage-basins",
-      alignment: "right",
+      alignment: "left",
       hidden: false,
       title: "Watersheds",
       image: "images/IMG_0966.jpg",
@@ -404,7 +404,7 @@ var config = {
     },
     {
       id: "poverty",
-      alignment: "right",
+      alignment: "left",
       hidden: false,
       title: "Poverty Levels",
       image: "images/DSC_3278.jpg",

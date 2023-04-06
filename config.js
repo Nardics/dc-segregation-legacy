@@ -33,8 +33,8 @@ var config = {
             Washington, D.C. has been enmeshed in issues of power, privilege, race, and identity. 
             These battles have left a legacy which is visible in the several geographies across the landscape.</p>`,
       location: {
-        center: [-77.069, 38.9202],
-        zoom: 12,
+        center: [-77.0869, 38.901],
+        zoom: 10.75,
         pitch: 0,
         bearing: 0,
         //[-77.01505, 38.88974]
@@ -81,8 +81,8 @@ var config = {
             </p> <p>Heat islands can contribute to a range of environmental, energy, economic, and human health impacts. </p>`,
 
       location: {
-        center: [-77.0869, 38.9202],
-        zoom: 11.15,
+        center: [-77.0869, 38.901],
+        zoom: 10.75,
         // pitch: 45.00,
         // bearing: -16.80
         // flyTo additional controls-
@@ -122,8 +122,8 @@ var config = {
             with low income, and individuals in poor health.</p>
             <p></p><p></p><p></p><p></p><p></p>`,
       location: {
-        center: [-77.0869, 38.8902],
-        zoom: 11.9,
+        center: [-77.0869, 38.901],
+        zoom: 10.75,
         // pitch: 60.00,
         // bearing: -16.80
       },
@@ -159,8 +159,8 @@ var config = {
             medications, are vulnerable to extreme temperatures. People with diabetes, physical impairments, and cognitive deficits are 
             especially at risk during heat waves</p>`,
       location: {
-        center: [-77.0869, 38.9202],
-        zoom: 11.55,
+        center: [-77.0869, 38.901],
+        zoom: 10.75,
         // pitch: 60.00,
         // bearing: -16.80
       },
@@ -189,8 +189,8 @@ var config = {
       image: "images/DSC_5646.jpg",
       description: `Copy these sections to add to your story.`,
       location: {
-        center: [-77.0869, 38.9202],
-        zoom: 11.5,
+        center: [-77.0869, 38.901],
+        zoom: 10.75,
         // pitch: 0,
         // bearing: 0,
       },
@@ -219,8 +219,8 @@ var config = {
       image: "images/IMG_0863.jpg",
       description: `Copy these sections to add to your story.`,
       location: {
-        center: [-76.954, 38.9202],
-        zoom: 11.5,
+        center: [-77.0869, 38.901],
+        zoom: 10.75,
         // pitch: 0,
         // bearing: 0,
       },
@@ -258,8 +258,8 @@ var config = {
             <p>Studies have established that vulnerability to heat waves is a combined result of the socio-economic, 
             physiological, climatological, as well as behavioural variables. </p>`,
       location: {
-        center: [-77.0759, 38.8902],
-        zoom: 11.9,
+        center: [-77.0869, 38.901],
+        zoom: 10.75,
         // pitch: 44.00,
         // bearing: -40.00
       },
@@ -309,8 +309,8 @@ var config = {
             One study found that urban streams are hotter on average than streams in forested areas, and that temperatures 
             in urban streams rose over 7°F during small storms due to heated runoff from urban materials.</p>`,
       location: {
-        center: [-76.954, 38.9302],
-        zoom: 10.44,
+        center: [-77.0869, 38.901],
+        zoom: 10.75,
         // pitch: 55,
         // bearing: -45.5,
       },
@@ -349,8 +349,8 @@ var config = {
       image: "images/DSC_5646.jpg",
       description: `Copy these sections to add to your story.`,
       location: {
-        center: [-77.0869, 38.9202],
-        zoom: 11.15,
+        center: [-77.0869, 38.901],
+        zoom: 10.75,
         // pitch: 60.00,
         // bearing: -16.80
       },
@@ -380,8 +380,8 @@ var config = {
       image: "images/DSC_3284.jpg",
       description: `Copy these sections to add to your story.`,
       location: {
-        center: [-77.0869, 38.9202],
-        zoom: 11.5,
+        center: [-77.0869, 38.901],
+        zoom: 10.75,
         // pitch: 0,
         // bearing: 0,
       },
@@ -410,8 +410,8 @@ var config = {
       image: "images/DSC_3278.jpg",
       description: `Copy these sections to add to your story.`,
       location: {
-        center: [-76.954, 38.9202],
-        zoom: 11.5,
+        center: [-77.0869, 38.901],
+        zoom: 10.75,
         // pitch: 0,
         // bearing: 0,
       },

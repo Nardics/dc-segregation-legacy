@@ -69,6 +69,51 @@ var config = {
       ],
     },
     {
+      id: "intro-a",
+      alignment: "center",
+      hidden: false,
+      title: "Story Scope",
+      //src: 'images/IMG_0890.jpg',
+      description: 
+      `This project is divided into two broad themes - physical/environmental, 
+      and socio-economic. The project focuses on the interconnectivity of these geographies, and how they influence each other.`,
+      location: {
+        center: [-77.0869, 38.901],
+        zoom: 10.75,
+        pitch: 0,
+        bearing: 0,
+        //[-77.01505, 38.88974]
+      },
+      mapAnimation: "flyTo",
+      rotateAnimation: false,
+      callback: "",
+      onChapterEnter: [
+        {
+          layer: "neighborhood_clusters",
+          opacity: 1,
+          duration: 3000,
+        },
+
+        {
+          layer: "neighborhood_labels",
+          opacity: 1,
+          duration: 3000,
+        },
+      ],
+      onChapterExit: [
+        {
+          layer: "neighborhood_clusters",
+          opacity: 0,
+        },
+
+        {
+          layer: "neighborhood_labels",
+          opacity: 0,
+        },
+      ],
+    },
+
+    {
       id: "air-temps",
       alignment: "left",
       hidden: false,

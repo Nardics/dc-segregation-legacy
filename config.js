@@ -348,36 +348,7 @@ var config = {
         },
       ],
     },
-    {
-      id: "storage-tanks",
-      alignment: "left",
-      hidden: false,
-      title: "Storage Tanks",
-      image: "images/DSC_5646.jpg",
-      description: `Copy these sections to add to your story.`,
-      location: {
-        center: [-77.0869, 38.901],
-        zoom: 10.75,
-        // pitch: 60.00,
-        // bearing: -16.80
-      },
-      mapAnimation: "flyTo",
-      rotateAnimation: false,
-      callback: "",
-      onChapterEnter: [
-        {
-          layer: "storagetanks",
-          opacity: 1,
-          duration: 3000,
-        },
-      ],
-      onChapterExit: [
-        {
-          layer: "storagetanks",
-          opacity: 0,
-        },
-      ],
-    },
+   
 
     {
       id: "population",

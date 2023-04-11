@@ -25,13 +25,14 @@ var config = {
       hidden: false,
       title: "One City. Many Faces",
       //src: 'images/IMG_0890.jpg',
-      description: `Washington, D.C., formally the District of Columbia, commonly known as Washington or D.C., 
-            is the capital city and federal district of the United States. 
-            Located on the eastern bank of the Potomac River, the city borders Virginia and Maryland. 
-            <p>Divided into four quadrants: Northwest, Southwest, Northeast, Southeast. 
-            The U.S. Capitol building marks the center where the quadrants meet.</p><p>From inception, 
-            Washington, D.C. has been enmeshed in issues of power, privilege, race, and identity. 
-            These battles have left a legacy which is visible in the several geographies across the landscape.</p>`,
+      description: 
+      `Washington, D.C., formally the District of Columbia, commonly known as Washington or D.C.,
+      is the capital city and federal district of the United States. 
+      Located on the eastern bank of the Potomac River, the city borders Virginia and Maryland. 
+      <p>Divided into four quadrants: Northwest, Southwest, Northeast, Southeast. 
+      The U.S. Capitol building marks the center where the quadrants meet.</p><p>From inception, 
+      Washington, D.C. has been enmeshed in issues of power, privilege, race, and identity. 
+      These battles have left a legacy which is visible in the several geographies across the landscape.</p>`,
       location: {
         center: [-77.0869, 38.901],
         zoom: 10.75,
@@ -73,12 +74,13 @@ var config = {
       hidden: false,
       title: "Air Temperatures",
       image: "images/IMG_0741.jpg",
-      description: `Structures such as buildings, roads, and other infrastructure absorb and re-emit the sun’s heat more 
-            than natural landscapes such as forests and water bodies. Urban areas, where these structures are highly concentrated 
-            and greenery is limited, become “islands” of higher temperatures relative to outlying areas. These pockets of heat are 
-            referred to as “heat islands.” <p>Heat islands can form under a variety of conditions, including during the day or night, 
-            in small or large cities, in suburban areas, in northern or southern climates, and in any season.
-            </p> <p>Heat islands can contribute to a range of environmental, energy, economic, and human health impacts. </p>`,
+      description: 
+      `Structures such as buildings, roads, and other infrastructure absorb and re-emit the sun’s heat more 
+      than natural landscapes such as forests and water bodies. Urban areas, where these structures are highly concentrated 
+      and greenery is limited, become “islands” of higher temperatures relative to outlying areas. These pockets of heat are 
+      referred to as “heat islands.” <p>Heat islands can form under a variety of conditions, including during the day or night, 
+      in small or large cities, in suburban areas, in northern or southern climates, and in any season.
+      </p> <p>Heat islands can contribute to a range of environmental, energy, economic, and human health impacts. </p>`,
 
       location: {
         center: [-77.0869, 38.901],
@@ -115,14 +117,28 @@ var config = {
       hidden: false,
       title: "Heat Sensitivity Exposure Index",
       image: "images/DSC_8241.jpg",
-      description: `Heat islands can also exacerbate the impact of naturally occurring heat waves, 
-            which are periods of abnormally hot, and often humid, weather. Sensitive populations 
-            are particularly at risk during these events.
-            <p>Populations particularly at risk include: older adults, young children, populations 
-            with low income, and individuals in poor health.</p>
-            <p> The heat index, also known as the apparent temperature, is what the temperature feels like to the human body when relative humidity is combined with the air temperature.  This has important considerations for the human body's comfort.  When the body gets too hot, it begins to perspire or sweat to cool itself off.  If the perspiration is not able to evaporate, the body cannot regulate its temperature.  Evaporation is a cooling process.  When perspiration is evaporated off the body, it effectively reduces the body's temperature.  When the atmospheric moisture content (i.e. relative humidity) is high, the rate of evaporation from the body decreases.  In other words, the human body feels warmer in humid conditions.  The opposite is true when the relative humidity decreases because the rate of perspiration increases.  The body actually feels cooler in arid conditions.  There is direct relationship between the air temperature and relative humidity and the heat index, meaning as the air temperature and relative humidity increase (decrease), the heat index increases (decreases). </p>
-<p> It surprises many people to learn that the heat index values in the chart above are for shady locations.  If you are exposed to direct sunlight, the heat index value can be increased by up to 15°F.  As shown in the table below, heat indices meeting or exceeding 103°F can lead to dangerous heat disorders with prolonged exposure and/or physical activity in the heat. </p>
-<p></p><p></p><p></p>`,
+      description: 
+      `Heat islands can also exacerbate the impact of naturally occurring heat waves,
+      which are periods of abnormally hot, and often humid, weather. Sensitive populations 
+      are particularly at risk during these events.
+      <p>Populations particularly at risk include: older adults, young children, populations with 
+      low income, and individuals in poor health.</p>
+      <p> The heat index, also known as the apparent temperature, is what the temperature feels like 
+      to the human body when relative humidity is combined with the air temperature.  This has important 
+      considerations for the human body's comfort.  When the body gets too hot, it begins to perspire or 
+      sweat to cool itself off.  If the perspiration is not able to evaporate, the body cannot regulate 
+      its temperature.  Evaporation is a cooling process.  When perspiration is evaporated off the body, 
+      it effectively reduces the body's temperature.  When the atmospheric moisture content 
+      (i.e. relative humidity) is high, the rate of evaporation from the body decreases.  In other words, 
+      the human body feels warmer in humid conditions.  The opposite is true when the relative humidity 
+      decreases because the rate of perspiration increases.  The body actually feels cooler in arid conditions. 
+      There is direct relationship between the air temperature and relative humidity and the heat index, meaning 
+      as the air temperature and relative humidity increase (decrease), the heat index increases (decreases). </p>
+      <p> It surprises many people to learn that the heat index values in the chart above are for shady locations.  
+      If you are exposed to direct sunlight, the heat index value can be increased by up to 15°F.  As shown in the 
+      table below, heat indices meeting or exceeding 103°F can lead to dangerous heat disorders with prolonged exposure 
+      and/or physical activity in the heat. </p>
+      <p></p><p></p><p></p>`,
       location: {
         center: [-77.0869, 38.901],
         zoom: 10.75,
@@ -153,14 +169,20 @@ var config = {
       hidden: false,
       title: "Disabilities",
       image: "images/DSC_8241.jpg",
-      description: `Excessive heat events, or abrupt and dramatic temperature increases, are particularly dangerous and can 
-            result in above-average rates of mortality. From 2004 to 2018 the Centers for Disease Control and Prevention recorded 10,527 
-            heat-related deaths in the United States, an average of 702 per year. 
-            These numbers include deaths where heat was the underlying cause and deaths where heat was a contributing cause.
-            <p>People in poor health, including people with chronic conditions, disabilities, mobility constraints, and those taking certain 
-            medications, are vulnerable to extreme temperatures. People with diabetes, physical impairments, and cognitive deficits are 
-            especially at risk during heat waves</p>
-<p> Increasing heat exposure along with global warming could be a potential driver for exacerbating inter-city health inequalities. It's also not unusual, Stone says, for poorer areas to be located near "undesirable land uses" such as nearby highways or industrial areas, which create even more heat. </p>`,
+      description: 
+      `Excessive heat events, or abrupt and dramatic temperature increases, 
+      are particularly dangerous and can result in above-average rates of mortality. From 
+      2004 to 2018 the Centers for Disease Control and Prevention recorded 10,527 heat-related 
+      deaths in the United States, an average of 702 per year. These numbers include deaths 
+      where heat was the underlying cause and deaths where heat was a contributing cause.
+      <p>People in poor health, including people with chronic conditions, disabilities, 
+      mobility constraints, and those taking certain medications, are vulnerable to extreme 
+      temperatures. People with diabetes, physical impairments, and cognitive deficits are 
+      especially at risk during heat waves</p>
+      <p> Increasing heat exposure along with global warming could be a potential driver for 
+      exacerbating inter-city health inequalities. It's also not unusual, Stone says, for poorer 
+      areas to be located near "undesirable land uses" such as nearby highways or industrial areas, 
+      which create even more heat. </p>`,
       location: {
         center: [-77.0869, 38.901],
         zoom: 10.75,
@@ -190,8 +212,13 @@ var config = {
       hidden: false,
       title: "Economics",
       image: "images/IMG_1243.jpg",
-      description: `<p> The data used in this profile is from the U.S. Census Bureau, the 2019 American Community Survey (ACS) </p><p> Inequitable economic systems threaten sustainable growth because groups of residents lack purchasing power and struggle to drive demand or invest in human capital.1 In addition to undermining long-term growth, racial inequity hampers crisis resilience by undermining social cohesion and political stability </p>
-<p></p>.`,
+      description: 
+      `<p> The data used in this profile is from the U.S. Census Bureau, the 2019 
+      American Community Survey (ACS) </p><p> Inequitable economic systems threaten sustainable 
+      growth because groups of residents lack purchasing power and struggle to drive demand or 
+      invest in human capital.1 In addition to undermining long-term growth, racial inequity 
+      hampers crisis resilience by undermining social cohesion and political stability </p>
+      <p></p>.`,
       location: {
         center: [-77.0869, 38.901],
         zoom: 10.75,
@@ -221,17 +248,22 @@ var config = {
       hidden: false,
       title: "Tree Cover",
       image: "images/DSC_3405.jpg",
-      description: `Trees and other plants help cool the environment, 
+      description: 
+      `Trees and other plants help cool the environment, 
       making vegetation a simple and effective way to reduce urban heat 
       islands.
       <p>Trees and vegetation lower surface and air temperatures by 
       providing shade and through evapotranspiration. Shaded surfaces, 
       for example, may be 20–45°F (11–25°C) 
-      cooler than the peak temperatures of unshaded materials.</p><p>Trees and vegetation that directly shade buildings decrease demand for air conditioning.
+      cooler than the peak temperatures of unshaded materials.</p><p>Trees and vegetation that 
+      directly shade buildings decrease demand for air conditioning.
       Vegetation reduces runoff and improves water quality by absorbing and filtering rainwater.</p>
-<p> "If you have less green cover, you will almost always have higher temperatures, and greater exposure to heat," says Brian Stone, director of the urban climate lab at the Georgia Institute of Technology.
-Trees provide shade, but they also cool the environment down through the evaporation of water from their leaves — a process similar to how humans sweat to cool down.
-"When you pave over an area, particularly if it had green plants, you have interrupted that cycle," Stone says. "Not only have you sealed the surface, you have put a lid on it, so evaporation cannot happen." </p>`,
+      <p> "If you have less green cover, you will almost always have higher temperatures, and greater
+      exposure to heat," says Brian Stone, director of the urban climate lab at the Georgia Institute of Technology.
+      Trees provide shade, but they also cool the environment down through the evaporation of water from their leaves
+       — a process similar to how humans sweat to cool down.
+       "When you pave over an area, particularly if it had green plants, you have interrupted that cycle," Stone says. 
+       "Not only have you sealed the surface, you have put a lid on it, so evaporation cannot happen." </p>`,
       location: {
         center: [-77.0869, 38.901],
         zoom: 10.75,
@@ -262,17 +294,19 @@ Trees provide shade, but they also cool the environment down through the evapora
       hidden: false,
       title: "Cooling Centers",
       image: "images/DSC_3278.jpg",
-      description: `<p> Cooling centers are locations across the city where individuals can go to gain respite 
-            from the heat. In addition to providing a cool place to rest, cooling centers may provide additional services
-             to individuals experiencing homelessness.
-             </p>Extreme heat and heat waves have been established as disasters 
-            which can lead to a 
-            great loss of life.However, the impact of extreme heat, similar to other disasters, depends upon 
-            the vulnerability of the population.
-            <p>Studies have established that vulnerability to heat waves is a combined result of the socio-economic, 
-            physiological, climatological, as well as behavioural variables. This is not only because poverty itself is a health hazard, but because poverty is also tied to other factors that can make it harder to get cool.
-"People with money, of course, can do that a lot better than people with less money," says Dr. Georges Benjamin, executive director of the American Public Health Association. </p>
-<p> The urban poor, already often in hotter environments and already at higher risk for health problems, will have a harder time escaping climate change. </p>`,
+      description: 
+      `<p> Cooling centers are locations across the city where individuals can go to gain respite 
+      from the heat. In addition to providing a cool place to rest, cooling centers may provide additional 
+      services to individuals experiencing homelessness.
+      </p>Extreme heat and heat waves have been established as disasters which can lead to a great loss of life.
+      However, the impact of extreme heat, similar to other disasters, depends upon the vulnerability of the population.
+      <p>Studies have established that vulnerability to heat waves is a combined result of the socio-economic, 
+      physiological, climatological, as well as behavioural variables. This is not only because poverty itself 
+      is a health hazard, but because poverty is also tied to other factors that can make it harder to get cool.
+      "People with money, of course, can do that a lot better than people with less money," says Dr. Georges Benjamin, 
+      executive director of the American Public Health Association. </p>
+      <p> The urban poor, already often in hotter environments and already at higher risk for health problems, will 
+      have a harder time escaping climate change. </p>`,
       location: {
         center: [-77.0869, 38.901],
         zoom: 10.75,
@@ -315,15 +349,15 @@ Trees provide shade, but they also cool the environment down through the evapora
       hidden: false,
       title: "Watersheds",
       image: "images/IMG_0966.jpg",
-      description: `High temperatures of pavement and rooftop surfaces can heat up stormwater runoff, 
-            which drains into storm sewers and raises water temperatures as it is released into streams, rivers, 
-            ponds, and lakes. Water temperature affects all aspects of aquatic life, especially the metabolism and 
-            reproduction of many aquatic species. 
-            <p>Rapid temperature changes in aquatic ecosystems resulting from 
-            warm stormwater runoff can be particularly stressful, and even fatal, to aquatic life.</p><p>
-
-            One study found that urban streams are hotter on average than streams in forested areas, and that temperatures 
-            in urban streams rose over 7°F during small storms due to heated runoff from urban materials.</p>`,
+      description: 
+      `High temperatures of pavement and rooftop surfaces can heat up stormwater runoff, 
+      which drains into storm sewers and raises water temperatures as it is released into streams, rivers, 
+      ponds, and lakes. Water temperature affects all aspects of aquatic life, especially the metabolism and 
+      reproduction of many aquatic species. 
+      <p>Rapid temperature changes in aquatic ecosystems resulting from 
+      warm stormwater runoff can be particularly stressful, and even fatal, to aquatic life.</p><p>
+      One study found that urban streams are hotter on average than streams in forested areas, and that temperatures 
+      in urban streams rose over 7°F during small storms due to heated runoff from urban materials.</p>`,
       location: {
         center: [-77.0869, 38.901],
         zoom: 10.75,
@@ -357,36 +391,6 @@ Trees provide shade, but they also cool the environment down through the evapora
         },
       ],
     },
-    {
-      id: "storage-tanks",
-      alignment: "left",
-      hidden: false,
-      title: "Storage Tanks",
-      image: "images/DSC_5646.jpg",
-      description: `Copy these sections to add to your story.`,
-      location: {
-        center: [-77.0869, 38.901],
-        zoom: 10.75,
-        // pitch: 60.00,
-        // bearing: -16.80
-      },
-      mapAnimation: "flyTo",
-      rotateAnimation: false,
-      callback: "",
-      onChapterEnter: [
-        {
-          layer: "storagetanks",
-          opacity: 1,
-          duration: 3000,
-        },
-      ],
-      onChapterExit: [
-        {
-          layer: "storagetanks",
-          opacity: 0,
-        },
-      ],
-    },
 
     {
       id: "population",
@@ -394,7 +398,8 @@ Trees provide shade, but they also cool the environment down through the evapora
       hidden: false,
       title: "Population Distribution",
       image: "images/DSC_3284.jpg",
-      description: `African Americans are the largest racial group in the District.
+      description: 
+      `African Americans are the largest racial group in the District.
       hites are the second largest racial group, followed by Hispanics or Latinos, then 
       Asian and Pacific Islanders. This map depicts the population distribution
       of persons of color.`,
@@ -427,13 +432,24 @@ Trees provide shade, but they also cool the environment down through the evapora
       hidden: false,
       title: "Poverty Levels",
       image: "images/IMG_1243.jpg",
-      description: `<p>The District has a higher level of income inequality 
+      description: 
+      `<p>The District has a higher level of income inequality 
       than any state in the country, with households in the top 20 percent
-        of income having  29 times more income than the bottom 20 percent. 
-        The bottom fifth of DC households had just two percent of total DC 
-        income in 2016, while the top fifth had a staggering 56 percent.</p>
-<p> Poverty rates describe the share of residents’ incomes that fall beneath the federal poverty level of $25,750 for a family of four in 2019. If income were distributed equitably across races, all racial groups would have the same poverty rate. Comparing race-specific poverty rates reveals that Black, Latino, and Asian residents disproportionately have incomes that are below the poverty level than incomes of white residents. This analysis complements the analysis of race-specific median household incomes. While median household income is lower for more-impoverished racial groups, the poverty rate illuminates the frequency of very low incomes. Black, Latino, and Asian residents have a much higher poverty rate than white residents, or a much larger share of households earning less than the 2019 federal poverty level ($25,750 for a household of four, $12,490 for a single-person household). </p>
-<p></p><p></p><p></p>`,
+      of income having  29 times more income than the bottom 20 percent. 
+      The bottom fifth of DC households had just two percent of total DC 
+      income in 2016, while the top fifth had a staggering 56 percent.</p>
+      <p> Poverty rates describe the share of residents’ incomes that fall beneath 
+      the federal poverty level of $25,750 for a family of four in 2019. If income 
+      were distributed equitably across races, all racial groups would have the same 
+      poverty rate. Comparing race-specific poverty rates reveals that Black, Latino, 
+      and Asian residents disproportionately have incomes that are below the poverty 
+      level than incomes of white residents. This analysis complements the analysis of 
+      race-specific median household incomes. While median household income is lower for 
+      more-impoverished racial groups, the poverty rate illuminates the frequency of very 
+      low incomes. Black, Latino, and Asian residents have a much higher poverty rate than 
+      white residents, or a much larger share of households earning less than the 2019 federal 
+      poverty level ($25,750 for a household of four, $12,490 for a single-person household). </p>
+      <p></p><p></p><p></p>`,
       location: {
         center: [-77.0869, 38.901],
         zoom: 10.75,
@@ -459,4 +475,3 @@ Trees provide shade, but they also cool the environment down through the evapora
     },
   ],
 };
-

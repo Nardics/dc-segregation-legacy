@@ -339,9 +339,7 @@ var config = {
       title: "Physical Geographies",
       //src: 'images/IMG_0890.jpg',
       description: 
-      `This project is divided into two broad themes - physical/environmental, 
-      and socio-economic. The project focuses on the interconnectivity of these 
-      geographies, and how they influence each other.`,
+      `In this segment, we will look at some of the physical factors.`,
       location: {
         center: [-77.0869, 38.901],
         zoom: 10.75,

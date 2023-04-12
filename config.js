@@ -115,59 +115,132 @@ var config = {
         },
       ],
     },
-
     {
-      id: "air-temps",
+      id: "income",
       alignment: "left",
       hidden: false,
-      title: "Air Temperatures",
-      image: "images/IMG_0741.jpg",
+      title: "Economics",
+      image: "images/IMG_1243.jpg",
       description: 
-      `Structures such as buildings, roads, and other infrastructure 
-      absorb and re-emit the sun’s heat more than natural landscapes 
-      such as forests and water bodies. Urban areas, where these 
-      structures are highly concentrated and greenery is limited, 
-      become “islands” of higher temperatures relative to outlying areas. 
-      These pockets of heat are referred to as “heat islands.” 
-      <p>Heat islands can form under a variety of conditions, including 
-      during the day or night, in small or large cities, in suburban areas, 
-      in northern or southern climates, and in any season.
-      Heat islands can contribute to a range of environmental, energy, 
-      economic, and human health impacts.</p>
-      <p>The accompanying map represents the average temperatures within each census
-      tract. As can be seen, the warmest temperatures exist centrally and towards the 
-      north-east of the study area. It is known, that there is a strong relationship
-      between heat and socioeconomic factors.</p>`,
-
+      `<p> The data used in this profile is from the U.S. Census Bureau, 
+      the 2019 American Community Survey (ACS) </p><p> Inequitable economic 
+      systems threaten sustainable growth because groups of residents lack 
+      purchasing power and struggle to drive demand or invest in human capital.
+      In addition to undermining long-term growth, racial inequity hampers crisis 
+      resilience by undermining social cohesion and political stability </p>
+      <p></p>.`,
       location: {
         center: [-77.0869, 38.901],
         zoom: 10.75,
-        // pitch: 45.00,
-        // bearing: -16.80
-        // flyTo additional controls-
-        // These options control the flight curve, making it move
-        // slowly and zoom out almost completely before starting
-        // to pan.
-        //speed: 2, // make the flying slow
-        //curve: 1, // change the speed at which it zooms out
+        // pitch: 0,
+        // bearing: 0,
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
       callback: "",
       onChapterEnter: [
         {
-          layer: "airtemp_mean",
+          layer: "economicdata",
           opacity: 1,
           duration: 3000,
         },
       ],
       onChapterExit: [
         {
-          layer: "airtemp_mean",
+          layer: "economicdata",
           opacity: 0,
         },
       ],
     },
+
+    {
+      id: "poverty",
+      alignment: "left",
+      hidden: false,
+      title: "Poverty Levels",
+      image: "images/IMG_1243.jpg",
+      description: 
+      `<p>The District has a higher level of income inequality 
+      than any state in the country, with households in the top 20 percent
+      of income having  29 times more income than the bottom 20 percent. 
+      The bottom fifth of DC households had just two percent of total DC 
+      income in 2016, while the top fifth had a staggering 56 percent.</p>
+      <p> Poverty rates describe the share of residents’ incomes that fall beneath 
+      the federal poverty level of $25,750 for a family of four in 2019. Black, 
+      Latino, and Asian residents have a much higher poverty rate than 
+      white residents, or a much larger share of households earning less than 
+      the 2019 federal poverty level ($25,750 for a household of four, $12,490 
+      for a single-person household). </p>
+      <p></p><p></p><p></p>`,
+      location: {
+        center: [-77.0869, 38.901],
+        zoom: 10.75,
+        // pitch: 0,
+        // bearing: 0,
+      },
+      mapAnimation: "flyTo",
+      rotateAnimation: false,
+      callback: "",
+      onChapterEnter: [
+        {
+          layer: "povertylevels",
+          opacity: 1,
+          duration: 3000,
+        },
+      ],
+      onChapterExit: [
+        {
+          layer: "povertylevels",
+          opacity: 0,
+        },
+      ],
+    },
+
+    {
+      id: "disability",
+      alignment: "left",
+      hidden: false,
+      title: "Disabilities",
+      image: "images/DSC_8241.jpg",
+      description: 
+      `Excessive heat events, or abrupt and dramatic temperature increases, 
+      are particularly dangerous and can result in above-average rates 
+       mortality. From 2004 to 2018 the Centers for Disease Control and 
+       Prevention recorded 10,527 heat-related deaths in the United States, 
+       an average of 702 per year. These numbers include deaths where heat 
+       was the underlying cause and deaths where heat was a contributing cause.
+      <p>People in poor health, including people with chronic conditions, disabilities, 
+      mobility constraints, and those taking certain medications, are vulnerable 
+      to extreme temperatures. People with diabetes, physical impairments, and 
+      cognitive deficits are especially at risk during heat waves</p>
+      <p> Increasing heat exposure along with global warming could be a potential 
+      driver for exacerbating inter-city health inequalities. It's also not unusual, 
+      Stone says, for poorer areas to be located near "undesirable land uses" such 
+      as nearby highways or industrial areas, which create even more heat. </p>`,
+      location: {
+        center: [-77.0869, 38.901],
+        zoom: 10.75,
+        // pitch: 60.00,
+        // bearing: -16.80
+      },
+      mapAnimation: "flyTo",
+      rotateAnimation: false,
+      callback: "",
+      onChapterEnter: [
+        {
+          layer: "disabilities",
+          opacity: 1,
+          duration: 3000,
+        },
+      ],
+      onChapterExit: [
+        {
+          layer: "disabilities",
+          opacity: 0,
+        },
+      ],
+    },
+
     {
       id: "heat-sensitivity",
       alignment: "left",
@@ -225,63 +298,16 @@ var config = {
     },
 
     {
-      id: "disability",
+      id: "population",
       alignment: "left",
       hidden: false,
-      title: "Disabilities",
-      image: "images/DSC_8241.jpg",
+      title: "Population Distribution",
+      image: "images/DSC_3284.jpg",
       description: 
-      `Excessive heat events, or abrupt and dramatic temperature increases, 
-      are particularly dangerous and can result in above-average rates 
-       mortality. From 2004 to 2018 the Centers for Disease Control and 
-       Prevention recorded 10,527 heat-related deaths in the United States, 
-       an average of 702 per year. These numbers include deaths where heat 
-       was the underlying cause and deaths where heat was a contributing cause.
-      <p>People in poor health, including people with chronic conditions, disabilities, 
-      mobility constraints, and those taking certain medications, are vulnerable 
-      to extreme temperatures. People with diabetes, physical impairments, and 
-      cognitive deficits are especially at risk during heat waves</p>
-      <p> Increasing heat exposure along with global warming could be a potential 
-      driver for exacerbating inter-city health inequalities. It's also not unusual, 
-      Stone says, for poorer areas to be located near "undesirable land uses" such 
-      as nearby highways or industrial areas, which create even more heat. </p>`,
-      location: {
-        center: [-77.0869, 38.901],
-        zoom: 10.75,
-        // pitch: 60.00,
-        // bearing: -16.80
-      },
-      mapAnimation: "flyTo",
-      rotateAnimation: false,
-      callback: "",
-      onChapterEnter: [
-        {
-          layer: "disabilities",
-          opacity: 1,
-          duration: 3000,
-        },
-      ],
-      onChapterExit: [
-        {
-          layer: "disabilities",
-          opacity: 0,
-        },
-      ],
-    },
-    {
-      id: "income",
-      alignment: "left",
-      hidden: false,
-      title: "Economics",
-      image: "images/IMG_1243.jpg",
-      description: 
-      `<p> The data used in this profile is from the U.S. Census Bureau, 
-      the 2019 American Community Survey (ACS) </p><p> Inequitable economic 
-      systems threaten sustainable growth because groups of residents lack 
-      purchasing power and struggle to drive demand or invest in human capital.
-      In addition to undermining long-term growth, racial inequity hampers crisis 
-      resilience by undermining social cohesion and political stability </p>
-      <p></p>.`,
+      `African Americans are the largest racial group in the District.
+      hites are the second largest racial group, followed by Hispanics or Latinos, then 
+      Asian and Pacific Islanders. This map depicts the population distribution
+      of persons of color.`,
       location: {
         center: [-77.0869, 38.901],
         zoom: 10.75,
@@ -293,18 +319,120 @@ var config = {
       callback: "",
       onChapterEnter: [
         {
-          layer: "economicdata",
+          layer: "poc_distribution",
           opacity: 1,
           duration: 3000,
         },
       ],
       onChapterExit: [
         {
-          layer: "economicdata",
+          layer: "poc_distribution",
           opacity: 0,
         },
       ],
     },
+
+    {
+      id: "intro-b",
+      alignment: "center",
+      hidden: false,
+      title: "Physical Geographies",
+      //src: 'images/IMG_0890.jpg',
+      description: 
+      `This project is divided into two broad themes - physical/environmental, 
+      and socio-economic. The project focuses on the interconnectivity of these 
+      geographies, and how they influence each other.`,
+      location: {
+        center: [-77.0869, 38.901],
+        zoom: 10.75,
+        pitch: 0,
+        bearing: 0,
+        //[-77.01505, 38.88974]
+      },
+      mapAnimation: "flyTo",
+      rotateAnimation: false,
+      callback: "",
+      onChapterEnter: [
+        {
+          layer: "neighborhood_clusters",
+          opacity: 1,
+          duration: 3000,
+        },
+
+        {
+          layer: "neighborhood_labels",
+          opacity: 1,
+          duration: 3000,
+        },
+      ],
+      onChapterExit: [
+        {
+          layer: "neighborhood_clusters",
+          opacity: 0,
+        },
+
+        {
+          layer: "neighborhood_labels",
+          opacity: 0,
+        },
+      ],
+    },
+
+    {
+      id: "air-temps",
+      alignment: "left",
+      hidden: false,
+      title: "Air Temperatures",
+      image: "images/IMG_0741.jpg",
+      description: 
+      `Structures such as buildings, roads, and other infrastructure 
+      absorb and re-emit the sun’s heat more than natural landscapes 
+      such as forests and water bodies. Urban areas, where these 
+      structures are highly concentrated and greenery is limited, 
+      become “islands” of higher temperatures relative to outlying areas. 
+      These pockets of heat are referred to as “heat islands.” 
+      <p>Heat islands can form under a variety of conditions, including 
+      during the day or night, in small or large cities, in suburban areas, 
+      in northern or southern climates, and in any season.
+      Heat islands can contribute to a range of environmental, energy, 
+      economic, and human health impacts.</p>
+      <p>The accompanying map represents the average temperatures within each census
+      tract. As can be seen, the warmest temperatures exist centrally and towards the 
+      north-east of the study area. It is known, that there is a strong relationship
+      between heat and socioeconomic factors.</p>`,
+
+      location: {
+        center: [-77.0869, 38.901],
+        zoom: 10.75,
+        // pitch: 45.00,
+        // bearing: -16.80
+        // flyTo additional controls-
+        // These options control the flight curve, making it move
+        // slowly and zoom out almost completely before starting
+        // to pan.
+        //speed: 2, // make the flying slow
+        //curve: 1, // change the speed at which it zooms out
+      },
+      mapAnimation: "flyTo",
+      rotateAnimation: false,
+      callback: "",
+      onChapterEnter: [
+        {
+          layer: "airtemp_mean",
+          opacity: 1,
+          duration: 3000,
+        },
+      ],
+      onChapterExit: [
+        {
+          layer: "airtemp_mean",
+          opacity: 0,
+        },
+      ],
+    },
+    
+    
+    
     {
       id: "tree-cover",
       alignment: "left",
@@ -461,81 +589,7 @@ var config = {
       ],
     },
 
-    {
-      id: "population",
-      alignment: "left",
-      hidden: false,
-      title: "Population Distribution",
-      image: "images/DSC_3284.jpg",
-      description: 
-      `African Americans are the largest racial group in the District.
-      hites are the second largest racial group, followed by Hispanics or Latinos, then 
-      Asian and Pacific Islanders. This map depicts the population distribution
-      of persons of color.`,
-      location: {
-        center: [-77.0869, 38.901],
-        zoom: 10.75,
-        // pitch: 0,
-        // bearing: 0,
-      },
-      mapAnimation: "flyTo",
-      rotateAnimation: false,
-      callback: "",
-      onChapterEnter: [
-        {
-          layer: "poc_distribution",
-          opacity: 1,
-          duration: 3000,
-        },
-      ],
-      onChapterExit: [
-        {
-          layer: "poc_distribution",
-          opacity: 0,
-        },
-      ],
-    },
-    {
-      id: "poverty",
-      alignment: "left",
-      hidden: false,
-      title: "Poverty Levels",
-      image: "images/IMG_1243.jpg",
-      description: 
-      `<p>The District has a higher level of income inequality 
-      than any state in the country, with households in the top 20 percent
-      of income having  29 times more income than the bottom 20 percent. 
-      The bottom fifth of DC households had just two percent of total DC 
-      income in 2016, while the top fifth had a staggering 56 percent.</p>
-      <p> Poverty rates describe the share of residents’ incomes that fall beneath 
-      the federal poverty level of $25,750 for a family of four in 2019. Black, 
-      Latino, and Asian residents have a much higher poverty rate than 
-      white residents, or a much larger share of households earning less than 
-      the 2019 federal poverty level ($25,750 for a household of four, $12,490 
-      for a single-person household). </p>
-      <p></p><p></p><p></p>`,
-      location: {
-        center: [-77.0869, 38.901],
-        zoom: 10.75,
-        // pitch: 0,
-        // bearing: 0,
-      },
-      mapAnimation: "flyTo",
-      rotateAnimation: false,
-      callback: "",
-      onChapterEnter: [
-        {
-          layer: "povertylevels",
-          opacity: 1,
-          duration: 3000,
-        },
-      ],
-      onChapterExit: [
-        {
-          layer: "povertylevels",
-          opacity: 0,
-        },
-      ],
-    },
+    
+    
   ],
 };

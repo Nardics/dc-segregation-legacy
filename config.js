@@ -160,18 +160,20 @@ var config = {
       title: "Poverty Levels",
       image: "images/IMG_1243.jpg",
       description: 
-      `<p>The District has a higher level of income inequality 
+      `<p>D.C. has a higher level of income inequality 
       than any state in the country, with households in the top 20 percent
       of income having  29 times more income than the bottom 20 percent. 
       The bottom fifth of DC households had just two percent of total DC 
-      income in 2016, while the top fifth had a staggering 56 percent.</p>
+      income in 2016.</p>
       <p> Poverty rates describe the share of residents’ incomes that fall beneath 
       the federal poverty level of $25,750 for a family of four in 2019. Black, 
       Latino, and Asian residents have a much higher poverty rate than 
       white residents, or a much larger share of households earning less than 
       the 2019 federal poverty level ($25,750 for a household of four, $12,490 
-      for a single-person household). </p>
-      <p></p><p></p><p></p>`,
+      for a single-person household).</p> 
+      <p>It is not unusual, for poorer areas to be located near "undesirable land uses" 
+      such as nearby highways or industrial areas, which create even more heat. 
+      </p>`,
       location: {
         center: [-77.0869, 38.901],
         zoom: 10.75,
@@ -203,20 +205,20 @@ var config = {
       title: "Disabilities",
       image: "images/DSC_8241.jpg",
       description: 
-      `Excessive heat events, or abrupt and dramatic temperature increases, 
+      `<p>People in poor health, including people with chronic conditions, disabilities, 
+      mobility constraints, and those taking certain medications, are vulnerable 
+      to extreme temperatures. People with diabetes, physical impairments, and 
+      cognitive deficits are especially at risk during heat waves</p>
+
+      <p>Excessive heat events, or abrupt and dramatic temperature increases, 
       are particularly dangerous and can result in above-average rates 
        mortality. From 2004 to 2018 the Centers for Disease Control and 
        Prevention recorded 10,527 heat-related deaths in the United States, 
        an average of 702 per year. These numbers include deaths where heat 
-       was the underlying cause and deaths where heat was a contributing cause.
-      <p>People in poor health, including people with chronic conditions, disabilities, 
-      mobility constraints, and those taking certain medications, are vulnerable 
-      to extreme temperatures. People with diabetes, physical impairments, and 
-      cognitive deficits are especially at risk during heat waves</p>
+       was the underlying cause and deaths where heat was a contributing cause.</p>
+      
       <p> Increasing heat exposure along with global warming could be a potential 
-      driver for exacerbating inter-city health inequalities. It's also not unusual, 
-      Stone says, for poorer areas to be located near "undesirable land uses" such 
-      as nearby highways or industrial areas, which create even more heat. </p>`,
+      driver for exacerbating inter-city health inequalities. </p>`,
       location: {
         center: [-77.0869, 38.901],
         zoom: 10.75,

@@ -34,7 +34,9 @@ var config = {
       The U.S. Capitol building marks the center where the quadrants meet.</p>
       <p>From inception, Washington, D.C. has been enmeshed in issues of power, 
       privilege, race, and identity. These battles have left a legacy which is 
-      visible in the several geographies across the landscape.</p>`,
+      visible in the several geographies across the landscape.</p>
+      <p class='credit'>Source: <a href='https://cumulis.epa.gov/supercpad/cursites/csitinfo.cfm?id=0701639' target='_blank'>EPA</a></p>`
+      ,
       location: {
         center: [-77.0869, 38.901],
         zoom: 10.75,
@@ -122,13 +124,20 @@ var config = {
       title: "Economics",
       image: "images/IMG_1243.jpg",
       description: 
-      `<p> The data used in this profile is from the U.S. Census Bureau, 
-      the 2019 American Community Survey (ACS) </p><p> Inequitable economic 
-      systems threaten sustainable growth because groups of residents lack 
-      purchasing power and struggle to drive demand or invest in human capital.
-      In addition to undermining long-term growth, racial inequity hampers crisis 
-      resilience by undermining social cohesion and political stability </p>
-      <p></p>.`,
+      `<p> The data used in this profile is from the U.S. Census Bureau, 2019 American Community Survey 
+      <a href='https://www.census.gov/data/developers/data-sets.html'>(ACS)</a>.</p>
+
+      <p> Inequitable economic systems threaten sustainable growth because 
+      groups of residents lack purchasing power and struggle to drive demand 
+      or invest in human capital. In addition to undermining long-term growth, 
+      racial inequity hampers crisis resilience by undermining social cohesion 
+      and political stability. </p>
+      <p>According to the data, the highest median household income is heavily concentrated
+      in the the north-west quadrant of the city. Middle and lower income brackets dominate the eastern and south-eastern
+      portions of the city.</p>
+
+      <p class='credit'>Source: <a href='https://www.dcracialequity.org/dc-racial-equity-profile'>CORE</a></p>`,
+
       location: {
         center: [-77.0869, 38.901],
         zoom: 10.75,
@@ -172,7 +181,9 @@ var config = {
       the 2019 federal poverty level ($25,750 for a household of four, $12,490 
       for a single-person household).</p> 
       <p>It is not unusual, for poorer areas to be located near "undesirable land uses" 
-      such as nearby highways or industrial areas, which create even more heat. 
+      such as nearby highways or industrial areas, which create even more heat.
+      
+      <p class='credit'>Source: <a href='https://www.dcfpi.org/all/income-inequality-dc-highest-country/'>DC Fiscal Policy Institute</a></p>
       </p>`,
       location: {
         center: [-77.0869, 38.901],

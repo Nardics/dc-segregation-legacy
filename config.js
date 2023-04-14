@@ -24,9 +24,8 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "One City. Many Faces",
-      image: 'images/IMG_0890.jpg',
-      description: 
-      `Washington, D.C., formally the District of Columbia, commonly known as 
+      image: "images/IMG_0890.jpg",
+      description: `Washington, D.C., formally the District of Columbia, commonly known as 
       Washington or D.C., is the capital city and federal district of the United 
       States. Located on the eastern bank of the Potomac River, the city borders 
       Virginia and Maryland. 
@@ -35,11 +34,10 @@ var config = {
       <p>From inception, Washington, D.C. has been enmeshed in issues of power, 
       privilege, race, and identity. These battles have left a legacy which is 
       visible in the several geographies across the landscape.</p>
-      <p class='credit'>Source: <a href='https://cumulis.epa.gov/supercpad/cursites/csitinfo.cfm?id=0701639' target='_blank'>EPA</a></p>`
-      ,
+      <p class='credit'>Source: <a href='https://cumulis.epa.gov/supercpad/cursites/csitinfo.cfm?id=0701639' target='_blank'>EPA</a></p>`,
       location: {
-        center: [-77.0869, 38.901],
-        zoom: 10.75,
+        center: [-77.0869, 38.899],
+        zoom: 11.15,
         pitch: 0,
         bearing: 0,
         //[-77.01505, 38.88974]
@@ -78,13 +76,21 @@ var config = {
       hidden: false,
       title: "Plural Geographies",
       //src: 'images/IMG_0890.jpg',
-      description: 
-      `This project is divided into two broad themes - physical/environmental, 
+      description: `This project is divided into two broad themes - physical/environmental, 
       and socio-economic. The project focuses on the interconnectivity of these 
-      geographies, and how they influence each other.`,
+      geographies, and how they impact each other.
+      <p>In this segment, we begin by visualizing th distribution of key metrics within the city.
+      These are: 
+      <ul>
+    <li>Income</li>
+    <li>Poverty</li>
+    <li>Disability</li>
+    <li>Heat Sensitivity Exposure</li>
+    <li>Population Distribution (Persons of Color)</li>
+    </ul></p>`,
       location: {
         center: [-77.0869, 38.901],
-        zoom: 10.75,
+        zoom: 11.5,
         pitch: 0,
         bearing: 0,
         //[-77.01505, 38.88974]
@@ -123,9 +129,14 @@ var config = {
       hidden: false,
       title: "Economics",
       image: "images/IMG_1243.jpg",
-      description: 
-      `<p> The data used in this profile is from the U.S. Census Bureau, 2019 American Community Survey 
+      description: `<p> The data used in this profile is from the U.S. Census Bureau, 2019 American Community Survey 
       <a href='https://www.census.gov/data/developers/data-sets.html'>(ACS)</a>.</p>
+
+      <p> Household income is defined as the sum of money received over a calendar year by all household 
+      members 15 years and older. 
+      Median household income reflects the relative affluence and prosperity of an area.
+      Areas with higher median household incomes are likely to have more educated residents and lower 
+      unemployment rates. Higher employment rates lead to better access to healthcare and better health outcomes.
 
       <p> Inequitable economic systems threaten sustainable growth because 
       groups of residents lack purchasing power and struggle to drive demand 
@@ -135,12 +146,14 @@ var config = {
       <p>According to the data, the highest median household income is heavily concentrated
       in the the north-west quadrant of the city. Middle and lower income brackets dominate the eastern and south-eastern
       portions of the city.</p>
-
-      <p class='credit'>Source: <a href='https://www.dcracialequity.org/dc-racial-equity-profile'>CORE</a></p>`,
+      
+      Source:
+      <p class='credit'> <a href='https://www.dcracialequity.org/dc-racial-equity-profile'>CORE</a></p>
+      <p class='credit'> <a href='https://www.dchealthmatters.org/indicators/index/view?indicatorId=315&localeId=56714'>DC Health Matters</a></p>`,
 
       location: {
-        center: [-77.0869, 38.901],
-        zoom: 10.75,
+        center: [-77.0869, 38.899],
+        zoom: 11.15,
         // pitch: 0,
         // bearing: 0,
       },
@@ -168,8 +181,7 @@ var config = {
       hidden: false,
       title: "Poverty Levels",
       image: "images/IMG_1243.jpg",
-      description: 
-      `<p>D.C. has a higher level of income inequality 
+      description: `<p>D.C. has a higher level of income inequality 
       than any state in the country, with households in the top 20 percent
       of income having  29 times more income than the bottom 20 percent. 
       The bottom fifth of DC households had just two percent of total DC 
@@ -186,8 +198,8 @@ var config = {
       <p class='credit'>Source: <a href='https://www.dcfpi.org/all/income-inequality-dc-highest-country/'>DC Fiscal Policy Institute</a></p>
       </p>`,
       location: {
-        center: [-77.0869, 38.901],
-        zoom: 10.75,
+        center: [-77.0869, 38.899],
+        zoom: 11.15,
         // pitch: 0,
         // bearing: 0,
       },
@@ -215,8 +227,7 @@ var config = {
       hidden: false,
       title: "Disabilities",
       image: "images/DSC_8241.jpg",
-      description: 
-      `<p>People in poor health, including people with chronic conditions, disabilities, 
+      description: `<p>People in poor health, including people with chronic conditions, disabilities, 
       mobility constraints, and those taking certain medications, are vulnerable 
       to extreme temperatures. People with diabetes, physical impairments, and 
       cognitive deficits are especially at risk during heat waves</p>
@@ -231,8 +242,8 @@ var config = {
       <p> Increasing heat exposure along with global warming could be a potential 
       driver for exacerbating inter-city health inequalities. </p>`,
       location: {
-        center: [-77.0869, 38.901],
-        zoom: 10.75,
+        center: [-77.0869, 38.899],
+        zoom: 11.15,
         // pitch: 60.00,
         // bearing: -16.80
       },
@@ -260,8 +271,7 @@ var config = {
       hidden: false,
       title: "Heat Sensitivity Exposure Index",
       image: "images/DSC_8241.jpg",
-      description: 
-      `Heat islands can also exacerbate the impact of naturally occurring heat
+      description: `Heat islands can also exacerbate the impact of naturally occurring heat
        waves, which are periods of abnormally hot, and often humid, weather. 
        Sensitive populations are particularly at risk during these events.
       <p>Populations particularly at risk include: older adults, young children, 
@@ -287,8 +297,8 @@ var config = {
       dangerous heat disorders with prolonged exposure and/or physical activity in 
       the heat. </p>`,
       location: {
-        center: [-77.0869, 38.901],
-        zoom: 10.75,
+        center: [-77.0869, 38.899],
+        zoom: 11.15,
         // pitch: 60.00,
         // bearing: -16.80
       },
@@ -316,14 +326,13 @@ var config = {
       hidden: false,
       title: "Population Distribution",
       image: "images/DSC_3284.jpg",
-      description: 
-      `African Americans are the largest racial group in the District.
+      description: `African Americans are the largest racial group in the District.
       hites are the second largest racial group, followed by Hispanics or Latinos, then 
       Asian and Pacific Islanders. This map depicts the population distribution
       of persons of color.`,
       location: {
-        center: [-77.0869, 38.901],
-        zoom: 10.75,
+        center: [-77.0869, 38.899],
+        zoom: 11.15,
         // pitch: 0,
         // bearing: 0,
       },
@@ -351,11 +360,10 @@ var config = {
       hidden: false,
       title: "Physical Geographies",
       //src: 'images/IMG_0890.jpg',
-      description: 
-      `In this segment, we will look at some of the physical factors.`,
+      description: `In this segment, we will look at some of the physical factors.`,
       location: {
-        center: [-77.0869, 38.901],
-        zoom: 10.75,
+        center: [-77.0869, 38.899],
+        zoom: 11.15,
         pitch: 0,
         bearing: 0,
         //[-77.01505, 38.88974]
@@ -395,8 +403,7 @@ var config = {
       hidden: false,
       title: "Air Temperatures",
       image: "images/IMG_0741.jpg",
-      description: 
-      `Structures such as buildings, roads, and other infrastructure 
+      description: `Structures such as buildings, roads, and other infrastructure 
       absorb and re-emit the sun’s heat more than natural landscapes 
       such as forests and water bodies. Urban areas, where these 
       structures are highly concentrated and greenery is limited, 
@@ -413,8 +420,8 @@ var config = {
       between heat and socioeconomic factors.</p>`,
 
       location: {
-        center: [-77.0869, 38.901],
-        zoom: 10.75,
+        center: [-77.0869, 38.899],
+        zoom: 11.15,
         // pitch: 45.00,
         // bearing: -16.80
         // flyTo additional controls-
@@ -441,17 +448,14 @@ var config = {
         },
       ],
     },
-    
-    
-    
+
     {
       id: "tree-cover",
       alignment: "left",
       hidden: false,
       title: "Tree Cover",
       image: "images/DSC_3405.jpg",
-      description: 
-      `Trees and other plants help cool the environment, 
+      description: `Trees and other plants help cool the environment, 
       making vegetation a simple and effective way to reduce urban heat 
       islands.
       <p>Trees and vegetation lower surface and air temperatures by 
@@ -467,8 +471,8 @@ var config = {
       the evaporation of water from their leaves — a process similar to how humans 
       sweat to cool down. Paving an area, interrupts the cycle.</p>`,
       location: {
-        center: [-77.0869, 38.901],
-        zoom: 10.75,
+        center: [-77.0869, 38.899],
+        zoom: 11.15,
         // pitch: 0,
         // bearing: 0,
       },
@@ -496,8 +500,7 @@ var config = {
       hidden: false,
       title: "Cooling Centers",
       image: "images/DSC_3278.jpg",
-      description: 
-      `<p> Cooling centers are locations across the city where individuals can 
+      description: `<p> Cooling centers are locations across the city where individuals can 
       go to gain respite from the heat. In addition to providing a cool place 
       to rest, cooling centers may provide additional services to individuals 
       experiencing homelessness.
@@ -515,8 +518,8 @@ var config = {
       <p> The urban poor, already often in hotter environments and already at 
       higher risk for health problems, will have a harder time escaping climate change.</p>`,
       location: {
-        center: [-77.0869, 38.901],
-        zoom: 10.75,
+        center: [-77.0869, 38.899],
+        zoom: 11.15,
         // pitch: 44.00,
         // bearing: -40.00
       },
@@ -556,8 +559,7 @@ var config = {
       hidden: false,
       title: "Watersheds",
       image: "images/IMG_0966.jpg",
-      description: 
-      `High temperatures of pavement and rooftop surfaces can heat up stormwater runoff,
+      description: `High temperatures of pavement and rooftop surfaces can heat up stormwater runoff,
       which drains into storm sewers and raises water temperatures as it is released 
       into streams, rivers, ponds, and lakes. Water temperature affects all aspects of 
       aquatic life, especially the metabolism and reproduction of many aquatic species. 
@@ -567,8 +569,8 @@ var config = {
       forested areas, and that temperatures in urban streams rose over 7°F during small 
       storms due to heated runoff from urban materials.</p>`,
       location: {
-        center: [-77.0869, 38.901],
-        zoom: 10.75,
+        center: [-77.0869, 38.899],
+        zoom: 11.15,
         // pitch: 55,
         // bearing: -45.5,
       },
@@ -599,8 +601,5 @@ var config = {
         },
       ],
     },
-
-    
-    
   ],
 };

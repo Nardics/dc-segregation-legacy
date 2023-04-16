@@ -138,14 +138,14 @@ var config = {
       Areas with higher median household incomes are likely to have more educated residents and lower 
       unemployment rates. Higher employment rates lead to better access to healthcare and better health outcomes.
 
-      <p> Inequitable economic systems threaten sustainable growth because 
-      groups of residents lack purchasing power and struggle to drive demand 
-      or invest in human capital. In addition to undermining long-term growth, 
-      racial inequity hampers crisis resilience by undermining social cohesion 
-      and political stability. </p>
-      <p>According to the data, the highest median household income is heavily concentrated
-      in the the north-west quadrant of the city. Middle and lower income brackets dominate the eastern and south-eastern
-      portions of the city.</p>
+      <p>According to the data, the highest median household income is concentrated
+      in the north-west quadrant of the city. Middle and lower income brackets dominate the eastern 
+      and south-eastern portions of the city.</p>
+      <p> In 2019, the location with the lowest Median Household Income, 
+      was Census Tract 98.01. Median Income totalled $13,510. The second and third lowest tracts
+      were Census Tracts 74.01 and 75.04, with Median Income of $14,859 and $16,844 respectively.
+      Conversely, Census Tracts 9.04, 9.03 (joint highest), 8.04 and 10.03 were the locations
+      of the four highest Median Income. These figures stood at $250,001,  $247,946 and $230,510 respectively. </p>
       
       Source:
       <p class='credit'> <a href='https://www.dcracialequity.org/dc-racial-equity-profile'>CORE</a></p>
@@ -192,10 +192,14 @@ var config = {
       than any state in the country, with households in the top 20 percent
       of income having  29 times more income than the bottom 20 percent. 
       The bottom fifth of DC households had just two percent of total DC 
-      income in 2016.</p>
+      income in 2016.</p> 
+
      
       <p>It is not unusual, for poorer areas to be located near "undesirable land uses" 
-      such as nearby highways or industrial areas, which create even more heat.
+      such as nearby highways or industrial areas, which create even more heat. In dozens 
+      of U.S cities, low-income neighborhoods are more likely to be hotter than wealthier
+      areas. This combination of poverty and heat, can have dire consequences especially 
+      for individuals with disabilities and/or other comorbidities.
       
       <p class='credit'>Source: <a href='https://www.dcfpi.org/all/income-inequality-dc-highest-country/'>DC Fiscal Policy Institute</a></p>
       </p>`,

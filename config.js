@@ -188,20 +188,23 @@ var config = {
       the 2019 federal poverty level ($25,750 for a household of four, $12,490 
       for a single-person household).</p> 
       
-      <p>D.C. has a higher level of income inequality 
+      <p>In 2019, about 13.5% of the District of Columbia's 
+      population lived below the poverty line. D.C. has a higher level of income inequality 
       than any state in the country, with households in the top 20 percent
       of income having  29 times more income than the bottom 20 percent. 
       The bottom fifth of DC households had just two percent of total DC 
-      income in 2016. In 2019, about 13.5% of the District of Columbia's 
-      population lived below the poverty line.</p> 
-      <p></p>
+      income in 2016.</p> 
+      <p>The poverty distribution pattern in D.C is largely reflecdtive of the income
+      distribution pattern - with higher rates of poverty existin in the south-eastern quadrant of
+      the city. One outlier, is Census Tract 95.1, where the entire population exists below
+      the poverty line. </p>
 
      
       <p>It is not unusual, for poorer areas to be located near "undesirable land uses" 
-      such as nearby highways or industrial areas, which create even more heat. In dozens 
-      of U.S cities, low-income neighborhoods are more likely to be hotter than wealthier
+      such as nearby highways or industrial areas, which create even more heat. 
+      <p>In dozens of U.S cities, low-income neighborhoods are more likely to be hotter than wealthier
       areas. This combination of poverty and heat, can have dire consequences especially 
-      for individuals with disabilities and/or other comorbidities.
+      for individuals with disabilities and/or other comorbidities.</p>
       
       <p class='credit'>Source: <a href='https://www.dcfpi.org/all/income-inequality-dc-highest-country/'>DC Fiscal Policy Institute</a></p>
       </p>`,
@@ -248,7 +251,10 @@ var config = {
        was the underlying cause and deaths where heat was a contributing cause.</p>
       
       <p> Increasing heat exposure along with global warming could be a potential 
-      driver for exacerbating inter-city health inequalities. </p>`,
+      driver for exacerbating inter-city health inequalities. Socioeconoic factors may combine
+      to exacerbate already challenging situations. Disproportionate poverty rates, and poor or 
+      substandard housing create serious challenges for people with disabilities. Low income, usually means
+      insufficient funds to run the AC, and thus leaves individuals especially at risk for heat-related illness.  </p>`,
       location: {
         center: [-77.0869, 38.899],
         zoom: 11.15,

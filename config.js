@@ -180,7 +180,7 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "Poverty Levels",
-      image: "images/IMG_1243.jpg",
+      image: "images/IMG_6806b.jpg",
       description: `<p> Poverty rates describe the share of residents’ incomes that fall beneath 
       the federal poverty level of $25,750 for a family of four in 2019. Black, 
       Latino, and Asian residents have a much higher poverty rate than 
@@ -241,7 +241,7 @@ var config = {
       description: `<p>People in poor health, including people with chronic conditions, disabilities, 
       mobility constraints, and those taking certain medications, are vulnerable 
       to extreme temperatures. People with diabetes, physical impairments, and 
-      cognitive deficits are especially at risk during heat waves</p>
+      cognitive deficits are especially at risk during heat waves. </p>
 
       <p>Excessive heat events, or abrupt and dramatic temperature increases, 
       are particularly dangerous and can result in above-average rates 
@@ -253,8 +253,11 @@ var config = {
       <p> Increasing heat exposure along with global warming could be a potential 
       driver for exacerbating inter-city health inequalities. Socioeconoic factors may combine
       to exacerbate already challenging situations. Disproportionate poverty rates, and poor or 
-      substandard housing create serious challenges for people with disabilities. Low income, usually means
-      insufficient funds to run the AC, and thus leaves individuals especially at risk for heat-related illness.  </p>`,
+      substandard housing create serious challenges for people with disabilities. Low income, 
+      usually means insufficient funds to run the AC, and thus leaves individuals especially 
+      at risk for heat-related illness. Individuals who fall into 
+      multiple categories, such as the poor - who can be old and disabled - are even more
+      at risk. </p>`,
       location: {
         center: [-77.0869, 38.899],
         zoom: 11.15,
@@ -287,29 +290,31 @@ var config = {
       image: "images/DSC_8241.jpg",
       description: `Heat islands can also exacerbate the impact of naturally occurring heat
        waves, which are periods of abnormally hot, and often humid, weather. 
-       Sensitive populations are particularly at risk during these events.
-      <p>Populations particularly at risk include: older adults, young children, 
-      populations with low income, and individuals in poor health.</p>
+       Sensitive populations such as older adults, young children, 
+       populations with low income, and individuals in poor health are particularly at risk 
+       during these events.</p>
+      
+       <p> It surprises many people to learn that the heat index values are for shady 
+       locations. If you are exposed to direct sunlight, the heat index value can be 
+       increased by up to 15°F.  Heat indices meeting or exceeding 103°F can lead to 
+       dangerous heat disorders with prolonged exposure and/or physical activity in 
+       the heat. </p>
+
       <p> The heat index, also known as the apparent temperature, is what the 
       temperature feels like to the human body when relative humidity is combined 
       with the air temperature.  This has important considerations for the human 
       body's comfort.  When the body gets too hot, it begins to perspire or sweat 
       to cool itself off.  If the perspiration is not able to evaporate, the body 
-      cannot regulate its temperature.  Evaporation is a cooling process.  
-      When perspiration is evaporated off the body, it effectively reduces the body's 
-      temperature.  When the atmospheric moisture content (i.e. relative humidity) 
-      is high, the rate of evaporation from the body decreases.  In other words, 
-      the human body feels warmer in humid conditions.  The opposite is true when 
-      the relative humidity decreases because the rate of perspiration increases. 
-      The body actually feels cooler in arid conditions. 
+      cannot regulate its temperature.</p>
+      <p>Evaporation is a cooling process. When perspiration is evaporated off the body, 
+      it effectively reduces the body's temperature.  When the atmospheric moisture content 
+      (i.e. relative humidity) is high, the rate of evaporation from the body decreases.  
+      In other words, the human body feels warmer in humid conditions.</p>
+      <p>The opposite is true when the relative humidity decreases because the rate of
+       perspiration increases. The body actually feels cooler in arid conditions. 
       There is direct relationship between the air temperature and relative humidity 
       and the heat index, meaning as the air temperature and relative humidity 
-      increase (decrease), the heat index increases (decreases). </p>
-      <p> It surprises many people to learn that the heat index values are for shady 
-      locations. If you are exposed to direct sunlight, the heat index value can be 
-      increased by up to 15°F.  Heat indices meeting or exceeding 103°F can lead to 
-      dangerous heat disorders with prolonged exposure and/or physical activity in 
-      the heat. </p>`,
+      increase (decrease), the heat index increases (decreases). </p>`,
       location: {
         center: [-77.0869, 38.899],
         zoom: 11.15,

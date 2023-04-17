@@ -192,7 +192,9 @@ var config = {
       than any state in the country, with households in the top 20 percent
       of income having  29 times more income than the bottom 20 percent. 
       The bottom fifth of DC households had just two percent of total DC 
-      income in 2016.</p> 
+      income in 2016. In 2019, about 13.5% of the District of Columbia's 
+      population lived below the poverty line.</p> 
+      <p></p>
 
      
       <p>It is not unusual, for poorer areas to be located near "undesirable land uses" 

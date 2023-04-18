@@ -623,8 +623,7 @@ var config = {
       hidden: false,
       title: "Conclusions",
       //src: 'images/IMG_0890.jpg',
-      description: `// conclusion
-      <p>Studies have established that vulnerability to heat waves is a combined 
+      description: `<p>Studies have established that vulnerability to heat waves is a combined 
       result of the socio-economic, physiological, climatological, as well as 
       behavioural variables. This is not only because poverty itself is a health 
       hazard, but because poverty is also tied to other factors that can make it 

@@ -288,36 +288,31 @@ var config = {
       hidden: false,
       title: "Heat Sensitivity Exposure Index",
       image: "images/DSC_8241.jpg",
-      description: `Heat islands can also exacerbate the impact of naturally occurring heat
-       waves, which are periods of abnormally hot, and often humid, weather. 
-       Sensitive populations such as older adults, young children, 
-       populations with low income, and individuals in poor health are particularly at risk 
-       during these events.</p>
+      description: ` <p> The heat index, also known as the apparent temperature, is 
+      a combined measure of temperature and relative humidity.
+      This has important considerations for the human body's comfort.  When the body 
+      gets too hot, it begins to perspire or sweat to cool itself off.  If the 
+      perspiration is not able to evaporate, the body cannot regulate its temperature.</p>
+
+      <p>Heat islands are urbanized areas that experience higher temperatures than outlying 
+      areas. Heat islands can exacerbate the impact of naturally occurring heat
+      waves, which are periods of abnormally hot, and often humid, weather. 
+      Sensitive populations such as older adults, young children, 
+      populations with low income, and individuals in poor health are particularly at risk 
+      during these events.</p>
       
-       <p> It surprises many people to learn that the heat index values are for shady 
+      <p>Many people may be surprised to learn that the stated heat index values are for shady 
        locations. If you are exposed to direct sunlight, the heat index value can be 
-       increased by up to 15°F.  Heat indices meeting or exceeding 103°F can lead to 
+       increased by up to 15°F. Heat indices meeting or exceeding 103°F can lead to 
        dangerous heat disorders with prolonged exposure and/or physical activity in 
        the heat. </p>
 
-      <p> The heat index, also known as the apparent temperature, is what the 
-      temperature feels like to the human body when relative humidity is combined 
-      with the air temperature.  This has important considerations for the human 
-      body's comfort.  When the body gets too hot, it begins to perspire or sweat 
-      to cool itself off.  If the perspiration is not able to evaporate, the body 
-      cannot regulate its temperature.</p>
-      <p>Evaporation is a cooling process. When perspiration is evaporated off the body, 
-      it effectively reduces the body's temperature.  When the atmospheric moisture content 
-      (i.e. relative humidity) is high, the rate of evaporation from the body decreases.  
-      In other words, the human body feels warmer in humid conditions.</p>
-      <p>The opposite is true when the relative humidity decreases because the rate of
-       perspiration increases. The body actually feels cooler in arid conditions. 
-      There is direct relationship between the air temperature and relative humidity 
-      and the heat index, meaning as the air temperature and relative humidity 
-      increase (decrease), the heat index increases (decreases). </p>`,
+       <p>To calculate vulnerability, you must take into account population sensitivity 
+       to the effects of heat, exposure to hotter temperatures, and the adaptive capacity 
+       of the community under consideration.`,
       location: {
         center: [-77.0869, 38.899],
-        zoom: 11.15,
+        zoom: 11.95,
         // pitch: 60.00,
         // bearing: -16.80
       },
@@ -330,14 +325,75 @@ var config = {
           opacity: 1,
           duration: 3000,
         },
+        {
+          layer: "coolingcenters",
+          opacity: 1,
+          duration: 3000,
+        },
+        
       ],
       onChapterExit: [
         {
           layer: "hsindex",
           opacity: 0,
         },
+        {
+          layer: "coolingcenters",
+          opacity:0,
+        }
       ],
     },
+    {
+      id: "cooling-centers",
+      alignment: "center",
+      hidden: false,
+      title: "Cooling Centers",
+      // image: "images/DSC_3278.jpg",
+      description: ` </p>Extreme heat and heat waves have been established as disasters which 
+      can lead to a great loss of life. The impact of extreme heat, 
+      similar to other disasters, depends upon the vulnerability of the population.</p>
+
+      <p> Cooling centers are locations across the city where individuals 
+      can go to gain respite from the heat. In addition to providing a cool place 
+      to rest, cooling centers may provide additional services to individuals 
+      experiencing homelessness.</p>`,
+      location: {
+        center: [-77.0869, 38.899],
+        zoom: 12.15,
+        // pitch: 44.00,
+        // bearing: -40.00
+      },
+      mapAnimation: "flyTo",
+      rotateAnimation: false,
+      callback: "",
+      onChapterEnter: [
+        {
+          layer: "coolingcenters",
+          opacity: 1,
+          duration: 3000,
+        },
+
+        {
+          layer: "censustracts",
+          opacity: 1,
+          duration: 3000,
+        },
+      ],
+      onChapterExit: [
+        {
+          layer: "coolingcenters",
+          opacity: 0,
+        },
+
+        {
+          layer: "censustracts",
+          opacity: 1,
+          duration: 3000,
+        },
+      ],
+    },
+
+
 
     {
       id: "population",
@@ -514,65 +570,6 @@ var config = {
     },
 
     {
-      id: "cooling-centers",
-      alignment: "left",
-      hidden: false,
-      title: "Cooling Centers",
-      image: "images/DSC_3278.jpg",
-      description: `<p> Cooling centers are locations across the city where individuals can 
-      go to gain respite from the heat. In addition to providing a cool place 
-      to rest, cooling centers may provide additional services to individuals 
-      experiencing homelessness.
-      </p>Extreme heat and heat waves have been established as disasters which 
-      can lead to a great loss of life.However, the impact of extreme heat, 
-      similar to other disasters, depends upon the vulnerability of the population.
-      <p>Studies have established that vulnerability to heat waves is a combined 
-      result of the socio-economic, physiological, climatological, as well as 
-      behavioural variables. This is not only because poverty itself is a health 
-      hazard, but because poverty is also tied to other factors that can make it 
-      harder to get cool.
-      "People with money, of course, can do that a lot better than people with 
-      less money," says Dr. Georges Benjamin, executive director of the American 
-      Public Health Association. </p>
-      <p> The urban poor, already often in hotter environments and already at 
-      higher risk for health problems, will have a harder time escaping climate change.</p>`,
-      location: {
-        center: [-77.0869, 38.899],
-        zoom: 11.15,
-        // pitch: 44.00,
-        // bearing: -40.00
-      },
-      mapAnimation: "flyTo",
-      rotateAnimation: false,
-      callback: "",
-      onChapterEnter: [
-        {
-          layer: "coolingcenters",
-          opacity: 1,
-          duration: 3000,
-        },
-
-        {
-          layer: "censustracts",
-          opacity: 1,
-          duration: 3000,
-        },
-      ],
-      onChapterExit: [
-        {
-          layer: "coolingcenters",
-          opacity: 0,
-        },
-
-        {
-          layer: "censustracts",
-          opacity: 1,
-          duration: 3000,
-        },
-      ],
-    },
-
-    {
       id: "drainage-basins",
       alignment: "left",
       hidden: false,
@@ -616,6 +613,58 @@ var config = {
 
         {
           layer: "watershed_names",
+          opacity: 0,
+        },
+      ],
+    },
+    {
+      id: "conclusion",
+      alignment: "center",
+      hidden: false,
+      title: "Conclusions",
+      //src: 'images/IMG_0890.jpg',
+      description: `// conclusion
+      <p>Studies have established that vulnerability to heat waves is a combined 
+      result of the socio-economic, physiological, climatological, as well as 
+      behavioural variables. This is not only because poverty itself is a health 
+      hazard, but because poverty is also tied to other factors that can make it 
+      harder to get cool.
+      "People with money, of course, can do that a lot better than people with 
+      less money," says Dr. Georges Benjamin, executive director of the American 
+      Public Health Association. </p>
+      <p> The urban poor, already often in hotter environments and already at 
+      higher risk for health problems, will have a harder time escaping climate change.</p>`,
+      location: {
+        center: [-77.0869, 38.901],
+        zoom: 11.5,
+        pitch: 0,
+        bearing: 0,
+        //[-77.01505, 38.88974]
+      },
+      mapAnimation: "flyTo",
+      rotateAnimation: false,
+      callback: "",
+      onChapterEnter: [
+        {
+          layer: "neighborhood_clusters",
+          opacity: 1,
+          duration: 3000,
+        },
+
+        {
+          layer: "neighborhood_labels",
+          opacity: 1,
+          duration: 3000,
+        },
+      ],
+      onChapterExit: [
+        {
+          layer: "neighborhood_clusters",
+          opacity: 0,
+        },
+
+        {
+          layer: "neighborhood_labels",
           opacity: 0,
         },
       ],

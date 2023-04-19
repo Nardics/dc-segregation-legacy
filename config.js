@@ -237,7 +237,7 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "Disabilities",
-      image: "images/DSC_8241.jpg",
+      image: "images/disability.jpg",
       description: `<p>People in poor health, including people with chronic conditions, disabilities, 
       mobility constraints, and those taking certain medications, are vulnerable 
       to extreme temperatures. People with diabetes, physical impairments, and 

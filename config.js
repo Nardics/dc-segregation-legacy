@@ -312,7 +312,7 @@ var config = {
        of the community under consideration.`,
       location: {
         center: [-77.0869, 38.899],
-        zoom: 11.95,
+        zoom: 11.15,
         // pitch: 60.00,
         // bearing: -16.80
       },

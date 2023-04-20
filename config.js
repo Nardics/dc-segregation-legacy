@@ -181,7 +181,15 @@ var config = {
       hidden: false,
       title: "Poverty Levels",
       image: "images/IMG_6806b.jpg",
-      description: `<p> Poverty rates describe the share of residents’ incomes that fall beneath 
+      description: `<p>D.C's distribution of affordable housing reflects
+      a legacy of racially discriminatory policies enacted
+      for more than a century. These policies displaced
+      thousands of black residents and concentrated their
+      communities in the eastern sections of the District,
+      referred to as “East of the River.” These policies also
+      deepened poverty and generated multiple barriers.</p>
+      
+      <p> Poverty rates describe the share of residents’ incomes that fall beneath 
       the federal poverty level of $25,750 for a family of four in 2019. Black, 
       Latino, and Asian residents have a much higher poverty rate than 
       white residents, or a much larger share of households earning less than 
@@ -194,20 +202,24 @@ var config = {
       of income having  29 times more income than the bottom 20 percent. 
       The bottom fifth of DC households had just two percent of total DC 
       income in 2016.</p> 
-      <p>The poverty distribution pattern in D.C is largely reflecdtive of the income
-      distribution pattern - with higher rates of poverty existin in the south-eastern quadrant of
-      the city. One outlier, is Census Tract 95.1, where the entire population exists below
-      the poverty line. </p>
 
-     
+      <p>The poverty distribution pattern in D.C is largely reflecdtive of the income
+      distribution pattern - with higher rates of poverty existing primarily in the eatern
+      portion of the city. In Census Tract 95.1 for example, the entire population 
+      exists below the poverty line. </p>
+
       <p>It is not unusual, for poorer areas to be located near "undesirable land uses" 
-      such as nearby highways or industrial areas, which create even more heat. 
+      such as nearby highways or industrial areas, which create even more heat.</p>
       <p>In dozens of U.S cities, low-income neighborhoods are more likely to be hotter than wealthier
       areas. This combination of poverty and heat, can have dire consequences especially 
       for individuals with disabilities and/or other comorbidities.</p>
-      
+     
       <p class='credit'>Source: <a href='https://www.dcfpi.org/all/income-inequality-dc-highest-country/'>DC Fiscal Policy Institute</a></p>
+      <p class='credit'>Source: <a href='https://planning.dc.gov/sites/default/files/dc/sites/op/page_content/attachments/Segregation%20Report%2011-18-20%20FINAL.pdf'>District of Columbia Office of Planning</a></p>
+      <img src="images/income_poverty.jpg" alt="Income_Poverty"> 
+      <p class='credit'>Poverty Levels and Income Maps</p>
       </p>`,
+      
       location: {
         center: [-77.0869, 38.899],
         zoom: 11.15,
@@ -564,6 +576,53 @@ var config = {
       onChapterExit: [
         {
           layer: "treecover",
+          opacity: 0,
+        },
+      ],
+    },
+
+    {
+      id: "inversion",
+      alignment: "center",
+      hidden: false,
+      title: "Impact of Vegetation on Temperature",
+      //src: 'images/IMG_0890.jpg',
+      description: `The graphic below highlights the almost inverse relationship
+      between the mean air temperatures, and the percentage tree coverage across
+      census tracts.
+      <img src="images/heat_trees.jpg" alt="Heat_Trees"> 
+      <p class='credit'>Mean temperature vs Percentage tree cover</p>`,
+      location: {
+        center: [-77.0869, 38.899],
+        zoom: 11.15,
+        pitch: 0,
+        bearing: 0,
+        //[-77.01505, 38.88974]
+      },
+      mapAnimation: "flyTo",
+      rotateAnimation: false,
+      callback: "",
+      onChapterEnter: [
+        {
+          layer: "neighborhood_clusters",
+          opacity: 1,
+          duration: 3000,
+        },
+
+        {
+          layer: "neighborhood_labels",
+          opacity: 1,
+          duration: 3000,
+        },
+      ],
+      onChapterExit: [
+        {
+          layer: "neighborhood_clusters",
+          opacity: 0,
+        },
+
+        {
+          layer: "neighborhood_labels",
           opacity: 0,
         },
       ],

@@ -14,8 +14,9 @@ This mapping project began as an exploration of the hidden threats posed by leak
 The intent was to examine and depict the 'what', 'who' and 'where' of these installations, along with the existing and potential impacts
 on the general population and the environment.
 
-    this is 
-There are hidden dangers all around us - which are usually unnoticed, or taken for granted. This project will examine the human and economic factors at play. Namely, these are "at risk" populations due to:
+As time elapsed, however, further examination of the data revealed some other patterns which begged to be explored.
+These geographies fell into three (3) broad categories, namely:
+
 1. non-communicable disease
 2. socio-economic factors
 3. Environmental factors

@@ -1,4 +1,4 @@
-# map_dc
+# Map_dc
 
 
 Mapping the two sides of multiple geographies in Washington DC. 
@@ -6,10 +6,13 @@ Mapping the two sides of multiple geographies in Washington DC.
 I want to build a project which examines some environmental and socio-economic factors Washington D.C.
 
 # Where to map? 
-The map will focus on Washington D.C., and examine census tract-level data.
+The map will focus on Washington D.C., and examine data at the Census Tract level.
 
 # Why map?
 
+This mapping project began as an exploration of the hidden threats posed by leaking underground storage tanks (LUSTs) in the D.C. area. 
+The intent was to examine and depict the 'what', 'who' and 'where' of these installations, along with the existing and potential impacts
+on the general population and the environment.
 There are hidden dangers all around us - which are usually unnoticed, or taken for granted. This project will examine the human and economic factors at play. Namely, these are "at risk" populations due to:
 1. non-communicable disease
 2. socio-economic factors

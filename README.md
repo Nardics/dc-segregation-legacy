@@ -14,15 +14,19 @@ This mapping project began as an exploration of the hidden threats posed by leak
 The intent was to examine and depict the 'what', 'who' and 'where' of these installations, along with the existing and potential impacts
 on the general population and the environment.
 
-As time elapsed, however, further examination of the data revealed some other patterns which begged to be explored.
+Washington D.C has a storied history of segregation. As time elapsed, however, further examination of the data revealed some other patterns which begged to be explored.
 These geographies fell into three (3) broad categories, namely:
 
 1. non-communicable disease
 2. socio-economic factors
 3. Environmental factors
 
-These factors led to further enquiry to ascertain where the at risk populations are located in relation to the underground storage tanks. 
+The categories were examined from a historical perspective, with the intent of exploring the legacy of 'redlining', to determine
+any discernable patterns as a result of the practice.
 
+### Sub-categories
+
+The above-mentioned categories were broken into sub-categories for further examination.
 
 
 ## Data Source(s)

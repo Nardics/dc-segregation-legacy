@@ -250,7 +250,8 @@ var config = {
       hidden: false,
       title: "Disabilities",
       image: "images/disability.jpg",
-      description: `<p>People in poor health, including people with chronic conditions, disabilities, 
+      description: `<p class='credit'>Photo Credit: <a href= 'https://stock.adobe.com/in/'>Adobe Stock Photos</a></p>
+      <p>People in poor health, including people with chronic conditions, disabilities, 
       mobility constraints, and those taking certain medications, are vulnerable 
       to extreme temperatures. People with diabetes, physical impairments, and 
       cognitive deficits are especially at risk during heat waves. </p>
@@ -265,8 +266,8 @@ var config = {
       <p> Increasing heat exposure along with global warming could be a potential 
       driver for exacerbating inter-city health inequalities. Socioeconoic factors may combine
       to exacerbate already challenging situations. Disproportionate poverty rates, and poor or 
-      substandard housing create serious challenges for people with disabilities. Low income, 
-      usually means insufficient funds to run the AC, and thus leaves individuals especially 
+      substandard housing create serious challenges for people with disabilities.</p>
+      <p>Low income usually means insufficient funds to run the AC. This leaves individuals especially 
       at risk for heat-related illness. Individuals who fall into 
       multiple categories, such as the poor - who can be old and disabled - are even more
       at risk. </p>`,

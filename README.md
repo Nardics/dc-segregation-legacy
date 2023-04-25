@@ -15,18 +15,31 @@ The intent was to examine and depict the 'what', 'who' and 'where' of these inst
 on the general population and the environment.
 
 Washington D.C has a storied history of segregation. As time elapsed, however, further examination of the data revealed some other patterns which begged to be explored.
-These geographies fell into three (3) broad categories, namely:
+These geographies fell into two (2) broad categories, namely:
 
-1. non-communicable disease
-2. socio-economic factors
-3. Environmental factors
+1. socio-economic factors
+2. Environmental factors
 
 The categories were examined from a historical perspective, with the intent of exploring the legacy of 'redlining', to determine
 any discernable patterns as a result of the practice.
 
 ### Sub-categories
 
-The above-mentioned categories were broken into sub-categories for further examination.
+As previously mentioned, data was examined at the Census Tract level. Five areas were mapped under socio-economic factors:
+1. Income
+2. Poverty levels -percentage of the population below the poverty line, for the period under examination
+3. Disability
+4. Heat Sensitivity Exposure
+5. Population distribution (percentage of population who were persons of colour)
+
+
+## Explanation of Terms
+
+### Heat Island
+### Poverty Line
+
+
+### Heat Index / Heat Sensitivity Exposure Index 
 
 
 ## Data Source(s)

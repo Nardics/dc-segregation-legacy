@@ -26,17 +26,23 @@ any discernable patterns as a result of the practice.
 ### Sub-categories
 
 As previously mentioned, data was examined at the Census Tract level. Five areas were mapped under socio-economic factors:
-1. Income
+1. Income - median income
 2. Poverty levels -percentage of the population below the poverty line, for the period under examination
 3. Disability
 4. Heat Sensitivity Exposure
 5. Population distribution (percentage of population who were persons of colour)
 
-
+Environmental/Physical Factors broached three sub-categories
+1. Mean air temperatures
+2. Percentage of tree coverage
+3. Watersheds
 ## Explanation of Terms
 
 ### Heat Island
 ### Poverty Line
+### Disability
+
+### Watersheds
 
 
 ### Heat Index / Heat Sensitivity Exposure Index 

@@ -23,7 +23,7 @@ var config = {
       id: "intro",
       alignment: "left",
       hidden: false,
-      title: "One City. Many Faces",
+      title: "One City. Plural Geographies",
       image: "images/IMG_0890.jpg",
       description: `Washington, D.C., formally the District of Columbia, commonly known as 
       Washington or D.C., is the capital city and federal district of the United 
@@ -301,11 +301,11 @@ var config = {
       hidden: false,
       title: "Heat Sensitivity Exposure Index",
       image: "images/DSC_8241.jpg",
-      description: ` <p> The heat index, also known as the apparent temperature, is 
-      a combined measure of temperature and relative humidity.
-      This has important considerations for the human body's comfort.  When the body 
-      gets too hot, it begins to perspire or sweat to cool itself off.  If the 
-      perspiration is not able to evaporate, the body cannot regulate its temperature.</p>
+      description: ` <p> The Heat Sensitivity Index is calculated using nine socio-economic and health variables.
+      </p>
+
+      <p>The Heat Sensitivity Exposure Index (HESI), is a combined score of the Heat Sensitivity Index,
+      and the Heat Exposure Index. The HSEI is equal parts sensitivity and exposure. </p>
 
       <p>Heat islands are urbanized areas that experience higher temperatures than outlying 
       areas. Heat islands can exacerbate the impact of naturally occurring heat

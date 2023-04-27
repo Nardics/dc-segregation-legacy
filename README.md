@@ -67,7 +67,10 @@ https://www.epa.gov/heatislands/learn-about-heat-islands
 The heat index is also known as the apparent temperature. As defined by the National Weather Service, the heat index 
 is "what the temperature feels like to the human body when relative humidity is combined with the air temperature."
 
-Additional information can be obtained from https://www.weather.gov/ama/heatindex . 
+Additional insight can be obtained from the following sites:
+
+https://www.weather.gov/ama/heatindex 
+https://doee.dc.gov/sites/default/files/dc/sites/ddoe/service_content/attachments/Methodology%20Report_Update%2005.11.22web_0.pdf
 
 ### Heat Sensitivity Exposure Index
 

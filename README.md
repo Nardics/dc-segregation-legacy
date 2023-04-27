@@ -38,7 +38,41 @@ Environmental/Physical Factors broached three sub-categories
 3. Watersheds
 ## Explanation of Terms
 
+
+### Redlining
+
+Redlining refers to the federal government's practice in the 1930s of rating neighborhoods to help mortgage lenders 
+determine which areas of a city were considered risky. The federal Home Owners' Loan Corporation made maps and shaded 
+neighborhoods red that it deemed "hazardous." That risk level was largely based on the number of African Americans and 
+immigrants living there.
+
+
 ### Heat Island
+According to the EPA, heat islands "are urbanized areas that experience higher temperatures than outlying areas. 
+Structures such as buildings, roads, and other infrastructure absorb and re-emit the sun’s heat more than natural 
+landscapes such as forests and water bodies. 
+
+Urban areas, where these structures are highly concentrated and greenery is limited, become “islands” of higher 
+temperatures relative to outlying areas. Daytime temperatures in urban areas are about 1–7°F higher than temperatures 
+in outlying areas and nighttime temperatures are about 2-5°F higher."
+
+Heat islands can form under a variety of conditions, including during the day or night, in small or large cities, in 
+suburban areas, in northern or southern climates, and in any season.
+
+https://www.epa.gov/heatislands/learn-about-heat-islands
+
+
+
+### Heat Index
+The heat index is also known as the apparent temperature. As defined by the National Weather Service, the heat index 
+is "what the temperature feels like to the human body when relative humidity is combined with the air temperature."
+
+Additional information can be obtained from https://www.weather.gov/ama/heatindex . 
+
+### Heat Sensitivity Exposure Index
+
+
+
 ### Poverty Line
 ### Disability
 
@@ -49,13 +83,22 @@ Environmental/Physical Factors broached three sub-categories
 
 
 ## Data Source(s)
-
+https://www.nature.com/articles/s41467-021-22799-5
 ### Social data
 
-https://opendata.dc.gov/apps/social-characteristics-of-dc-census-tracts/explore
+https://opendata.dc.gov/apps/social-characteristics-of-dc-census-tracts/
+
+### History/Stories of Redlining
+https://www.npr.org/sections/thetwo-way/2016/10/19/498536077/interactive-redlining-map-zooms-in-on-americas-history-of-discrimination
+
+https://www.npr.org/sections/health-shots/2020/11/19/911909187/in-u-s-cities-the-health-effects-of-past-housing-discrimination-are-plain-to-see
+
+https://www.npr.org/2020/01/14/795961381/racist-housing-practices-from-the-1930s-linked-to-hotter-neighborhoods-today
+
 
 
 ### DC Economic characteristics
 https://opendata.dc.gov/apps/economic-characteristics-of-dc-census-tracts/explore accessed 02/06/2023
 
 https://opendata.dc.gov/datasets/acs-2018-median-household-income-variables-tract/explore?location=38.899447%2C-77.014578%2C13.19&showTable=true
+

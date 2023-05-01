@@ -300,7 +300,7 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "Heat Sensitivity Exposure Index",
-      image: "images/DSC_8241.jpg",
+      image: "images/DSC_9250.jpg",
       description: ` <p> The Heat Sensitivity Index is calculated using nine socio-economic and health variables.
      Conversely, the Heat Exposure Index is a combination fo three metrics.</p>
      <p> 
@@ -414,7 +414,7 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "Population Distribution",
-      image: "images/DSC_3284.jpg",
+      image: "images/population_dist.jpeg",
       description: `African Americans are the largest racial group in the District.
       hites are the second largest racial group, followed by Hispanics or Latinos, then 
       Asian and Pacific Islanders. This map depicts the population distribution

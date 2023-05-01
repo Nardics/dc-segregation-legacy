@@ -415,7 +415,8 @@ var config = {
       hidden: false,
       title: "Population Distribution",
       image: "images/population_dist.jpeg",
-      description: `African Americans are the largest racial group in the District.
+      description: `<p class='credit'>Photo Credit: <a href= 'https://stock.adobe.com/in/'>Adobe Stock Photos</a></p>
+      African Americans are the largest racial group in the District.
       hites are the second largest racial group, followed by Hispanics or Latinos, then 
       Asian and Pacific Islanders. This map depicts the population distribution
       of persons of color.`,

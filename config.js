@@ -417,9 +417,12 @@ var config = {
       image: "images/population_dist.jpeg",
       description: `<p class='credit'>Photo Credit: <a href= 'https://stock.adobe.com/in/'>Adobe Stock Photos</a></p>
       African Americans are the largest racial group in the District.
-      hites are the second largest racial group, followed by Hispanics or Latinos, then 
-      Asian and Pacific Islanders. This map depicts the population distribution
-      of persons of color.`,
+      In 2019, the <a href= 'https://edscape.dc.gov/page/pop-and-students-race-and-ethnicity-adults-and-children'>population comprised</a> 
+      of 43% African American, and 41% Whites. The remaining 16% was distributed amongst other ethnicities.</p>
+      <p>A cursory glance at the map reveals clear lines of demarcation between concentrations of Persons of Color, and other ethnicities.
+      The economic correlation is also very apparent. The higher median incomes are recorded in Census Tracts with
+      smaller percentages of Persons of Color. The strong correlation also holds true for individuals living below the poverty line.
+      </p>`,
       location: {
         center: [-77.0869, 38.899],
         zoom: 11.15,
@@ -694,7 +697,8 @@ var config = {
       less money," says Dr. Georges Benjamin, executive director of the American 
       Public Health Association. </p>
       <p> The urban poor, already often in hotter environments and already at 
-      higher risk for health problems, will have a harder time escaping climate change.</p>`,
+      higher risk for health problems, will have a harder time escaping climate change.</p>
+      <p class='outro-text' style='text-align : center'><a href='#'>Return to top of page</a></p>`,
       location: {
         center: [-77.0869, 38.901],
         zoom: 11.5,

@@ -419,9 +419,10 @@ var config = {
       African Americans are the largest racial group in the District.
       In 2019, the <a href= 'https://edscape.dc.gov/page/pop-and-students-race-and-ethnicity-adults-and-children'>population comprised</a> 
       of 43% African American, and 41% Whites. The remaining 16% was distributed amongst other ethnicities.</p>
+
       <p>A cursory glance at the map reveals clear lines of demarcation between concentrations of Persons of Color, and other ethnicities.
-      The economic correlation is also very apparent. The higher median incomes are recorded in Census Tracts with
-      smaller percentages of Persons of Color. The strong correlation also holds true for individuals living below the poverty line.
+      A strong correlation also exists between the median incomes and the distribution of Persons of Color. Census Tracts with the highest
+      median income, are sparsely populated by Persons of Color.This naturally also holds true for individuals living below the poverty line.
       </p>`,
       location: {
         center: [-77.0869, 38.899],

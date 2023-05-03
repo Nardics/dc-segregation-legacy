@@ -304,9 +304,8 @@ var config = {
       description: ` <p> The Heat Sensitivity Index is calculated using nine socio-economic and health variables.
      Conversely, the Heat Exposure Index is a combination fo three metrics.</p>
      <p> 
-     The Heat Sensitivity Exposure Index <a href='https://doee.dc.gov/sites/default/files/dc/sites/ddoe/service_content/attachments/Methodology%20Report_Update%2005.11.22web_0.pdf'>(HESI)</a>
-     (HESI), is a combined score of the Heat Sensitivity Index, and the Heat Exposure Index. The HSEI is equal 
-     parts sensitivity and exposure. </p>
+     The <a href='https://doee.dc.gov/sites/default/files/dc/sites/ddoe/service_content/attachments/Methodology%20Report_Update%2005.11.22web_0.pdf'>Heat Sensitivity Exposure Index </a>(HESI), 
+     is 50/50 combined score of the Heat Sensitivity Index, and the Heat Exposure Index.</p>
 
       <p>Heat islands are urbanized areas that experience higher temperatures than outlying 
       areas. Heat islands can exacerbate the impact of naturally occurring heat

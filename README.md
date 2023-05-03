@@ -3,7 +3,12 @@
 
 Mapping the two sides of multiple geographies in Washington DC. 
 ## What to map ?
-I want to build a project which examines some environmental and socio-economic factors Washington D.C.
+Redlining was a system of unofficially grading portions cities according to several factors, including human and economic.
+The policies and practices intentionally deprived African-American and other households of color,thus limiting their acess to
+homeownership and opportunities to build wealth.  
+Unwittingly, the practice has left a legacy of obscure/inconspicuous geographies in its wake.
+I want to build a project which highlights some environmental and socio-economic factors, which may be legacy effects of the 
+practice of redlining in the city.
 
 # Where to map? 
 The map will focus on Washington D.C., and examine data at the Census Tract level.

@@ -1,4 +1,4 @@
-# Map_dc
+# D.C's Legacy of redlining
 
 
 Mapping the two sides of multiple geographies in Washington DC. 

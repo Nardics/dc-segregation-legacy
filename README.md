@@ -4,29 +4,27 @@
 Mapping the two sides of multiple geographies in Washington DC. 
 ## What to map ?
 Redlining was a system of unofficially grading portions cities according to several factors, including human and economic.
-The policies and practices intentionally deprived African-American and other households of color,thus limiting their acess to
-homeownership and opportunities to build wealth.  
+The policies and practices intentionally deprived African-American and other households of color,thus limiting their acess to homeownership and opportunities to build wealth.  
 Unwittingly, the practice has left a legacy of obscure/inconspicuous geographies in its wake.
-I want to build a project which highlights some environmental and socio-economic factors, which may be legacy effects of the 
-practice of redlining in the city.
+I want to build a project which highlights some environmental and socio-economic factors, which may be legacy effects of the practice of redlining in the city.
 
 # Where to map? 
-The map will focus on Washington D.C., and examine data at the Census Tract level.
+The map will focus on Washington D.C., and examine the distribution patterns of several metrics
+at Census Tract level.
 
-# Why map?
+# Why/When map?
 
 This mapping project began as an exploration of the hidden threats posed by leaking underground storage tanks (LUSTs) in the D.C. area. 
-The intent was to examine and depict the 'what', 'who' and 'where' of these installations, along with the existing and potential impacts
-on the general population and the environment.
+The intent was to examine and depict the 'what', 'who' and 'where' of these installations, along with the existing and potential impacts on the general population and the environment.
 
-Washington D.C has a storied history of segregation. As time elapsed, however, further examination of the data revealed some other patterns which begged to be explored.
-These geographies fell into two (2) broad categories, namely:
+These geographies fell into two (2) broad categories:
 
 1. socio-economic factors
 2. Environmental factors
 
-The categories were examined from a historical perspective, with the intent of exploring the legacy of 'redlining', to determine
-any discernable patterns as a result of the practice.
+However, the data began to reveal that there was another story to tell - of the above-mentioned geographies.
+
+The data categories were examined from a historical perspective, with the intent of exploring the legacy of 'redlining', to determine any discernable patterns as a result of the practice.
 
 ### Sub-categories
 

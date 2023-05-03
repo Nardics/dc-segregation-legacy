@@ -23,7 +23,7 @@ var config = {
       id: "intro",
       alignment: "left",
       hidden: false,
-      title: "One City. Plural Geographies",
+      title: "Washington D.C. - Obscure Geographies",
       image: "images/IMG_0890.jpg",
       description: `Washington, D.C., formally the District of Columbia, commonly known as 
       Washington or D.C., is the capital city and federal district of the United 
@@ -74,7 +74,7 @@ var config = {
       id: "intro-a",
       alignment: "center",
       hidden: false,
-      title: "Plural Geographies",
+      title: "Obscure Geographies",
       //src: 'images/IMG_0890.jpg',
       description: `This project is divided into two broad themes - physical/environmental, 
       and socio-economic. The project focuses on the interconnectivity of these 

@@ -7,7 +7,7 @@
 Redlining was a system of unofficially grading portions cities according to several factors, including human and economic.
 The policies and practices intentionally deprived African-American and other households of color,thus limiting their acess to homeownership and opportunities to build wealth.  
 Unwittingly, the practice has left a legacy of obscure/inconspicuous geographies in its wake across the continental United States. Interestingly, according to the [D.C. Policy Center](https://www.dcpolicycenter.org/publications/mapping-segregation-fha/), no map of redlining exists in the National Archives. The fact remains, however, that D.C. was and is very much a city of segregated geographies.
-I want to build a project which highlights some environmental and socio-economic factors, which may be legacy effects of segregation in the city.
+I want to build a project which highlights some environmental and socio-economic factors from this perspective.
 
 This mapping project began as an exploration of the hidden threats posed by leaking underground storage tanks (LUSTs) in the D.C. area. 
 The intent was to examine and depict the 'what', 'who' and 'where' of these installations, along with the existing and potential impacts on the general population and the environment.
@@ -27,15 +27,17 @@ at Census Tract level.
 
 # II. Methodology
 
-## Data Stack
-QGIS 13
+### Data Stack
+QGIS 3
 
 Windows 
+
+Microsoft Excel
 
 Adobe Photoshop
 
 
-## Data
+### Data
 The project data is sourced from [Open Data DC](https://opendata.dc.gov/)
 
 The following specific datasets have been used in the completion of this project:-

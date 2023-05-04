@@ -29,7 +29,9 @@ at Census Tract level.
 
 ## Data Stack
 QGIS 13
-Windows 11
+
+Windows 
+
 Adobe Photoshop
 
 

@@ -30,7 +30,7 @@ Microsoft Excel
 
 Adobe Photoshop 
 
-[Adobe Color] (https://color.adobe.com/create) - used to create color palettes
+[Adobe Color](https://color.adobe.com/create) - used to create color palettes
 
 [Mapbox](https://www.mapbox.com/)
 

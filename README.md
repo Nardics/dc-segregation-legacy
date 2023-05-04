@@ -1,7 +1,7 @@
 
 # I. Introduction
 
-# D.C.'s Legacy of Segregation
+## D.C.'s Legacy of Segregation
 
 ## What to map ?
 Redlining was a system of unofficially grading portions cities according to several factors, including human and economic.
@@ -17,17 +17,17 @@ These geographies fell into two (2) broad categories:
 1. socio-economic factors
 2. Environmental factors
 
-However, the data began to reveal that there was another story to tell - of the above-mentioned geographies.
+However, the data began to reveal that there was another story to tell. The data was examined from a historical perspective, with the intent of exploring the legacy of 'redlining', to determine any discernable patterns as a result of the practice.
 
-The data categories were examined from a historical perspective, with the intent of exploring the legacy of 'redlining', to determine any discernable patterns as a result of the practice.
+
 
 # Where to map? 
 The map will focus on Washington D.C., and examine the distribution patterns of several metrics
 at Census Tract level.
 
-# Why/When map?
+# II. Methodology
 
-
+The project data is sourced from [Open Data DC](https://opendata.dc.gov/apps/economic-characteristics-of-dc-census-tracts-2017-2021-5-year-acs/explore).
 
 ### Sub-categories
 

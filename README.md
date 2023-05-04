@@ -27,7 +27,13 @@ at Census Tract level.
 
 # II. Methodology
 
-The project data is sourced from [Open Data DC](https://opendata.dc.gov/apps/economic-characteristics-of-dc-census-tracts-2017-2021-5-year-acs/explore).
+
+The project data is sourced from [Open Data DC](https://opendata.dc.gov/)
+
+
+(https://opendata.dc.gov/apps/economic-characteristics-of-dc-census-tracts-2017-2021-5-year-acs/explore).
+
+(https://opendata.dc.gov/apps/social-characteristics-of-dc-census-tracts-2017-2021-5-year-acs/explore)
 
 ### Sub-categories
 

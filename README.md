@@ -28,7 +28,7 @@ Windows 11
 
 Microsoft Excel
 
-Adobe Photoshop 
+Adobe Photoshop - creation of collage and comparison maps
 
 [Adobe Color](https://color.adobe.com/create) - used to create color palettes
 
@@ -57,16 +57,20 @@ The following specific datasets have been used in the completion of this project
 
 
 
-### Sub-categories
+### Visualization
 
-As previously mentioned, data was examined at the Census Tract level. Five areas were mapped under socio-economic factors:
+The Census Tract-level data was used to create the following thematic choropleth maps:
+
+#### Human and Economic Geographies
+
+
 1. Income - median income
 2. Poverty levels -percentage of the population below the poverty line, for the period under examination
 3. Disability
 4. Heat Sensitivity Exposure
 5. Population distribution (percentage of population who were persons of colour)
 
-Environmental/Physical Factors broached three sub-categories
+#### Environmental/Physical Geographies
 1. Mean air temperatures
 2. Percentage of tree coverage
 3. Watersheds

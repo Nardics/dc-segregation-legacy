@@ -32,9 +32,12 @@ The project data is sourced from [Open Data DC](https://opendata.dc.gov/)
 
 The following specific datasets have been used in the completion of this project:-
 
-[Economic Characteristics](https://opendata.dc.gov/apps/economic-characteristics-of-dc-census-tracts-2017-2021-5-year-acs/explore).
 
-[Social Characteristics](https://opendata.dc.gov/apps/social-characteristics-of-dc-census-tracts-2017-2021-5-year-acs/explore)
+[Heat Sensitivity Exposure Index, Tree Cover, Poverty, Disabilities, Population Distribution and Mean Air Temperature](https://opendata.dc.gov/datasets/heat-sensitivity-exposure-index/explore)
+[Economic Characteristics of D.C. Census Tracts](https://opendata.dc.gov/apps/economic-characteristics-of-dc-census-tracts-2017-2021-5-year-acs/explore). The desired attributes were filtered and exported in Comma Separated Variable format. This table was joined 
+
+[Social Characteristics of D.C. Census Tracts](https://opendata.dc.gov/apps/social-characteristics-of-dc-census-tracts-2017-2021-5-year-acs/explore)
+
 
 ### Sub-categories
 

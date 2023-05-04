@@ -9,12 +9,6 @@ The policies and practices intentionally deprived African-American and other hou
 Unwittingly, the practice has left a legacy of obscure/inconspicuous geographies in its wake across the continental United States. Interestingly, according to the [D.C. Policy Center](https://www.dcpolicycenter.org/publications/mapping-segregation-fha/), no map of redlining exists in the National Archives. The fact remains, however, that D.C. was and is very much a city of segregated geographies.
 I want to build a project which highlights some environmental and socio-economic factors, which may be legacy effects of segregation in the city.
 
-# Where to map? 
-The map will focus on Washington D.C., and examine the distribution patterns of several metrics
-at Census Tract level.
-
-# Why/When map?
-
 This mapping project began as an exploration of the hidden threats posed by leaking underground storage tanks (LUSTs) in the D.C. area. 
 The intent was to examine and depict the 'what', 'who' and 'where' of these installations, along with the existing and potential impacts on the general population and the environment.
 
@@ -26,6 +20,14 @@ These geographies fell into two (2) broad categories:
 However, the data began to reveal that there was another story to tell - of the above-mentioned geographies.
 
 The data categories were examined from a historical perspective, with the intent of exploring the legacy of 'redlining', to determine any discernable patterns as a result of the practice.
+
+# Where to map? 
+The map will focus on Washington D.C., and examine the distribution patterns of several metrics
+at Census Tract level.
+
+# Why/When map?
+
+
 
 ### Sub-categories
 

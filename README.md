@@ -74,6 +74,13 @@ The Census Tract-level data was used to create the following thematic choropleth
 1. Mean air temperatures
 2. Percentage of tree coverage
 3. Watersheds
+
+
+
+
+#### Visual Overview
+
+<img src="images/data_spread.jpg" alt="Figure 3. Modeling Overview" style="max-width: 100%;"></a></p>
 ## Explanation of Terms
 
 

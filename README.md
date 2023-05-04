@@ -27,6 +27,12 @@ at Census Tract level.
 
 # II. Methodology
 
+## Data Stack
+QGIS 13
+Windows 11
+Adobe Photoshop
+
+
 ## Data
 The project data is sourced from [Open Data DC](https://opendata.dc.gov/)
 

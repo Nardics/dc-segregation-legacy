@@ -6,35 +6,33 @@
 ## What to map ?
 Redlining was a system of unofficially grading portions cities according to several factors, including human and economic.
 The policies and practices intentionally deprived African-American and other households of color,thus limiting their acess to homeownership and opportunities to build wealth.  
+
 Unwittingly, the practice has left a legacy of obscure/inconspicuous geographies in its wake across the continental United States. Interestingly, according to the [D.C. Policy Center](https://www.dcpolicycenter.org/publications/mapping-segregation-fha/), no map of redlining exists in the National Archives. The fact remains, however, that D.C. was and is very much a city of segregated geographies.
 I want to build a project which highlights some environmental and socio-economic factors from this perspective.
 
 This mapping project began as an exploration of the hidden threats posed by leaking underground storage tanks (LUSTs) in the D.C. area. 
 The intent was to examine and depict the 'what', 'who' and 'where' of these installations, along with the existing and potential impacts on the general population and the environment.
 
-These geographies fell into two (2) broad categories:
+These geographies fell into two (2) broad categories- Socio-economic factors and Environmental factors.
 
-1. socio-economic factors
-2. Environmental factors
+However, the data began to reveal that there was another story to tell, with emphasis on the same two categories. The data was examined from a historical perspective, with the intent of exploring the legacy of 'redlining', to determine any discernable patterns as a result of the practice.
 
-However, the data began to reveal that there was another story to tell. The data was examined from a historical perspective, with the intent of exploring the legacy of 'redlining', to determine any discernable patterns as a result of the practice.
+# Medium for Delivery
 
-
-
-# Where to map? 
-The map will focus on Washington D.C., and examine the distribution patterns of several metrics
-at Census Tract level.
-
-# II. Methodology
+The story map is browser-based. 
 
 ### Data Stack
 QGIS 3
 
-Windows 
+Windows 11
 
 Microsoft Excel
 
-Adobe Photoshop
+Adobe Photoshop 
+
+[Adobe Color] (https://color.adobe.com/create) - used to create color palettes
+
+[Mapbox](https://www.mapbox.com/)
 
 
 ### Data
@@ -43,9 +41,9 @@ The project data is sourced from [Open Data DC](https://opendata.dc.gov/)
 The following specific datasets have been used in the completion of this project:-
 
 
-[Heat Sensitivity Exposure Index, Tree Cover, Poverty, Disabilities, Population Distribution and Mean Air Temperature](https://opendata.dc.gov/datasets/heat-sensitivity-exposure-index/explore), data was derived from this single JSON file.
+[Heat Sensitivity Exposure Index, Tree Cover, Poverty, Disabilities, Population Distribution and Mean Air Temperature](https://opendata.dc.gov/datasets/heat-sensitivity-exposure-index/explore), data was derived from this single GeoJSON file.
 
-[Economic Characteristics of D.C. Census Tracts](https://opendata.dc.gov/apps/economic-characteristics-of-dc-census-tracts-2017-2021-5-year-acs/explore). The data was filtered and exported in Comma Separated Variable format. This table was joined to the data for heat sensitivity exposure, using QGIS. The resultant data was exported as a JSON file.
+[Economic Characteristics of D.C. Census Tracts](https://opendata.dc.gov/apps/economic-characteristics-of-dc-census-tracts-2017-2021-5-year-acs/explore). The data was filtered and exported in Comma Separated Variable format. This table was joined to the data for heat sensitivity exposure, using QGIS. The resultant data was exported as a GeoJSON file.
 
 [D.C. Census Tracts](https://opendata.dc.gov/datasets/DCGIS::census-tracts-in-2010/explore)
 

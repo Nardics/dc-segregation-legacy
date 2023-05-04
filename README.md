@@ -30,10 +30,11 @@ at Census Tract level.
 
 The project data is sourced from [Open Data DC](https://opendata.dc.gov/)
 
+The following specific datasets have been used in the completion of this project:-
 
-(https://opendata.dc.gov/apps/economic-characteristics-of-dc-census-tracts-2017-2021-5-year-acs/explore).
+[Economic Characteristics](https://opendata.dc.gov/apps/economic-characteristics-of-dc-census-tracts-2017-2021-5-year-acs/explore).
 
-(https://opendata.dc.gov/apps/social-characteristics-of-dc-census-tracts-2017-2021-5-year-acs/explore)
+[Social Characteristics](https://opendata.dc.gov/apps/social-characteristics-of-dc-census-tracts-2017-2021-5-year-acs/explore)
 
 ### Sub-categories
 

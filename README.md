@@ -1,7 +1,11 @@
-# D.C's Legacy of redlining
+
+# I. Introduction
+
+Washington D.C. has a storied history of segregation.[This is a test(Really)](https://www.dcpolicycenter.org/publications/mapping-segregation-fha/)
+# D.C.'s Legacy of segregation
 
 
-Mapping the two sides of multiple geographies in Washington DC. 
+Mapping multiple geographies in Washington DC. 
 ## What to map ?
 Redlining was a system of unofficially grading portions cities according to several factors, including human and economic.
 The policies and practices intentionally deprived African-American and other households of color,thus limiting their acess to homeownership and opportunities to build wealth.  

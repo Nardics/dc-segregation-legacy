@@ -686,7 +686,7 @@ var config = {
       id: "conclusion",
       alignment: "center",
       hidden: false,
-      title: "Conclusions",
+      title: "The Big Picture",
       //src: 'images/IMG_0890.jpg',
       description: `<p>Studies have established that vulnerability to heat waves is a combined 
       result of the socio-economic, physiological, climatological, as well as 

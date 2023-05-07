@@ -80,7 +80,7 @@ The Census Tract-level data was used to create the following thematic choropleth
 
 #### Visual Overview
 
-<img src="images/data_spread.jpg" alt="Figure 3. Modeling Overview" style="max-width: 100%;"></a></p>
+<img src="images/big_picture.jpg" alt="Figure 3. Modeling Overview" style="max-width: 100%;"></a></p>
 ## Explanation of Terms
 
 

@@ -16,7 +16,7 @@
             margin: 0;
             padding: 0;
             font-family: sans-serif;
-            
+
         }
 
         a,
@@ -92,7 +92,7 @@
         .light {
             color: #444;
             background-color: #fafafa;
-            
+
         }
 
         .dark {
@@ -163,6 +163,31 @@
         .mapboxgl-canvas-container.mapboxgl-touch-zoom-rotate.mapboxgl-touch-drag-pan .mapboxgl-canvas {
             touch-action: unset;
         }
+
+        /* gradient option area  */
+        #grad1 {
+            height: 150px;
+            width: 200px;
+            color: white;
+
+            background-image: linear-gradient(0deg,
+                    #f8f5f1,
+
+                    #EBC5A5,
+
+                    #F0BA91,
+
+                    #E6A07A,
+
+                    #C98C75,
+
+                    #A47A7B,
+
+                    #8B7A89
+                    );
+        }
+
+        /* end */
     </style>
 </head>
 
@@ -181,7 +206,18 @@
     </div>
     </div>
 
-    <div id='heat-legend' class='legend'>
+    <!-- test area -->
+    <div id='grad1' class='legend'>
+        <h4>Heat Sensitivity Exposure Index</h4>
+
+        <div><span style='background-color: #13bac3'></span>Cooling Center</div>
+
+
+    </div>
+    </div>
+    <!-- test area ends -->
+
+    <!-- <div id='heat-legend' class='legend'>
     <h4>Heat Sensitivity Exposure Index</h4>
     <div><span style='background-color: #13bac3'></span>Cooling Center</div>
     <div><span style='background-color: #f8f5f1'></span>Low</div>
@@ -192,7 +228,7 @@
     <div><span style='background-color: #A47A7B'></span></div>
     <div><span style='background-color: #8B7A89'></span>High</div>
     </div>
-    </div>
+    </div> -->
 
     <div id='disability-legend' class='legend'>
         <h4>% Population with Disability</h4>
@@ -201,71 +237,71 @@
         <div><span style='background-color: #6f8eb8'></span>10 - 15</div>
         <div><span style='background-color: #435165'></span>15 - 25</div>
         <div><span style='background-color: #102228'></span>25 - 35</div>
-        </div>
-        </div>
+    </div>
+    </div>
 
     <div id='income-legend' class='legend'>
-    <h4>Median Household Income </h4>
-    <div><span style='background-color: #000000'></span>No Data/Unreliable</div>
-    <div><span style='background-color: #D5DCE4'></span>$13,510 - $58,250</div>
-    <div><span style='background-color: #B5C6D4'></span>$58,250 - $97,180</div>
-    <div><span style='background-color: #98B2D0'></span>$97,180 - $136,980</div>
-    <div><span style='background-color: #5E7598'></span>$136,980 - $191,480</div>
-    <div><span style='background-color: #404B61'></span>$191,480 - $250,001</div>
+        <h4>Median Household Income </h4>
+        <div><span style='background-color: #000000'></span>No Data/Unreliable</div>
+        <div><span style='background-color: #D5DCE4'></span>$13,510 - $58,250</div>
+        <div><span style='background-color: #B5C6D4'></span>$58,250 - $97,180</div>
+        <div><span style='background-color: #98B2D0'></span>$97,180 - $136,980</div>
+        <div><span style='background-color: #5E7598'></span>$136,980 - $191,480</div>
+        <div><span style='background-color: #404B61'></span>$191,480 - $250,001</div>
     </div>
     </div>
 
     <div id='trees-legend' class='legend'>
-    <h4>Percentage Tree Cover</h4>
-    <div><span style='background-color: #e7eed8'></span>0.02 -0.15</div>
-    <div><span style='background-color: #b2c1a6'></span>0.15 - 0.26</div>
-    <div><span style='background-color: #85a15e'></span>0.26 - 0.39</div>
-    <div><span style='background-color: #3f4e2b'></span>0.39 - 0.55</div>
-    <div><span style='background-color: #0a2800'></span>0.55 - 0.80</div>
+        <h4>Percentage Tree Cover</h4>
+        <div><span style='background-color: #e7eed8'></span>0.02 -0.15</div>
+        <div><span style='background-color: #b2c1a6'></span>0.15 - 0.26</div>
+        <div><span style='background-color: #85a15e'></span>0.26 - 0.39</div>
+        <div><span style='background-color: #3f4e2b'></span>0.39 - 0.55</div>
+        <div><span style='background-color: #0a2800'></span>0.55 - 0.80</div>
     </div>
     </div>
 
     <div id='cooling-legend' class='legend'>
-    <h4>Cooling Centers</h4>
-    <div><span style='background-color: #13bac3'></span>Cooling Centers</div>
+        <h4>Cooling Centers</h4>
+        <div><span style='background-color: #13bac3'></span>Cooling Centers</div>
     </div>
     </div>
 
     <div id='drainage-legend' class='legend'>
-    <h4>D.C. Watersheds</h4>
-    <div><span style='background-color: #f2a273'></span>Rock Creek-Potomac River</div>
-    <div><span style='background-color: #3c5872'></span>Washington Metropolitan</div>
-    <div><span style='background-color: #8295a6'></span>Difficult Run-Potomac River</div>
-    <div><span style='background-color: #bfabb9'></span>Cameron Run-Potomac River</div>
+        <h4>D.C. Watersheds</h4>
+        <div><span style='background-color: #f2a273'></span>Rock Creek-Potomac River</div>
+        <div><span style='background-color: #3c5872'></span>Washington Metropolitan</div>
+        <div><span style='background-color: #8295a6'></span>Difficult Run-Potomac River</div>
+        <div><span style='background-color: #bfabb9'></span>Cameron Run-Potomac River</div>
     </div>
     </div>
 
-   
+
     <div id='race-legend' class='legend'>
-    <h4>% Population - Persons of Color</h4>
-    <div><span style='background-color: #dbe2eb'></span>0 - 31.1</div>
-    <div><span style='background-color: #9daeca'></span>31.1 - 45.9</div>
-    <div><span style='background-color: #4876ad'></span>45.9 - 76.7</div>
-    <div><span style='background-color: #2b5794'></span>76.7 - 95.8</div>
-    <div><span style='background-color: #1f3d74'></span>95.8 - 100</div>
+        <h4>% Population - Persons of Color</h4>
+        <div><span style='background-color: #dbe2eb'></span>0 - 31.1</div>
+        <div><span style='background-color: #9daeca'></span>31.1 - 45.9</div>
+        <div><span style='background-color: #4876ad'></span>45.9 - 76.7</div>
+        <div><span style='background-color: #2b5794'></span>76.7 - 95.8</div>
+        <div><span style='background-color: #1f3d74'></span>95.8 - 100</div>
     </div>
-    </div> 
+    </div>
 
 
 
     <div id='poverty-legend' class='legend'>
-    <h4>% Population Below Poverty Line</h4>
-    <!-- <div><span style='background-color: #44aaee'></span>No Data</div> -->
-    <div><span style='background-color: #f2f2f2'></span>0 - 20</div>
-    <div><span style='background-color: #a8b6bf'></span>20 - 40</div>
-    <div><span style='background-color: #687e8c'></span>40 - 60</div>
-    <div><span style='background-color: #2e3940'></span>60 - 80</div>
-    <div><span style='background-color: #1c2226'></span>80 - 100</div>
+        <h4>% Population Below Poverty Line</h4>
+        <!-- <div><span style='background-color: #44aaee'></span>No Data</div> -->
+        <div><span style='background-color: #f2f2f2'></span>0 - 20</div>
+        <div><span style='background-color: #a8b6bf'></span>20 - 40</div>
+        <div><span style='background-color: #687e8c'></span>40 - 60</div>
+        <div><span style='background-color: #2e3940'></span>60 - 80</div>
+        <div><span style='background-color: #1c2226'></span>80 - 100</div>
     </div>
     </div>
 
-   
-   
+
+
 
     <div id="story"></div>
     <script src="./config.js"></script>
@@ -481,7 +517,7 @@
                         $("#poverty-legend").hide();
                     }
 
-                    
+
                     if (chapterid == "intro-a") {
                         $("#temps-legend").hide();
                         $("#heat-legend").hide();
@@ -499,7 +535,7 @@
                         $("#disability-legend").hide();
                         $("#income-legend").show();
                         $("#trees-legend").hide();
-                        $("#cooling-legend").hide(); 
+                        $("#cooling-legend").hide();
                         $("#race-legend").hide();
                         $("#poverty-legend").hide();
                     }
@@ -515,21 +551,22 @@
                         $("#poverty-legend").show();
                     }
 
-                    
+
                     if (chapterid == "disability") {
                         $("#temps-legend").hide();
                         $("#heat-legend").hide();
                         $("#disability-legend").show();
                         $("#income-legend").hide();
                         $("#trees-legend").hide();
-                        $("#cooling-legend").hide(); 
+                        $("#cooling-legend").hide();
                         $("#race-legend").hide();
                         $("#poverty-legend").hide();
                     }
 
                     if (chapterid == "heat-sensitivity") {
                         $("#temps-legend").hide();
-                        $("#heat-legend").show();
+                        // $("#heat-legend").show();
+                        $("#grad1").show();
                         $("#disability-legend").hide();
                         $("#income-legend").hide();
                         $("#trees-legend").hide();
@@ -544,7 +581,7 @@
                         $("#disability-legend").hide();
                         $("#income-legend").hide();
                         $("#trees-legend").hide();
-                        $("#cooling-legend").hide(); 
+                        $("#cooling-legend").hide();
                         $("#race-legend").show();
                         $("#poverty-legend").hide();
                     }
@@ -568,13 +605,13 @@
                         $("#disability-legend").hide();
                         $("#income-legend").hide();
                         $("#trees-legend").hide();
-                        $("#cooling-legend").hide(); 
+                        $("#cooling-legend").hide();
                         $("#race-legend").hide();
                         $("#poverty-legend").hide();
                     }
-                  
 
-                
+
+
 
                     if (chapterid == "tree-cover") {
                         $("#temps-legend").hide();
@@ -582,7 +619,7 @@
                         $("#disability-legend").hide();
                         $("#income-legend").hide();
                         $("#trees-legend").show();
-                        $("#cooling-legend").hide(); 
+                        $("#cooling-legend").hide();
                         $("#race-legend").hide();
                         $("#poverty-legend").hide();
                     }
@@ -609,7 +646,7 @@
                         $("#poverty-legend").hide();
                     }
 
-                                                   
+
 
 
 

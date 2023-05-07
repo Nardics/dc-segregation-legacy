@@ -79,7 +79,7 @@ var config = {
       description: `This project is divided into two broad themes - physical/environmental, 
       and socio-economic. The project focuses on the interconnectivity of these 
       geographies, and how they impact each other.
-      <p>In this segment, we begin by visualizing th distribution of key metrics within the city.
+      <p>In this segment, we begin by visualizing the distribution of key metrics within the city.
       These are: 
       <ul>
     <li>Income</li>
@@ -420,7 +420,8 @@ var config = {
       of 43% African American, and 41% Whites. The remaining 16% was distributed amongst other ethnicities.</p>
 
       <p>A cursory glance at the map reveals clear lines of demarcation between concentrations of Persons of Color, and other ethnicities.
-      A strong correlation also exists between the median incomes and the distribution of Persons of Color. Census Tracts with the highest
+      A strong correlation also exists between the median incomes and the distribution of Persons of Color.</p>
+      <p>Census Tracts with the highest
       median income, are sparsely populated by Persons of Color.This naturally also holds true for individuals living below the poverty line.
       </p>`,
       location: {
@@ -687,7 +688,7 @@ var config = {
       alignment: "center",
       hidden: false,
       title: "The Big Picture",
-      image: 'images/big_picture.jpg',
+      image: 'images/big_picture2.jpg',
       description: `<p>Studies have established that vulnerability to heat waves is a combined 
       result of the socio-economic, physiological, climatological, as well as 
       behavioural variables. This is not only because poverty itself is a health 

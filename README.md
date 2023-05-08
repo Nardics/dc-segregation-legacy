@@ -144,9 +144,7 @@ The[Census Bureau](https://www.census.gov/topics/income-poverty/poverty/guidance
 
 ### Disability
 
-The [CDC](https://www.cdc.gov/ncbddd/disabilityandhealth/disability.html) defines 'disability' as: 
-
-"any condition of the body or mind (impairment) that makes it more difficult for the person with the condition to do certain activities (activity limitation) and interact with the world around them (participation restrictions)."
+The [CDC](https://www.cdc.gov/ncbddd/disabilityandhealth/disability.html) defines 'disability' as: "any condition of the body or mind (impairment) that makes it more difficult for the person with the condition to do certain activities (activity limitation) and interact with the world around them (participation restrictions)."
 ### Watersheds
 
 

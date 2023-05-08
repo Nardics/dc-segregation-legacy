@@ -130,6 +130,7 @@ Each variable is standardized and indexed using a weighted formula. Finally the 
 ### Heat Exposure Index (HEI)
 
 Air temperature, Impervious Surface Cover and Tree Canopy Cover are used to determine the Heat Exposure Index. The index is calculated in similar manner to the HSI.
+
 ### Heat Sensitivity Exposure Index
 
 The Heat Sensitivity Exposure Index is an equal-part combination of the Heat Sensitivity Index and Heat Exposure Index.
@@ -145,11 +146,11 @@ The [Census Bureau](https://www.census.gov/topics/income-poverty/poverty/guidanc
 ### Disability
 
 The [CDC](https://www.cdc.gov/ncbddd/disabilityandhealth/disability.html) defines 'disability' as: "any condition of the body or mind (impairment) that makes it more difficult for the person with the condition to do certain activities (activity limitation) and interact with the world around them (participation restrictions)."
+
+
 ### Watersheds
 
-
-### Heat Index / Heat Sensitivity Exposure Index 
-
+The [National Ocean Service](https://oceanservice.noaa.gov/facts/watershed.html) defines 'watershed' as: "a land area that channels rainfall and snowmelt to creeks, streams, and rivers, and eventually to outflow points such as reservoirs, bays, and the ocean."
 
 ## Data Source(s)
 https://www.nature.com/articles/s41467-021-22799-5
@@ -158,11 +159,14 @@ https://www.nature.com/articles/s41467-021-22799-5
 https://opendata.dc.gov/apps/social-characteristics-of-dc-census-tracts/
 
 ### History/Stories of Redlining
-https://www.npr.org/sections/thetwo-way/2016/10/19/498536077/interactive-redlining-map-zooms-in-on-americas-history-of-discrimination
 
-https://www.npr.org/sections/health-shots/2020/11/19/911909187/in-u-s-cities-the-health-effects-of-past-housing-discrimination-are-plain-to-see
 
-https://www.npr.org/2020/01/14/795961381/racist-housing-practices-from-the-1930s-linked-to-hotter-neighborhoods-today
+[America's History Of Discrimination](https://www.npr.org/sections/thetwo-way/2016/10/19/498536077/interactive-redlining-map-zooms-in-on-americas-history-of-discrimination)
+
+
+[Effects of Discrimination](https://www.npr.org/sections/health-shots/2020/11/19/911909187/in-u-s-cities-the-health-effects-of-past-housing-discrimination-are-plain-to-see)
+
+[Historical Impacts on Current Neighborhoods](https://www.npr.org/2020/01/14/795961381/racist-housing-practices-from-the-1930s-linked-to-hotter-neighborhoods-today)
 
 
 

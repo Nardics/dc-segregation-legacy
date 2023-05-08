@@ -1,7 +1,6 @@
+# D.C.'s Legacy of Segregation
 
-# I. Introduction
-
-## D.C.'s Legacy of Segregation
+## I. Introduction
 
 ## What to map ?
 Redlining was a system of unofficially grading portions cities according to several factors, including human and economic.

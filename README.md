@@ -131,7 +131,7 @@ Each variable is standardized and indexed using a weighted formula. Finally the 
 
 Air temperature, Impervious Surface Cover and Tree Canopy Cover are used to determine the Heat Exposure Index. The index is calculated in similar manner to the HSI.
 
-### Heat Sensitivity Exposure Index
+### Heat Sensitivity Exposure Index (HSEI)
 
 The Heat Sensitivity Exposure Index is an equal-part combination of the Heat Sensitivity Index and Heat Exposure Index.
 

@@ -119,8 +119,20 @@ Additional insight can be obtained from:
 
 [D.C. Department of Energy and Environment](https://doee.dc.gov/sites/default/files/dc/sites/ddoe/service_content/attachments/Methodology%20Report_Update%2005.11.22web_0.pdf)
 
+
+
+### Heat Sensitivity Index (HSI)
+
+This metric is calculated using a total of nine socio-economic and health variables. 
+Each variable is standardized and indexed using a weighted formula. Finally the indices are summed.
+
+
+### Heat Exposure Index (HEI)
+
+Air temperature, Impervious Surface Cover and Tree Canopy Cover are used to determine the Heat Exposure Index. The index is calculated in similar manner to the HSI.
 ### Heat Sensitivity Exposure Index
 
+The Heat Sensitivity Exposure Index is an equal-part combination of the Heat Sensitivity Index and Heat Exposure Index.
 
 
 ### Poverty Line

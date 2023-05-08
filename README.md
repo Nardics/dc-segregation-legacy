@@ -169,9 +169,3 @@ https://opendata.dc.gov/apps/social-characteristics-of-dc-census-tracts/
 [Historical Impacts on Current Neighborhoods](https://www.npr.org/2020/01/14/795961381/racist-housing-practices-from-the-1930s-linked-to-hotter-neighborhoods-today)
 
 
-
-### DC Economic characteristics
-https://opendata.dc.gov/apps/economic-characteristics-of-dc-census-tracts/explore accessed 02/06/2023
-
-https://opendata.dc.gov/datasets/acs-2018-median-household-income-variables-tract/explore?location=38.899447%2C-77.014578%2C13.19&showTable=true
-

@@ -420,9 +420,11 @@ var config = {
       of 43% African American, and 41% Whites. The remaining 16% was distributed amongst other ethnicities.</p>
 
       <p>A cursory glance at the map reveals clear lines of demarcation between concentrations of Persons of Color, and other ethnicities.
-      A strong correlation also exists between the median incomes and the distribution of Persons of Color.</p>
-      <p>Census Tracts with the highest
-      median income, are sparsely populated by Persons of Color.This naturally also holds true for individuals living below the poverty line.
+      A strong correlation also exists between the median incomes and the distribution of Persons of Color. As hihglighted
+      in the <a href='https://doee.dc.gov/sites/default/files/dc/sites/ddoe/service_content/attachments/Methodology%20Report_Update%2005.11.22web_0.pdf'CADMUS Report <a/>,
+      historical and structural patterns can influence health risks and outcomes.</p>
+      <p>Census Tracts with the highest median income, are sparsely populated by Persons of Color. This naturally also holds true for 
+      individuals living below the poverty line.
       </p>`,
       location: {
         center: [-77.0869, 38.899],

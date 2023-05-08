@@ -135,9 +135,18 @@ Air temperature, Impervious Surface Cover and Tree Canopy Cover are used to dete
 The Heat Sensitivity Exposure Index is an equal-part combination of the Heat Sensitivity Index and Heat Exposure Index.
 
 
-### Poverty Line
+### Poverty Line 
+
+The poverty line is defined as "the estimated minimum level of income needed to secure the necessities of life."
+
+
+The[Census Bureau](https://www.census.gov/topics/income-poverty/poverty/guidance/poverty-measures.html) gives a comprehensive explanation on how to measure "poverty".
+
 ### Disability
 
+The [CDC](https://www.cdc.gov/ncbddd/disabilityandhealth/disability.html) defines 'disability' as: 
+
+"any condition of the body or mind (impairment) that makes it more difficult for the person with the condition to do certain activities (activity limitation) and interact with the world around them (participation restrictions)."
 ### Watersheds
 
 

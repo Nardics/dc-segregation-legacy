@@ -104,7 +104,9 @@ in outlying areas and nighttime temperatures are about 2-5°F higher."
 Heat islands can form under a variety of conditions, including during the day or night, in small or large cities, in 
 suburban areas, in northern or southern climates, and in any season.
 
-https://www.epa.gov/heatislands/learn-about-heat-islands
+Additional information can be found on the [Environmental Protection Agency's](https://www.epa.gov/heatislands/learn-about-heat-islands) website
+
+
 
 
 

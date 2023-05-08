@@ -22,11 +22,12 @@ However, the data began to reveal that there was another story to tell, with emp
 The story map is browser-based. 
 
 ### Data Stack
-QGIS 3
 
-Windows 11
+Windows 11 - Operating system
 
-Microsoft Excel
+QGIS3 - Used to clean data, and obtain initial visualizations
+
+Microsoft Excel - Used to edit CSV data
 
 Adobe Photoshop - creation of collage and comparison maps
 

@@ -140,7 +140,7 @@ The Heat Sensitivity Exposure Index is an equal-part combination of the Heat Sen
 The poverty line is defined as "the estimated minimum level of income needed to secure the necessities of life."
 
 
-The[Census Bureau](https://www.census.gov/topics/income-poverty/poverty/guidance/poverty-measures.html) gives a comprehensive explanation on how to measure "poverty".
+The [Census Bureau](https://www.census.gov/topics/income-poverty/poverty/guidance/poverty-measures.html) gives a comprehensive explanation on how to measure "poverty".
 
 ### Disability
 

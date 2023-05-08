@@ -104,9 +104,7 @@ in outlying areas and nighttime temperatures are about 2-5°F higher."
 Heat islands can form under a variety of conditions, including during the day or night, in small or large cities, in 
 suburban areas, in northern or southern climates, and in any season.
 
-Additional information can be found on the [Environmental Protection Agency's](https://www.epa.gov/heatislands/learn-about-heat-islands) website
-
-
+Additional information can be found on the [Environmental Protection Agency's](https://www.epa.gov/heatislands/learn-about-heat-islands) website.
 
 
 
@@ -114,10 +112,12 @@ Additional information can be found on the [Environmental Protection Agency's](h
 The heat index is also known as the apparent temperature. As defined by the National Weather Service, the heat index 
 is "what the temperature feels like to the human body when relative humidity is combined with the air temperature."
 
-Additional insight can be obtained from the following sites:
+Additional insight can be obtained from:
 
-https://www.weather.gov/ama/heatindex 
-https://doee.dc.gov/sites/default/files/dc/sites/ddoe/service_content/attachments/Methodology%20Report_Update%2005.11.22web_0.pdf
+
+[National Weather Service](https://www.weather.gov/ama/heatindex)
+
+[D.C. Department of Energy and Environment](https://doee.dc.gov/sites/default/files/dc/sites/ddoe/service_content/attachments/Methodology%20Report_Update%2005.11.22web_0.pdf)
 
 ### Heat Sensitivity Exposure Index
 

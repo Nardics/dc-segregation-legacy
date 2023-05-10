@@ -597,7 +597,7 @@ var config = {
       hidden: false,
       title: "Impact of Vegetation on Temperature",
       //src: 'images/IMG_0890.jpg',
-      description: `The graphic below highlights the almost inverse relationship
+      description: `The figure below highlights the almost inverse relationship
       between the mean air temperatures, and the percentage tree coverage across
       census tracts.
       <img src="images/heat_trees.jpg" alt="Heat_Trees"> 

@@ -267,6 +267,7 @@ var config = {
       driver for exacerbating inter-city health inequalities. Socioeconoic factors may combine
       to exacerbate already challenging situations. Disproportionate poverty rates, and poor or 
       substandard housing create serious challenges for people with disabilities.</p>
+
       <p>Low income usually means insufficient funds to run the AC. This leaves individuals especially 
       at risk for heat-related illness. Individuals who fall into 
       multiple categories, such as the poor - who can be old and disabled - are even more
@@ -505,12 +506,14 @@ var config = {
       such as forests and water bodies. Urban areas, where these 
       structures are highly concentrated and greenery is limited, 
       become “islands” of higher temperatures relative to outlying areas. 
-      These pockets of heat are referred to as “heat islands.” 
+      These pockets of heat are referred to as “heat islands.” </p>
+
       <p>Heat islands can form under a variety of conditions, including 
       during the day or night, in small or large cities, in suburban areas, 
       in northern or southern climates, and in any season.
       Heat islands can contribute to a range of environmental, energy, 
       economic, and human health impacts.</p>
+
       <p>The accompanying map represents the average temperatures within each census
       tract. As can be seen, the warmest temperatures exist centrally and towards the 
       north-east of the study area. It is known, that there is a strong relationship
@@ -650,9 +653,13 @@ var config = {
       aquatic life, especially the metabolism and reproduction of many aquatic species. 
       <p>Rapid temperature changes in aquatic ecosystems resulting from warm stormwater 
       runoff can be particularly stressful, and even fatal, to aquatic life.</p>
-      <p>One study found that urban streams are hotter on average than streams in 
+
+      <p>For example, one study found that urban streams are hotter on average than streams in 
       forested areas, and that temperatures in urban streams rose over 7°F during small 
-      storms due to heated runoff from urban materials.</p>`,
+      storms due to heated runoff from urban materials.</p>
+      
+      <p class='credit'>Source: <a href='https://www.epa.gov/heatislands/heat-island-impacts'>U.S. Environmental Protection Agency</a></p>
+      `,
       location: {
         center: [-77.0869, 38.899],
         zoom: 11.15,

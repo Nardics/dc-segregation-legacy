@@ -134,16 +134,19 @@ var config = {
 
       <p> Household income is defined as the sum of money received over a calendar year by all household 
       members 15 years and older. 
-      Median household income reflects the relative affluence and prosperity of an area.
-      Areas with higher median household incomes are likely to have more educated residents and lower 
-      unemployment rates. Higher employment rates lead to better access to healthcare and better health outcomes.
+      Median household income reflects the relative affluence and prosperity of an area.</p>
+
+      <p>Areas with higher median household incomes are likely to have more educated residents and lower 
+      unemployment rates. Higher employment rates lead to better access to healthcare and better health outcomes.</p>
 
       <p>According to the data, the highest median household income is concentrated
       in the north-west quadrant of the city. Middle and lower income brackets dominate the eastern 
       and south-eastern portions of the city.</p>
+
       <p> In 2019, the location with the lowest Median Household Income, 
       was Census Tract 98.01. Median Income totalled $13,510. The second and third lowest tracts
-      were Census Tracts 74.01 and 75.04, with Median Income of $14,859 and $16,844 respectively.
+      were Census Tracts 74.01 and 75.04, with Median Income of $14,859 and $16,844 respectively.</p>
+      <p>
       Conversely, Census Tracts 9.04, 9.03 (joint highest), 8.04 and 10.03 were the locations
       of the four highest Median Income. These figures stood at $250,001,  $247,946 and $230,510 respectively. </p>
       
@@ -219,7 +222,7 @@ var config = {
       <img src="images/income_poverty.jpg" alt="Income_Poverty"> 
       <p class='credit'>Poverty Levels and Income Maps</p>
       </p>`,
-      
+
       location: {
         center: [-77.0869, 38.899],
         zoom: 11.15,
@@ -344,7 +347,6 @@ var config = {
           opacity: 1,
           duration: 3000,
         },
-        
       ],
       onChapterExit: [
         {
@@ -353,8 +355,8 @@ var config = {
         },
         {
           layer: "coolingcenters",
-          opacity:0,
-        }
+          opacity: 0,
+        },
       ],
     },
     {
@@ -406,8 +408,6 @@ var config = {
         },
       ],
     },
-
-
 
     {
       id: "population",
@@ -557,19 +557,21 @@ var config = {
       image: "images/DSC_3405.jpg",
       description: `Trees and other plants help cool the environment, 
       making vegetation a simple and effective way to reduce urban heat 
-      islands.
+      islands.</p>
+
       <p>Trees and vegetation lower surface and air temperatures by 
       providing shade and through evapotranspiration. Shaded surfaces, 
       for example, may be 20 to 45°F (11 to 25°C) 
       cooler than the peak temperatures of unshaded materials.</p>
+
       <p>Trees and vegetation that directly shade buildings decrease 
       demand for air conditioning.Vegetation reduces runoff and improves 
       water quality by absorbing and filtering rainwater.</p>
+
       <p> Less green cover would lead to having higher temperatures, and greater
-      exposure to heat.
-      Trees provide shade, but they also cool the environment down through 
-      the evaporation of water from their leaves — a process similar to how humans 
-      sweat to cool down. Paving an area, interrupts the cycle.</p>`,
+      exposure to heat. Trees provide shade, but they also cool the environment 
+      down through the evaporation of water from their leaves — a process similar 
+      to how humans sweat to cool down. Paving an area, interrupts the cycle.</p>`,
       location: {
         center: [-77.0869, 38.899],
         zoom: 11.15,
@@ -647,12 +649,14 @@ var config = {
       hidden: false,
       title: "Watersheds",
       image: "images/IMG_0966.jpg",
-      description: `High temperatures of pavement and rooftop surfaces can heat up stormwater runoff,
-      which drains into storm sewers and raises water temperatures as it is released 
-      into streams, rivers, ponds, and lakes. Water temperature affects all aspects of 
+      description: `<p> Water temperature affects all aspects of 
       aquatic life, especially the metabolism and reproduction of many aquatic species. 
       <p>Rapid temperature changes in aquatic ecosystems resulting from warm stormwater 
       runoff can be particularly stressful, and even fatal, to aquatic life.</p>
+      
+      <p>High temperatures of pavement and rooftop surfaces can heat up stormwater runoff,
+      which drains into storm sewers and raises water temperatures as it is released 
+      into streams, rivers, ponds, and lakes.</p>
 
       <p>For example, one study found that urban streams are hotter on average than streams in 
       forested areas, and that temperatures in urban streams rose over 7°F during small 
@@ -702,7 +706,7 @@ var config = {
       alignment: "center",
       hidden: false,
       title: "The Big Picture",
-      image: 'images/big_picture2.jpg',
+      image: "images/big_picture2.jpg",
       description: `<p>Studies have established that vulnerability to heat waves is a combined 
       result of the socio-economic, physiological, climatological, as well as 
       behavioural variables. This is not only because poverty itself is a health 

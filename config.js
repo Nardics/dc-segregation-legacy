@@ -676,7 +676,7 @@ var config = {
           duration: 3000,
         },
         {
-          layer: "watershed_names",
+          layer: "censustracts2",
           opacity: 1,
           duration: 3000,
         },
@@ -688,7 +688,7 @@ var config = {
         },
 
         {
-          layer: "watershed_names",
+          layer: "censustracts2",
           opacity: 0,
         },
       ],

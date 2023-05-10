@@ -713,12 +713,21 @@ var config = {
       hazard, but because poverty is also tied to other factors that can make it 
       harder to get cool.</p>
 
-      <p>Dr. Georges Benjamin, executive director of the American Public Health Association addressed the
-      issue head-on:"People with money, of course, can do that a lot better than people with 
-      less money." . </p>
+      <p> As with anny city, there are several geographic layers existing in Washington, D.C.. It is
+      accepted that past practices have far-reaching, and sometimes indiscernable consequences. D.C.'s history of 
+      segregation continues to tell its story through these obscure geographies. </p>
+
+      <p>Each of the factors of influence are inextricably linked. The strong correlations between income, poverty
+      and color manifest in the impacts experienced in the physical environment.</p>
 
       <p> The urban poor, already often in hotter environments and already at 
       higher risk for health problems, will have a harder time escaping climate change.</p>
+
+      <p>Dr. Georges Benjamin, executive director of the American Public Health Association addressed the
+      issue head-on:"People with money, of course, can do that a lot better than people with 
+      less money.". </p>
+
+      
       <p class='outro-text' style='text-align : center'><a href='#'>Return to top of page</a></p>`,
       location: {
         center: [-77.0869, 38.901],

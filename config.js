@@ -711,10 +711,12 @@ var config = {
       result of the socio-economic, physiological, climatological, as well as 
       behavioural variables. This is not only because poverty itself is a health 
       hazard, but because poverty is also tied to other factors that can make it 
-      harder to get cool.
-      "People with money, of course, can do that a lot better than people with 
-      less money," says Dr. Georges Benjamin, executive director of the American 
-      Public Health Association. </p>
+      harder to get cool.</p>
+
+      <p>Dr. Georges Benjamin, executive director of the American Public Health Association addressed the
+      issue head-on:"People with money, of course, can do that a lot better than people with 
+      less money." . </p>
+
       <p> The urban poor, already often in hotter environments and already at 
       higher risk for health problems, will have a harder time escaping climate change.</p>
       <p class='outro-text' style='text-align : center'><a href='#'>Return to top of page</a></p>`,

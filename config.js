@@ -657,9 +657,13 @@ var config = {
       <p>For example, one study found that urban streams are hotter on average than streams in 
       forested areas, and that temperatures in urban streams rose over 7°F during small 
       storms due to heated runoff from urban materials.</p>
+
+      <img src="images/watersheds_names.jpg" alt="Watersheds"> 
+      <p class='credit'>Main Watersheds in D.C.</p>
+
+      <p class='credit'>Source: <a href='https://www.epa.gov/heatislands/heat-island-impacts'>U.S. Environmental Protection Agency</a>
       
-      <p class='credit'>Source: <a href='https://www.epa.gov/heatislands/heat-island-impacts'>U.S. Environmental Protection Agency</a></p>
-      `,
+      </p>`,
       location: {
         center: [-77.0869, 38.899],
         zoom: 11.15,
